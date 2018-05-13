@@ -34,10 +34,20 @@ The individuals in this study have participated in one or more of our studies on
 Variants detected in the whole genome sequences of 98 Hutterites were previously imputed to an additional 1,317 individuals using PRIMAL, a high-accuracy pedigree based imputation method\cite{Livne2015}. PRIMAL was used to phase alleles and assign parent of origin for 83\% of about 12 million autosomal SNPs. For these studies, we selected SNPs that had a MAF 1\% and genotype call rate 85\%. This yielded 5,891,982 autosomal SNPs. Parent of origin allele call rates differed among individuals and between phenotypes (Table S1 \ref{tab:ch02-s1}).
 
 \subsection{Phenotype Data}\label{Phenotype Data}
+We included 21 quantitative phenotypes that were previously measured in the Hutterites. Descriptions for each phenotype, as well as exclusion criteria, transformations, and covariates used with each phenotype in the GWAS, are available in the Supplementary Methods (Table S1 \ref{tab:ch02-s1}). Descriptions for 18 of the 21 phenotypes can be found in Cusanovich et al \cite{Cusanovich:2016id}. The remaining three are described here. Height was measured in cm on a stadiometer with shoes removed. BMI was calculated using weight (kg, measured on scale) divided by height (m) squared. Age at menarche was collected retrospectively by interview. 
 
 \subsection{GWAS}\label{GWAS Methods}
+We used a linear mixed model as implemented in GEMMA to test for genome wide association with 21 phenotypes using an additive model. We corrected for relatedness, as well as relevant covariates (Table S1 \ref{tab:ch02-s1}).
+
 
 \subsection{Maternal and Paternal GWAS}\label{Maternal and Paternal GWAS}
+To evaluated the evidence for POEs, we tested maternal and paternal alleles separately with each phenotype, comparing phenotypic differences between the maternally inherited alleles and between the paternally inherited alleles. We used a linear mixed model as implemented in GEMMA, which allows us to correct for relatedness as a random effect, as well as sex, age, and other covariates as fixed effects \cite{Zhou2012}.The linear mixed model for the parent of origin GWAS for testing maternal alleles and paternal alleles is shown in Equation 1 and Equation 2, respectively. 
+
+\begin{equation}
+
+Y =W\alpha + X_{M}\beta_{M}+g+\epsilon
+
+\end{equation}
 
 \subsection{Differential Effect GWAS (PO-GWAS)}\label{Differential Effect GWAS (PO-GWAS)}
 
