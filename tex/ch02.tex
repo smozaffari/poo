@@ -20,7 +20,7 @@ No previous study has included a broad range of human quantitative phenotypes or
 \section{Results}\label{ch02-results}
 
 \subsection{GWAS}\label{GWAS Results}
-We first performed standard genome-wide association studies (GWAS) of 21 traits in the Hutterites (Table S1). These studies identified one genome wide significant association (p $<$ 5x10?8) with each of five of the 21 traits: low density lipoprotein level (LDL)-cholesterol, triglycerides, carotid artery intima media thickness (CIMT), left ventricular mass index (LVMI), and monocyte count. The results of all 21 GWAS are summarized in Table S2 and Supplementary Figure \ref{fig:ch01-s1}. Results for all variants for all GWAS are deposited in dbGaP (phs000185 ? submission in progress).
+We first performed standard genome-wide association studies (GWAS) of 21 traits in the Hutterites (Table S1). These studies identified one genome wide significant association (p $<$ 5x10?8) with each of five of the 21 traits: low density lipoprotein level (LDL)-cholesterol, triglycerides, carotid artery intima media thickness (CIMT), left ventricular mass index (LVMI), and monocyte count. The results of all 21 GWAS are summarized in Table S2 and Supplementary Figure \ref{fig:ch02-s1}. Results for all variants for all GWAS are deposited in dbGaP (phs000185 ? submission in progress).
 
 \subsection{Parent of Origin GWAS}\label{Parent of Origin GWAS}
 We considered two possible mechanisms of POEs. In the first, the effect size of one parent?s allele is close to zero and the effect size of the other parent?s allele is significantly different from zero. For these cases, we performed a paternal only or maternal only GWAS. In other cases, the maternal and paternal alleles may both have effect sizes different from zero, but the effects are significantly different from each other or opposite in direction. To detect these types of POEs, we developed a model that tests for differences between parental effects (see Methods). This model is especially powerful to identify variants with parental effects in opposite directions.
@@ -103,16 +103,19 @@ Other regions associated with POEs harbor genes involved in transcriptional repr
 The individuals in this study have participated in one or more of our studies on the genetics of complex traits in the Hutterites \cite{Cusanovich:2016id,Weiss:2005cq,Abney2001}. The more than 1,500 Hutterites in our study are related to each other in a 13-generation pedigree including 3,671 individuals. 
 
 \subsection{Genotype Data}\label{Genotype Data}
-Variants detected in the whole genome sequences of 98 Hutterites were previously imputed to an additional 1,317 individuals using PRIMAL, a high-accuracy pedigree based imputation method \cite{Livne2015}. PRIMAL was used to phase alleles and assign parent of origin for 83\% of about 12 million autosomal SNPs. For these studies, we selected SNPs that had a MAF 1\% and genotype call rate 85\%. This yielded 5,891,982 autosomal SNPs. Parent of origin allele call rates differed among individuals and between phenotypes (Table S1 \ref{tab:ch02-s1}).
+Variants detected in the whole genome sequences of 98 Hutterites were previously imputed to an additional 1,317 individuals using PRIMAL, a high-accuracy pedigree based imputation method \cite{Livne2015}. PRIMAL was used to phase alleles and assign parent of origin for 83\% of about 12 million autosomal SNPs. For these studies, we selected SNPs that had a MAF 1\% and genotype call rate 85\%. This yielded 5,891,982 autosomal SNPs. Parent of origin allele call rates differed among individuals and between phenotypes (Table S1 %\ref{tab:ch02-s1}).
 
 \subsection{Phenotype Data}\label{Phenotype Data}
-We included 21 quantitative phenotypes that were previously measured in the Hutterites. Descriptions for each phenotype, as well as exclusion criteria, transformations, and covariates used with each phenotype in the GWAS, are available in the Supplementary Methods (Table S1 \ref{tab:ch02-s1}). Descriptions for 18 of the 21 phenotypes can be found in Cusanovich et al \cite{Cusanovich:2016id}. The remaining three are described here. Height was measured in cm on a stadiometer with shoes removed. BMI was calculated using weight (kg, measured on scale) divided by height (m) squared. Age at menarche was collected retrospectively by interview. 
+We included 21 quantitative phenotypes that were previously measured in the Hutterites. Descriptions for each phenotype, as well as exclusion criteria, transformations, and covariates used with each phenotype in the GWAS, are available in the Supplementary Methods (Table S1 %\ref{tab:ch02-s1}). 
+
+Descriptions for 18 of the 21 phenotypes can be found in Cusanovich et al \cite{Cusanovich:2016id}. The remaining three are described here. Height was measured in cm on a stadiometer with shoes removed. BMI was calculated using weight (kg, measured on scale) divided by height (m) squared. Age at menarche was collected retrospectively by interview. 
 
 \subsection{GWAS}\label{GWAS Methods}
-We used a linear mixed model as implemented in GEMMA to test for genome wide association with 21 phenotypes using an additive model. We corrected for relatedness, as well as relevant covariates (Table S1 \ref{tab:ch02-s1}).
+We used a linear mixed model as implemented in GEMMA to test for genome wide association with 21 phenotypes using an additive model. We corrected for relatedness, as well as relevant covariates (Table S1 
+%\ref{tab:ch02-s1}).
 
 
-\subsection{Maternal and Paternal GWAS}\label{Maternal and Paternal GWAS}
+\subsection{Maternal and Paternal GWAS}\label{Maternal and Paternal GWAS Methods}
 To evaluated the evidence for POEs, we tested maternal and paternal alleles separately with each phenotype, comparing phenotypic differences between the maternally inherited alleles and between the paternally inherited alleles. We used a linear mixed model as implemented in GEMMA, which allows us to correct for relatedness as a random effect, as well as sex, age, and other covariates as fixed effects \cite{Zhou2012}.The linear mixed model for the parent of origin GWAS for testing maternal alleles and paternal alleles is shown in Equation 2.1 and Equation 2.2, respectively. 
 
 \begin{equation}
@@ -154,9 +157,15 @@ LCL RNA-seq data was used to test the single parent model for the most significa
 
 LCL RNA-seq data was used to test the opposite effect model for the most significant SNP in each region that was associated with a phenotype in the parent of origin opposite effects GWAS. We selected all genes detected as expressed in the LCLs and residing within 1Mb of each associated SNP. Summary of the SNPs and genes tested are in Table S4.
 
+\section{Supplementary Information}\label{ch02-supplementary-information}
+
+\subsection{Supplementary Figures}\label{ch02-supplementary-figures}
+\clearpage
 
 
 \begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{img/ch02/fig-s1.pdf}
 \caption[Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes]{\textbf{Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes} }
 \label{fig:ch02-s1}
 \end{figure}
@@ -164,6 +173,8 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 
 
 \begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{img/ch02/fig-s2.pdf}
 \caption[Maternal and Paternal GWAS results for CIMT.]{\textbf{Maternal and Paternal GWAS results for CIMT.}  The top panel shows the Manhattan plots from the paternal (left) and maternal (right) GWAS. LocusZoom plots are shown in the lower panel for the associated region in the GWAS. Boxplots show the distribution of CIMT residuals (the residuals correspond to the inverse of raw CIMT values) (y-axes) by the corresponding maternal and paternal alleles at this SNP (x-axes). The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
 \label{fig:ch02-s2}
 \end{figure}
@@ -171,6 +182,8 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 
 
 \begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{img/ch02/fig-s3.pdf}
 \caption[Maternal and Paternal GWAS results for LVMI.]{\textbf{Maternal and Paternal GWAS results for LVMI.}  The top panel shows the Manhattan plots from the paternal (left) and maternal (right) GWAS. LocusZoom plots are shown in the lower panel for the associated region in the GWAS. Boxplots show the distribution of LVMI residuals (the residuals correspond to the inverse of raw CIMT values) (y-axes) by the corresponding maternal and paternal alleles at this SNP (x-axes). The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
 \label{fig:ch02-s3}
 \end{figure}
@@ -178,10 +191,20 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 
 
 \begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{img/ch02/fig-s4.pdf}
 \caption[Maternal and Paternal GWAS results for FEV1.]{\textbf{Maternal and Paternal GWAS results for FEV1.}  The top panel shows the Manhattan plots from the paternal (left) and maternal (right) GWAS. LocusZoom plots for both GWAS are shown in the lower panel for the associated region in the GWAS. Boxplots show the distribution of FEV1 residuals (y-axes) by the corresponding maternal and paternal alleles at this SNP (x-axes). The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show 1.5 x IQR.}
 \label{fig:ch02-s4}
 \end{figure}
 
 
+
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{img/ch02/fig-s8.pdf}
+\caption[Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes]{\textbf{Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes} }
+\label{fig:ch02-s8}
+\end{figure}
 
 
