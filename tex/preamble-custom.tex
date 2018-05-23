@@ -8,13 +8,16 @@
 % Fix to use hyperref with UCETD template (from Jason Torres)
 \renewcommand{\etdChapterHeadFormat}[1]{\uppercase{#1}}
 % Ability to split long captions across pages
-%\usepackage{ccaption}
 \usepackage{ccaption}
 % Crop figures
 \usepackage{graphicx}
 % Add footnote to List of Tables about the supplementary files
 \usepackage{caption}
 % include pdfs with multiple pages
+
+%adjust table to fit in page
+\usepackage{adjustbox}
+
 \renewcommand{\listtablename}{List of Tables
   \footnote{Note: Due to the large size of some tables, the tables
   have been provided in a supplementary file accompanying the

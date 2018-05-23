@@ -8,7 +8,7 @@ The impact of the parental origin of associated alleles in GWAS has been largely
 
 \footnotetext{Citation for chapter: }
 
-\section{Introduction}\label{ch02-introduction}
+\section{Introduction}\label{fig-introduction}
 Genome-wide association studies (GWAS) typically treat alleles inherited from the mother and the father as equivalent, although variants can affect traits differently depending on whether they are maternal or paternal in origin. In particular, parent of origin effects (POEs) can result from imprinting, where epigenetic modifications allows for differential gene expression on homologous chromosomes that is determined by the parental origin of the chromosome. Mutations in imprinted genes or regions can result in diseases. For example, two very different diseases, Prader-Willi Syndrome (PWS) and Angelman Syndrome (AS), are due to loss of function alleles in genes within an imprinted region on chromosome 15q11-13. Inheriting a loss of function mutation for the \emph{SNRPN} gene from the father results in PWS but inheriting a loss of function mutation for the \emph{UBE3A} gene from the mother results in AS\citep{Peters2014,Falls1999}.  Long noncoding RNA genes at this and other imprinted regions act to silence (i.e. imprint) genes in cis. Imprinted genes are often part of imprinted gene networks, suggesting regulatory links between these genes \cite{Patten:2016cb,Gabory:2009be,Varrault:2006kn}. More than 200 imprinted loci have been described in humans \cite{Benonisdottir:2016dz} but there are likely many other, as yet undiscovered, imprinted loci. 
 
 Previous studies have utilized pedigrees to test maternal and paternal alleles separately for association with phenotypes or with gene expression to uncover new imprinted loci \citep{Kong:2009kk,Baran:2015cx,Garg2012a,Paper2014b,Benonisdottir:2016dz}. Kong \emph{et al} \citep{Kong:2009kk} discovered one locus associated with breast cancer risk only when the allele is inherited from the father and another locus associated with type 2 diabetes risk only when the allele is inherited from the mother. Garg et al. reported parent-of-origin cis-eQTLs with known or putative novel imprinted genes affecting gene expression\citep{Garg2012a}. Two additional studies by Zoledziewsk et al. and Benonisdottir et al. identified opposite POEs on adult height at known imprinted loci\citep{Zoledziewska:2015do,Benonisdottir:2016dz}. Both studies reported associations with variants at the \emph{KCNQ1} gene, and one showed additional opposite POEs with height at two known imprinted loci (\emph{IGF2-H19} and \emph{DLK1-MEG3})\citep{Benonisdottir:2016dz}These studies provide proof-of-principle that alleles at imprinted loci can show POEs, some with opposite effects, with common phenotypes. 
@@ -17,20 +17,40 @@ Many existing studies and methods identify parent of origin effects use case/par
 
 No previous study has included a broad range of human quantitative phenotypes or has studied genome-wide variants with effects in different directions depending on the parent of origin. To address this possibility, we developed a statistical model that directly compares the effects of the maternal and paternal alleles to identify effects that are different, including those that are opposite. We applied this model in a study of 21 common quantitative traits that were measured in the Hutterites, a founder population of European descent for which we have phased genotype data \citep{Livne2015} We identified variants with maternally inherited or paternally inherited effects only and variants with opposite POEs. Some of the identified regions have characteristics similar to known imprinted genes. Overall, we show that this model can identify putative novel imprinted regions with POEs for a broad range of clinically relevant quantitative phenotypes.
 
-\section{Results}\label{ch02-results}
+\section{Results}\label{fig-results}
 
 \subsection{GWAS}\label{GWAS Results}
-We first performed standard genome-wide association studies (GWAS) of 21 traits in the Hutterites (Table S1). These studies identified one genome wide significant association (p $<$ 5x10?8) with each of five of the 21 traits: low density lipoprotein level (LDL)-cholesterol, triglycerides, carotid artery intima media thickness (CIMT), left ventricular mass index (LVMI), and monocyte count. The results of all 21 GWAS are summarized in Table S2 and Supplementary Figure \ref{fig:ch02-s1}. Results for all variants for all GWAS are deposited in dbGaP (phs000185 ? submission in progress).
+We first performed standard genome-wide association studies (GWAS) of 21 traits in the Hutterites (Table S1). These studies identified one genome wide significant association (p \textless 5x10-8) with each of five of the 21 traits: low density lipoprotein level (LDL)-cholesterol, triglycerides, carotid artery intima media thickness (CIMT), left ventricular mass index (LVMI), and monocyte count. The results of all 21 GWAS are summarized in Table S2 and Supplementary Figure \ref{fig:fig-s1a}. Results for all variants for all GWAS are deposited in dbGaP (phs000185 ? submission in progress).
 
 \subsection{Parent of Origin GWAS}\label{Parent of Origin GWAS}
-We considered two possible mechanisms of POEs. In the first, the effect size of one parent?s allele is close to zero and the effect size of the other parent?s allele is significantly different from zero. For these cases, we performed a paternal only or maternal only GWAS. In other cases, the maternal and paternal alleles may both have effect sizes different from zero, but the effects are significantly different from each other or opposite in direction. To detect these types of POEs, we developed a model that tests for differences between parental effects (see Methods). This model is especially powerful to identify variants with parental effects in opposite directions.
+We considered two possible mechanisms of POEs. In the first, the effect size of one parent's allele is close to zero and the effect size of the other parent's allele is significantly different from zero. For these cases, we performed a paternal only or maternal only GWAS. In other cases, the maternal and paternal alleles may both have effect sizes different from zero, but the effects are significantly different from each other or opposite in direction. To detect these types of POEs, we developed a model that tests for differences between parental effects (see Methods). This model is especially powerful to identify variants with parental effects in opposite directions.
 
 \subsection{Maternal and Paternal GWAS}\label{Maternal and Paternal GWAS}
-Using the same phenotypes, genotypes, pedigree, and criteria for significance as in the standard GWAS, we tested for maternal and paternal effects on each trait by testing each parentally inherited allele with the trait of interest, similar to previous studies\citep{Kong:2009kk,Zoledziewska:2015do,Garg2012a}. Variants were considered to have POEs if they had a p-value less than 5x10-8 in only one parent and were not significant in the standard GWAS (i.e., the LDL association on chromosome 19 and the triglycerides association chromosome 11 were not considered to have POEs; see Table S1). The most significant parent of origin associations are summarized in Table 1. All significant results of the parent of origin GWAS for all 21 phenotypes are included in Table S5. 
+Using the same phenotypes, genotypes, pedigree, and criteria for significance as in the standard GWAS, we tested for maternal and paternal effects on each trait by testing each parentally inherited allele with the trait of interest, similar to previous studies\citep{Kong:2009kk,Zoledziewska:2015do,Garg2012a}. Variants were considered to have POEs if they had a p-value less than 5x10-8 in only one parent and were not significant in the standard GWAS (i.e., the LDL association on chromosome 19 and the triglycerides association chromosome 11 were not considered to have POEs; see Table S1). The most significant parent of origin associations are summarized in Table \ref{tab:singleparent}. All significant results of the parent of origin GWAS for all 21 phenotypes are included in Table S5. 
+
+
+\begin{table}
+\centering
+%\begin{adjustbox}{width=1\textwidth}
+%\small
+\begin{tabular}{@{}p{3cm}lp{1cm}lp{2cm}lp{2cm}lp{2cm}lp{2cm}lp{2cm}lp{2cm}lp{2cm}lp{2cm}lp{2cm}lp{2cm}@{}}
+\toprule Phenotype & rsid & chr:loc & Variant Location & Nearest Gene & MAF & N & Beta (SE) & Paternal GWAS p-value & Maternal GWAS p-value & Standard GWAS p-value \\ \midrule
+A. Maternal Associations &&&&&&&&&& \\
+Age at Menarche  & rs7184983 (A/G) & 16:56554709 & Upstream & \emph{BBS2} & 0.059 & 336 & 0.862 (0.154) & 5.01e-01 & 3.11e-08 & 6.75e-03 \\ 
+B. Paternal Associations &&&&&&&&&& \\ \bottomrule
+\end{tabular}
+%\end{adjustbox}
+\caption[Phenotypes with significant single parent of origin associations. ]{\textbf{Phenotypes with significant single parent of origin associations.}
+ *The most significant variant (P \textless 5x10?8) at each locus for the (A) maternal and (B) paternal associations associated with each phenotype is shown. 
+*non-coding RNA genes}
+\label{tab:singleparent}
+\end{table}
+
+
 
 Overall, seven phenotypes had genome-wide significant parent of origin associations: four in the maternal only GWAS and three in the paternal only GWAS. Three cardiovascular disease (CVD)-associated phenotypes (age at menarche, CIMT, LVMI) and one lung function phenotype (forced expiratory volume in one second [FEV1]) were associated with maternally-inherited alleles only. 
 
-A maternally inherited allele at rs7184983 (G) on chromosome 16 was associated with younger age of menarche (P = 3.11 x10-8) (Figure \ref{fig:menarche_mpgwas}). This SNP, rs7184983, is located upstream of the \emph{BBS2} gene and is associated with increased expression of \emph{OGFOD1} in transformed fibroblast cells and tibial nerve \cite{Consortium2015}. The maternally inherited allele at rs4077567 (G) on chromosome 2 was associated with decreased CIMT (P = 3.02x10-8) (Figure \ref{fig:ch02-s2}). This SNP is in the intron of a long intergenic noncoding gene, \emph{LINC00607}, that  is expressed in aorta, coronary, and tibial artery, all tissues potentially relevant to CIMT and atherosclerosis \cite{Consortium2015}. A maternally inherited allele at rs574232282 (G) in the intron of \emph{SCMH1} on chromosome 1 was associated with increased LVMI (P = 1.39 x10-8) (Supplementary Figure \ref{fig:ch02-s3}). \emph{SCMH1} is expressed in aorta, coronary, and tibial artery \cite{Consortium2015}. \emph{SCMH1} protein associates with the polycomb group multiprotein complexes required to maintain the transcriptionally repressive state of certain genes\cite{Consortium2015}. Lastly, maternally inherited alleles at rs9849387 (A) and rs6791779 (C) on chromosome 3 were both associated with reduced FEV1 (P= 4.10x10-9 and 1.48x10-8, respectively) (Supplementary Figure \ref{fig:ch02-s4}). The nearest gene to rs9849387 is \emph{ROBO2} (65kb, downstream), which is expressed in the lung as well as in brain, and ovary\cite{Consortium2015}.The nearest gene to rs6791779 is \emph{MIR4444-1}(267kb) whose expression has not been characterized.
+A maternally inherited allele at rs7184983 (G) on chromosome 16 was associated with younger age of menarche (P = 3.11 x10-8) (Figure \ref{fig:menarche_mpgwas}). This SNP, rs7184983, is located upstream of the \emph{BBS2} gene and is associated with increased expression of \emph{OGFOD1} in transformed fibroblast cells and tibial nerve \cite{Consortium2015}. The maternally inherited allele at rs4077567 (G) on chromosome 2 was associated with decreased CIMT (P = 3.02x10-8) (Figure \ref{fig:fig-s2}). This SNP is in the intron of a long intergenic noncoding gene, \emph{LINC00607}, that  is expressed in aorta, coronary, and tibial artery, all tissues potentially relevant to CIMT and atherosclerosis \cite{Consortium2015}. A maternally inherited allele at rs574232282 (G) in the intron of \emph{SCMH1} on chromosome 1 was associated with increased LVMI (P = 1.39 x10-8) (Supplementary Figure \ref{fig:fig-s3}). \emph{SCMH1} is expressed in aorta, coronary, and tibial artery \cite{Consortium2015}. \emph{SCMH1} protein associates with the polycomb group multiprotein complexes required to maintain the transcriptionally repressive state of certain genes\cite{Consortium2015}. Lastly, maternally inherited alleles at rs9849387 (A) and rs6791779 (C) on chromosome 3 were both associated with reduced FEV1 (P= 4.10x10-9 and 1.48x10-8, respectively) (Supplementary Figure \ref{fig:fig-s4}). The nearest gene to rs9849387 is \emph{ROBO2} (65kb, downstream), which is expressed in the lung as well as in brain, and ovary\cite{Consortium2015}.The nearest gene to rs6791779 is \emph{MIR4444-1}(267kb) whose expression has not been characterized.
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=6in]{img/ch02/fig-01-menarche_matpatgwas}
@@ -77,14 +97,14 @@ Nine linked variants on chromosome 1 were associated with opposite POEs of blood
 
 \subsection{Parent of Origin Effects on Gene Expression}\label{Parent of Origin Effects on Gene Expression}
 
-To determine if any of the associated variants also showed POEs on gene expression in the Hutterites, we used RNA-seq gene expression data from lymphoblastoid cell lines (LCLs) collected from 430 of the individuals in the GWAS sample. We first tested for association of maternal and paternal variants with genes detected as expressed in the LCLs and whose transcript start site was within 1Mb of each associated SNP. There were no significant associations after multiple testing correction, similar to a previous study\cite{Benonisdottir:2016dz}. However, because we considered this to be exploratory analyses, we show results for the five most significant parent of origin eQTLs (Table 3). We next used the opposite effect model for each SNP in Table 2 and expression of all genes that were detected as expressed in LCLs and whose transcript start site was within 1Mb of the associated SNP. This resulted in 57 tests (1 SNP for each of 8 phenotypes, and 57 genes). The five most significant opposite effect eQTLs, none of which passed the Bonferroni threshold of 8.77 x 10?4, are shown in Table 4. The most significant opposite effect eQTL was for POLR1E expression with the SNP on chromosome 9 (rs7033776) that was associated with total cholesterol (opposite effect eQTL P = 9.86 x 10?4) (Figure S15). POLR1E is involved in the purine metabolism pathway as well as DNA-directed polymerase activity. The same SNP, rs7033776, had modest opposite effects with the expression of three other genes in the region (PAX5, FBXO10, and FRMPD1), a signature consistent with an imprinted region. Another SNP with opposite POEs on LVMI, rs16853098, was an opposite effect eQTL for STK39, a gene that has been previously associated with hypertension\cite{Wang:2009bt}.
+To determine if any of the associated variants also showed POEs on gene expression in the Hutterites, we used RNA-seq gene expression data from lymphoblastoid cell lines (LCLs) collected from 430 of the individuals in the GWAS sample. We first tested for association of maternal and paternal variants with genes detected as expressed in the LCLs and whose transcript start site was within 1Mb of each associated SNP. There were no significant associations after multiple testing correction, similar to a previous study\cite{Benonisdottir:2016dz}. However, because we considered this to be exploratory analyses, we show results for the five most significant parent of origin eQTLs (Table 3). We next used the opposite effect model for each SNP in Table 2 and expression of all genes that were detected as expressed in LCLs and whose transcript start site was within 1Mb of the associated SNP. This resulted in 57 tests (1 SNP for each of 8 phenotypes, and 57 genes). The five most significant opposite effect eQTLs, none of which passed the Bonferroni threshold of 8.77 x 10-4, are shown in Table 4. The most significant opposite effect eQTL was for POLR1E expression with the SNP on chromosome 9 (rs7033776) that was associated with total cholesterol (opposite effect eQTL P = 9.86 x 10-4) (Figure S15). POLR1E is involved in the purine metabolism pathway as well as DNA-directed polymerase activity. The same SNP, rs7033776, had modest opposite effects with the expression of three other genes in the region (PAX5, FBXO10, and FRMPD1), a signature consistent with an imprinted region. Another SNP with opposite POEs on LVMI, rs16853098, was an opposite effect eQTL for STK39, a gene that has been previously associated with hypertension\cite{Wang:2009bt}.
 
 
-\section{Discussion}\label{ch02-discussion}
+\section{Discussion}\label{fig-discussion}
 
 In this study, we introduced a novel statistical method that allows assessment of standard GWAS signals along with measures of differential POEs on common quantitative phenotypes. Similar to previous parent of origin studies of fewer phenotypes\cite{Kong:2009kk,Benonisdottir:2016dz,Garg2012a}, we tested for associations of maternally- or paternally-derived alleles with each phenotype. We then extended this method to identify variants for which maternally- and paternally-derived alleles have different, including opposite, effects on phenotypic values. The focus on 21 common disease-associated phenotypes in a single large pedigree allowed us to broadly survey physiological effects of putative imprinted regions and the candidate genes at each associated locus. In contrast to previous studies, our new model can identify variants with opposite POEs that would be missed in traditional GWAS (Table 2). 
 
-Our studies of >1,000 Hutterites who are related to each other in a single pedigree allowed us to detect POEs, even when few genome-wide significant associations were detected in standard GWAS of the same phenotypes. Our method revealed parent of origin specific genome-wide significant associations for seven of the 21 phenotypes examined, with maternally-inherited alleles associated with four phenotypes, paternally-inherited alleles with three phenotypes (Table 1), and opposite parent of origin alleles with nine phenotypes, of which five also showed single POEs at different loci (Table 2). Overall, 11 of the 21 phenotypes examined showed genome-wide significant evidence of POEs with alleles at one or more loci. In contrast, standard GWAS of these same phenotypes and using the same markers in these same individuals revealed genome-wide significant association for only five traits. 
+Our studies of \textgreater1,000 Hutterites who are related to each other in a single pedigree allowed us to detect POEs, even when few genome-wide significant associations were detected in standard GWAS of the same phenotypes. Our method revealed parent of origin specific genome-wide significant associations for seven of the 21 phenotypes examined, with maternally-inherited alleles associated with four phenotypes, paternally-inherited alleles with three phenotypes (Table 1), and opposite parent of origin alleles with nine phenotypes, of which five also showed single POEs at different loci (Table 2). Overall, 11 of the 21 phenotypes examined showed genome-wide significant evidence of POEs with alleles at one or more loci. In contrast, standard GWAS of these same phenotypes and using the same markers in these same individuals revealed genome-wide significant association for only five traits. 
 
 It is notable that four of the nine significant opposite parent of origin effects (one each with LDL-C and triglycerides, and two with BMI) lie in or near long intergenic non-coding RNA genes (lincRNAs). LincRNAs are a feature of imprinted regions\cite{Peters2014}, where they can silence the expression of genes on the opposite chromosome\cite{Barlow:2014dv,Patten:2016cb}. One of the variants, rs1032596, with an opposite parent of origin effect on LDL-C is located in the \emph{LINC01081} gene. This noncoding RNA, along with \emph{LINC01082}, regulates the \emph{FOXF1} enhancer resulting in \emph{FOXF1} parent- and tissue-specific activity\cite{Szafranski:2016fz} providing experimental support for tissue specific expression, a feature of imprinted regions. 
 
@@ -97,22 +117,22 @@ Other regions associated with POEs harbor genes involved in transcriptional repr
  Finally, we note that the parent of origin GWAS for 21 phenotypes in the Hutterites revealed overall twice as many genome-wide significant loci compared to standard GWAS of the same phenotypes in the same individuals, suggesting that variation at imprinted loci may represent some of the "missing heritability" of these phenotypes and potentially for the disease for which they confer risk. This idea is consistent with observations in both mice and humans \cite{Laurin:2017jv}. POEs in mice contribute disproportionally to the heritability of 97 traits, including those related to total cholesterol, weight, HDL, and triglycerides \cite{Mott2014}. Exactly how much loci with POEs in humans contribute to phenotypic variation and disease risk overall remains to be determined, but our study provides compelling evidence that it is likely to be significant for many important traits.
 
 
-\section{Methods}\label{ch02-methods}
+\section{Methods}\label{fig-methods}
 
 \subsection{Sample Composition}\label{Sample Composition}
 The individuals in this study have participated in one or more of our studies on the genetics of complex traits in the Hutterites \cite{Cusanovich:2016id,Weiss:2005cq,Abney2001}. The more than 1,500 Hutterites in our study are related to each other in a 13-generation pedigree including 3,671 individuals. 
 
 \subsection{Genotype Data}\label{Genotype Data}
-Variants detected in the whole genome sequences of 98 Hutterites were previously imputed to an additional 1,317 individuals using PRIMAL, a high-accuracy pedigree based imputation method \cite{Livne2015}. PRIMAL was used to phase alleles and assign parent of origin for 83\% of about 12 million autosomal SNPs. For these studies, we selected SNPs that had a MAF 1\% and genotype call rate 85\%. This yielded 5,891,982 autosomal SNPs. Parent of origin allele call rates differed among individuals and between phenotypes (Table S1 %\ref{tab:ch02-s1}).
+Variants detected in the whole genome sequences of 98 Hutterites were previously imputed to an additional 1,317 individuals using PRIMAL, a high-accuracy pedigree based imputation method \cite{Livne2015}. PRIMAL was used to phase alleles and assign parent of origin for 83\% of about 12 million autosomal SNPs. For these studies, we selected SNPs that had a MAF 1\% and genotype call rate 85\%. This yielded 5,891,982 autosomal SNPs. Parent of origin allele call rates differed among individuals and between phenotypes (Table S1 %\ref{tab:fig-s1}).
 
 \subsection{Phenotype Data}\label{Phenotype Data}
-We included 21 quantitative phenotypes that were previously measured in the Hutterites. Descriptions for each phenotype, as well as exclusion criteria, transformations, and covariates used with each phenotype in the GWAS, are available in the Supplementary Methods (Table S1 %\ref{tab:ch02-s1}). 
+We included 21 quantitative phenotypes that were previously measured in the Hutterites. Descriptions for each phenotype, as well as exclusion criteria, transformations, and covariates used with each phenotype in the GWAS, are available in the Supplementary Methods (Table S1 %\ref{tab:fig-s1}). 
 
 Descriptions for 18 of the 21 phenotypes can be found in Cusanovich et al \cite{Cusanovich:2016id}. The remaining three are described here. Height was measured in cm on a stadiometer with shoes removed. BMI was calculated using weight (kg, measured on scale) divided by height (m) squared. Age at menarche was collected retrospectively by interview. 
 
 \subsection{GWAS}\label{GWAS Methods}
 We used a linear mixed model as implemented in GEMMA to test for genome wide association with 21 phenotypes using an additive model. We corrected for relatedness, as well as relevant covariates (Table S1 
-%\ref{tab:ch02-s1}).
+%\ref{tab:fig-s1}).
 
 
 \subsection{Maternal and Paternal GWAS}\label{Maternal and Paternal GWAS Methods}
@@ -145,7 +165,7 @@ $X_{PM}$ is a $n$ × 1 vector of genotypes with possible values [ 0,1,2 ], equiva
 
 \subsection{Parent of Origin eQTL studies}\label{Parent of Origin eQTL studies}
 
-RNA-seq data from LCLs were available from a previous study in the Hutterites\cite{Cusanovich:2016id}. For this study, sequencing reads were reprocessed as follows. Reads were trimmed for adaptors using Cutadapt (with reads <5 bp discarded) then remapped to hg19 using STAR indexed with gencode version 19 gene annotations\cite{Dobin:2002by,Martin:2011eu}. To remove mapping bias, reads were processed using WASP mapping pipeline\cite{vandeGeijn:2015hi}. Gene counts were collected using HTSeq-count\cite{Anders:2015gf}. VerifyBamID was used to identify sample swaps to include individuals that were previously excluded\cite{Jun:2012je}. Genes mapping to the X and Y chromosome were removed; genes with a Counts Per Million (CPM) value of 1 (expressed with less than 20 counts in the sample with lowest sequencing depth) were also removed. Limma was used to normalize and convert counts to log transformed CPM values \cite{Ritchie:2015fa}. Technical covariates that showed a significant association with any of the top principal components were regressed out (RNA Integrity Number and RNA concentration).
+RNA-seq data from LCLs were available from a previous study in the Hutterites\cite{Cusanovich:2016id}. For this study, sequencing reads were reprocessed as follows. Reads were trimmed for adaptors using Cutadapt (with reads \textless5 bp discarded) then remapped to hg19 using STAR indexed with gencode version 19 gene annotations\cite{Dobin:2002by,Martin:2011eu}. To remove mapping bias, reads were processed using WASP mapping pipeline\cite{vandeGeijn:2015hi}. Gene counts were collected using HTSeq-count\cite{Anders:2015gf}. VerifyBamID was used to identify sample swaps to include individuals that were previously excluded\cite{Jun:2012je}. Genes mapping to the X and Y chromosome were removed; genes with a Counts Per Million (CPM) value of 1 (expressed with less than 20 counts in the sample with lowest sequencing depth) were also removed. Limma was used to normalize and convert counts to log transformed CPM values \cite{Ritchie:2015fa}. Technical covariates that showed a significant association with any of the top principal components were regressed out (RNA Integrity Number and RNA concentration).
 
 
 
@@ -157,9 +177,9 @@ LCL RNA-seq data was used to test the single parent model for the most significa
 
 LCL RNA-seq data was used to test the opposite effect model for the most significant SNP in each region that was associated with a phenotype in the parent of origin opposite effects GWAS. We selected all genes detected as expressed in the LCLs and residing within 1Mb of each associated SNP. Summary of the SNPs and genes tested are in Table S4.
 
-\section{Supplementary Information}\label{ch02-supplementary-information}
+\section{Supplementary Information}\label{fig-supplementary-information}
 
-\subsection{Supplementary Figures}\label{ch02-supplementary-figures}
+\subsection{Supplementary Figures}\label{fig-supplementary-figures}
 \clearpage
 
 \renewcommand\theContinuedFloat{\alph{ContinuedFloat}}
@@ -169,7 +189,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 	\centering
 		\includegraphics[width=5in]{img/ch02/fig-s1a.pdf}
 	\caption[Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes.]{\textbf{Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes.} }
-	\label{fig:ch02-s1}
+	\label{fig:fig-s1a}
 \end{figure}
 
 \begin{figure}[!htb]
@@ -177,7 +197,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 	\centering
 		\includegraphics[width=5in]{img/ch02/fig-s1b.pdf}
 \caption[Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes (Continued).]{\textbf{Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes (Continued).} }
-\label{fig:ch02-s1}
+\label{fig:fig-s1b}
 \end{figure}
 
  
@@ -186,7 +206,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s1c.pdf}
 \caption[Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes (Continued).]{\textbf{Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes(Continued).} }
-\label{fig:ch02-s1}
+\label{fig:fig-s1c}
 \end{figure}
 
 
@@ -196,7 +216,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s2.pdf}
 \caption[Maternal and Paternal GWAS results for CIMT.]{\textbf{Maternal and Paternal GWAS results for CIMT.}  The top panel shows the Manhattan plots from the paternal (left) and maternal (right) GWAS. LocusZoom plots are shown in the lower panel for the associated region in the GWAS. Boxplots show the distribution of CIMT residuals (the residuals correspond to the inverse of raw CIMT values) (y-axes) by the corresponding maternal and paternal alleles at this SNP (x-axes). The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s2}
+\label{fig:fig-s2}
 \end{figure}
 
 
@@ -205,7 +225,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s3.pdf}
 \caption[Maternal and Paternal GWAS results for LVMI.]{\textbf{Maternal and Paternal GWAS results for LVMI.}  The top panel shows the Manhattan plots from the paternal (left) and maternal (right) GWAS. LocusZoom plots are shown in the lower panel for the associated region in the GWAS. Boxplots show the distribution of LVMI residuals (the residuals correspond to the inverse of raw CIMT values) (y-axes) by the corresponding maternal and paternal alleles at this SNP (x-axes). The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s3}
+\label{fig:fig-s3}
 \end{figure}
 
 
@@ -214,7 +234,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s4.pdf}
 \caption[Maternal and Paternal GWAS results for FEV1.]{\textbf{Maternal and Paternal GWAS results for FEV1.}  The top panel shows the Manhattan plots from the paternal (left) and maternal (right) GWAS. LocusZoom plots for both GWAS are shown in the lower panel for the associated region in the GWAS. Boxplots show the distribution of FEV1 residuals (y-axes) by the corresponding maternal and paternal alleles at this SNP (x-axes). The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show 1.5 x IQR.}
-\label{fig:ch02-s4}
+\label{fig:fig-s4}
 \end{figure}
 
 
@@ -224,7 +244,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s5.pdf}
 \caption[Maternal and Paternal GWAS results for Systolic Blood Pressure.]{\textbf{Maternal and Paternal GWAS results for Systolic Blood Pressure.}  The top panel shows the Manhattan plots from the paternal (left) and maternal (right) GWAS. LocusZoom plots for both GWAS are shown in the lower panel for the associated region in the GWAS. Boxplots show the distribution of systolic blood pressure residuals (y-axes) by the corresponding maternal and paternal alleles at this SNP (x-axes). The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show 1.5 x IQR.}
-\label{fig:ch02-s5}
+\label{fig:fig-s5}
 \end{figure}
 
 
@@ -234,7 +254,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s6.pdf}
 \caption[Maternal and Paternal GWAS results for Total Cholesterol.]{\textbf{Maternal and Paternal GWAS results for Total Cholesterol.}  The top panel shows the Manhattan plots from the paternal (left) and maternal (right) GWAS. LocusZoom plots for both GWAS are shown in the lower panel for the associated region in the GWAS. Boxplots show the distribution of total cholesterol residuals (y-axes) by the corresponding maternal and paternal alleles at this SNP (x-axes). The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show 1.5 x IQR.}
-\label{fig:ch02-s6}
+\label{fig:fig-s6}
 \end{figure}
 
 
@@ -243,9 +263,8 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 	\ContinuedFloat*
 	\centering
 	\includegraphics[width=5in]{img/ch02/fig-s7a.pdf}
-	\label{fig:fig-s7a}
 	\caption[Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes]{\textbf{Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes} }
-	\label{fig:fig-s7}
+	\label{fig:fig-s7a}
 \end{figure}
 
 
@@ -253,9 +272,8 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 	\ContinuedFloat
 	\centering
 	\includegraphics[width=5in]{img/ch02/fig-s7b.pdf}
-	\label{fig:fig-s7b}
 	\caption[Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes (Continued). ]{\textbf{Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes (Continued).} }
-	\label{fig:fig-s7}
+	\label{fig:fig-s7b}
 \end{figure}
 
 
@@ -264,9 +282,8 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 	\ContinuedFloat
 	\centering
 	\includegraphics[width=5in]{img/ch02/fig-s7c.pdf}
-	\label{fig:fig-s7c}
 	\caption[Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes (Continued). ]{\textbf{Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes (Continued).} }
-	\label{fig:fig-s7}
+	\label{fig:fig-s7c}
 \end{figure}
 
 
@@ -274,49 +291,49 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s8.pdf}
 \caption[Opposite Effect Parent of Origin GWAS Result for LDL.]{\textbf{Opposite Effect Parent of Origin GWAS Result for LDL.}  Box plots of LDL residuals (y-axes) are shown for each of the four genotypes (left panel; x-axis), and for paternal (center panel; x-axis) and maternal (right panel; x-axis) alleles. The maternal C allele is associated with decreased and maternal T allele with increased LDL. The paternal C allele is associated with increased and the paternal T allele with decreased LDL. The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s8}
+\label{fig:fig-s8}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s9.pdf}
 \caption[Opposite Effect Parent of Origin GWAS Result for LVMI.]{\textbf{Opposite Effect Parent of Origin GWAS Result for LVMI.}  Box plots of LVMI residuals (y-axes) are shown for each of the four genotypes (left panel; x-axis), and for paternal (center panel; x-axis) and maternal (right panel; x-axis) alleles. The maternal C allele is associated with decreased and maternal T allele with increased LVMI. The paternal C allele is associated with increased and the paternal T allele with decreased LVMI. The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s9}
+\label{fig:fig-s9}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s10.pdf}
 \caption[Opposite Effect Parent of Origin GWAS Result for Triglycerides.]{\textbf{Opposite Effect Parent of Origin GWAS Result for Triglycerides.}  Box plots of triglyceride residuals (y-axes) are shown for each of the four genotypes (left panel; x-axis), and for paternal (center panel; x-axis) and maternal (right panel; x-axis) alleles. The maternal C allele is associated with decreased and maternal T allele with increased triglycerides. The paternal C allele is associated with increased and the paternal T allele with decreased triglycerides. The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s10}
+\label{fig:fig-s10}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s11.pdf}
 \caption[Opposite Effect Parent of Origin GWAS Result for Total Cholesterol.]{\textbf{Opposite Effect Parent of Origin GWAS Result for Total Cholesterol.}  Box plots of total cholesterol residuals (y-axes) are shown for each of the four genotypes (left panel; x-axis), and for paternal (center panel; x-axis) and maternal (right panel; x-axis) alleles. The maternal C allele is associated with decreased and maternal T allele with increased total cholesterol. The paternal C allele is associated with increased and the paternal T allele with decreased total cholesterol. The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s11}
+\label{fig:fig-s11}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s12.pdf}
 \caption[Opposite Effect Parent of Origin GWAS Result for Blood Eosinophil Count.]{\textbf{Opposite Effect Parent of Origin GWAS Result for Blood Eosinophil Count.}  Box plots of eosinophil residuals (y-axes) are shown for each of the four genotypes (left panel; x-axis), and for paternal (center panel; x-axis) and maternal (right panel; x-axis) alleles. The maternal C allele is associated with decreased and maternal T allele with increased eosinophil count. The paternal C allele is associated with increased and the paternal T allele with decreased eosinophil count. The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s12}
+\label{fig:fig-s12}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s13.pdf}
 \caption[Opposite Effect Parent of Origin GWAS Result for FEV1.]{\textbf{Opposite Effect Parent of Origin GWAS Result for FEV1.} Box plots of FEV1 residuals (y-axes) are shown for each of the four genotypes (left panel; x-axis), and for paternal (center panel; x-axis) and maternal (right panel; x-axis) alleles. The maternal C allele is associated with decreased and maternal T allele with increased FEV1. The paternal C allele is associated with increased and the paternal T allele with decreased FEV1. The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s13}
+\label{fig:fig-s13}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s14.pdf}
 \caption[Opposite Effect Parent of Origin GWAS Result for Neutrophil Count.]{\textbf{Opposite Effect Parent of Origin GWAS Result for Neutrophil Count.}  Box plots of neutrophil residuals (y-axes) are shown for each of the four genotypes (left panel; x-axis), and for paternal (center panel; x-axis) and maternal (right panel; x-axis) alleles. The maternal G allele is associated with decreased and maternal Aallele with increased neutrophil count. The paternal G allele is associated with increased and the paternal A allele with decreased neutrophil count. The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s14}
+\label{fig:fig-s14}
 \end{figure}
 
 
@@ -328,7 +345,7 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 \centering
 \includegraphics[width=5in]{img/ch02/fig-s15.pdf}
 \caption[Opposite Effect eQTL for rs7033776.]{\textbf{Opposite Effect eQTL for rs7033776.} Box plots of two significant loci plot POLR1E gene expression residuals (y-axes) for each of the four genotypes (left panel; x-axis), and for paternal (center panel; x-axis) and maternal (right panel; x-axis) alleles. The maternal T allele is associated with decreased and maternal A allele with increased POLR1E expression. The paternal T allele is associated with increased and the paternal A allele with decreased POLR1E expression. The horizontal bar of the boxplot shows the median, the box delineates the first and third quartile, and the whiskers show +/-1.5 x IQR.}
-\label{fig:ch02-s15}
+\label{fig:fig-s15}
 \end{figure}
 
 
