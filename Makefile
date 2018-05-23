@@ -1,5 +1,5 @@
 NAME := poo
-TEX := tex/acknowledgments.tex tex/ch01.tex tex/ch02.tex #tex/ch03.tex #tex/ch04.tex tex/ch05.tex
+TEX := tex/acknowledgments.tex tex/ch01.tex tex/ch02.tex tex/ch03.tex #tex/ch04.tex tex/ch05.tex
 BIB := refs.bib
 CLS := ucetd.cls
 
@@ -14,7 +14,6 @@ docx: $(NAME).docx
 ## Build paper
 
 $(NAME).pdf: $(NAME).tex $(TEX) $(BIB) $(CLS)
-#	python code/format-bibtex.py $(BIB)
 	pdflatex $(NAME)
 	bibtex $(NAME)
 	pdflatex $(NAME)
