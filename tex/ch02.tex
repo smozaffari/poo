@@ -32,7 +32,7 @@ Using the same phenotypes, genotypes, pedigree, and criteria for significance as
 \begin{table}
 \centering
 \begin{adjustbox}{width={\textwidth}}
-\begin{tabular}{@{}p{3cm}p{2cm}p{2cm}p{2cm}p{2.5cm}p{1cm}p{0.5cm}p{1.5cm}p{2cm}p{2cm}p{2cm}@{}}
+\begin{tabular}{@{}p{3cm}|p{2cm}p{2cm}p{2cm}p{2.5cm}p{1cm}p{0.5cm}p{1.5cm}p{2cm}p{2cm}p{2cm}@{}}
 \toprule Phenotype & rsid & chr:loc & Variant Location & Nearest Gene & MAF & N & Beta (SE) & Paternal GWAS p-value & Maternal GWAS p-value & Standard GWAS p-value \\ \midrule
  \multicolumn{2}{c}{A. Maternal Associations} &&&&&&&&& \\ \hline
 Age at Menarche  & rs7184983 (A/G) & 16:56554709 & Upstream & \emph{BBS2} & 0.059 & 336 & 0.862 (0.154) & 5.01e-01 & 3.11e-08 & 6.75e-03 \\ \hline
@@ -41,7 +41,6 @@ CIMT  & rs4077567 (G/A) & 2:216703202 & Intronic & \emph{LINC00607}* & 0.30	& 42
  & rs6791779 (C/G) & 3:74996505 & Intergenic & \emph{MIR4444-1}* & 0.24 & 879 & -0.102 (0.021) & 6.88E-02 & 1.48E-08 & 4.52E-02\\ \hline
 LVMI & rs574232282 (G/A) & 1:41662388 & Intronic & \emph{SCMH1} & 0.018 & 537 & 0.239 (0.042) & 5.52E-01 & 1.39E-08 & 1.05E-03\\ \hline
 \multicolumn{2}{c}{B. Paternal Associations} &&&&&&&&&\\  \hline
-
 \multirow{2}{3cm}{LDL} & rs12024326 (A/G) & 1:227146433 & Intronic & \emph{ADCK3} & 0.175 & 686 & -0.295 (0.048) & 8.06E-10 & 4.21E-01 & 4.24E-05\\ \cline{2-11}
  & rs4843650 (A/G) & 16:87683486 & Intronic & \emph{JPH3} & 0.448 & 621 & 0.211 (0.036) & 6.57E-09 & 2.21E-01 & 1.50E-04\\ \hline
 SBP & rs1536182 (A/G) & 13:46275415 & Upstream & \emph{LINC01055}* & 0.2 & 684 & -0.028 (0.005)	& 1.53E-08 & 1.78E-01 & 6.93E-04\\ \hline
@@ -77,7 +76,44 @@ Three other CVD-related phenotypes (systolic blood pressure, LDL-C, and total ch
 
 \subsection{GWAS for Differential Parent of Origin Effects}\label{GWAS for Differential Parent of Origin Effects}
 
-Because some imprinted regions include genes that have both maternal or paternal specific tissue expression, we next tested for such differential effects with these 21 phenotypes. In these analyses, we compared the effect and direction of the association between maternal and paternal alleles to identify variants that have different effects, including opposite effects, on the phenotype. Such loci would be completely hidden in standard GWAS in which paternally and maternally inherited alleles are combined. These opposite effect GWAS revealed 11 independent loci with opposite POEs for nine different traits, at least six of which are associated with CVD risk (Table 3, Figure S7). 
+Because some imprinted regions include genes that have both maternal or paternal specific tissue expression, we next tested for such differential effects with these 21 phenotypes. In these analyses, we compared the effect and direction of the association between maternal and paternal alleles to identify variants that have different effects, including opposite effects, on the phenotype. Such loci would be completely hidden in standard GWAS in which paternally and maternally inherited alleles are combined. These opposite effect GWAS revealed 11 independent loci with opposite POEs for nine different traits, at least six of which are associated with CVD risk (Table \ref{tab:oppparent}, Figure S7). 
+
+
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{3cm}|p{1.8cm}p{2cm}p{2cm}p{2cm}p{0.8cm}p{1.8cm}p{2.5cm}|p{1.8cm}p{1.8cm}|p{1.8cm}p{1.8cm}|p{1.8cm}@{}}
+\toprule \multirow{2}{3cm}{Phenotype} & \multirow{2}{1.8cm}{rsid} & \multirow{2}{2cm}{chr:loc} & \multirow{2}{2cm}{Variant Location} & \multirow{2}{2cm}{Nearest Gene} 
+
+& \multirow{2}{0.8cm}{MAF} & \multirow{2}{1.8cm}{$\beta_{M}-\beta_{P}$ (SE) }& \multirow{2}{2.5cm}{Opposite Effect GWAS} & \multicolumn{2}{c}{Paternal GWAS} & \multicolumn{2}{c}{Maternal GWAS} & \multirow{2}{1.8cm}{GWAS p-value}\\ \cline{9-12}
+
+
+&&&&&&& & P-value & Beta(SE) & P-value & Beta(SE) &  \\ \midrule
+
+Age of menarche & rs12447191 & 16:62199299 & Intergenic & \emph{CDH8} & 0.17	  & -0.654 (0.109)	& 5.27E-09	& 5.20E-06&	0.391 (0.085)	& 1.85E-05 & -0.368 (0.085)& 	8.68E-01\\ \hline
+\multirow{2}{3cm}{BMI}& rs77785972 & 5:97415767 & Intergenic & \emph{LINC01340}* & 0.025 & 0.154 (0.025) & 5.12E-10 & 5.84E-07	 & -0.094 (0.019) & 1.58E-05 &  0.081 (0.019) & 5.39E-01\\ \cline{2-13}
+&  rs17605739 & 6:22962798 & Intronic &  \emph{RP1-209A6.1}* & 0.17 & 0.053 (0.010) & 3.01E-08 & 6.99E-05 & -0.032 (0.008) & 1.42E-06 & 0.034 (0.007) & 1.56E-01\\ \hline
+Eosinophil count & rs2355879 & 1:18732860 & Intergenic & \emph{IGSF21} & 0.14 & 0.091 (0.016) & 1.69E-08 & 5.83E-08  & -0.065 (0.012) & 5.59E-04 & 0.043 (0.012) & 2.53E-01 \\ \hline
+FEV1 & rs12714812 & 3:74813002 & Intergenic & \emph{CNTN3} & 0.45 & -0.119 (0.021) & 4.52E-08 & 1.78E-03 & 0.052 (0.017) & 6.35E-06 & -0.073 (0.016) & 9.58E-01\\ \hline
+LDL & rs1032596 & 16:86281537 & Intronic & \emph{LINC01081}* & 0.30 & -0.310 (0.056) & 3.69E-08 & 1.05E-06 & 0.201 (0.041) & 4.56E-04 & -0.148 (0.042) & 2.71E-01\\ \hline
+LVMI	 & rs16853098 & 2:168013281 & Intronic & \emph{XIRP2} & 0.12 & -0.091 (0.053) & 4.18E-08 & 5.29E-06 & 0.064 (0.014) & 2.04E-04 & -0.048 (0.013) & 9.26E-01\\ \hline
+Neutrophil count & rs142030841 & 18:34371947 & Intronic & \emph{TPGS2} & 0.042 & -0.224 (0.041)	 & 4.40E-08 & 2.25E-03 & 0.078 (0.025) & 1.30E-07 & -0.188 (0.035) & 5.77E-01\\ \hline
+
+Triglycerides & rs7525463 & 1:218860879 & Intronic & \emph{MIR548F3}* & 0.16 & -0.401 (0.071) & 2.51E-08 & 1.14E-03 & 0.195 (0.060)  & 5.52E-08 & -0.267 (0.049)	& 2.84E-02\\ \hline
+
+Total cholesterol & rs7033776 & 9:36704465 & Intergenic & \emph{MELK} & 0.41 & 0.230 (0.041) & 4.12E-08 & 5.60E-08	& -0.183 (0.034) & 2.28-03 & 0.099 (0.032) & 6.70E-02\\ \hline
+
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Significant Opposite Parent of Origin Effect GWAS Associations.]{\textbf{Significant Opposite Parent of Origin Effect GWAS Associations.} The most significant variant at each locus for each phenotype is shown.  $\beta_{M}-\beta_{P}$ represents difference in parental effect size.
+*non-coding RNA genes
+}
+\label{tab:oppparent}
+\end{table}
+
+
+
 
 A locus on chromosome 16, near the \emph{CDH8} gene (128kb, upstream), was associated with opposite POEs with age of menarche (Figure \ref{fig:menarche_oegwas}). CDH8 is highly expressed in the brain, as well as in the aorta artery and pituitary gland. Two loci on chromosomes 5 and 6 were associated with opposite POEs on body mass index (BMI) (Figure \ref{fig:bmi_oegwas}). The most significant variant on chromosome 5 (rs77785972) is near a long intergenic noncoding gene, \emph{LINC01340} (409kb, downstream), whose expression has not been well characterized. The SNP on chromosome 6 (rs17605739) is also in a long intergenic noncoding gene, \emph{RP1-209A6.1}, which is expressed in low levels in the tibial artery, bladder, spleen, lung, pituitary gland, as well as testis. 
 
