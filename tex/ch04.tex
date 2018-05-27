@@ -1,0 +1,69 @@
+% Chapter 04
+\chapter{Parent of Origin Effects on Gene Expression }\label{ch:poeqtl}
+\section[Abstract]{Abstract}
+
+In this chapter, I explore the impact of parental origin of genetic variation on gene expression. 
+
+
+\section{Introduction}\label{ch04-introduction}
+
+For example, Garg et al. used gene expression in LCLs from HapMap trios to identify 30 imprinting eQTLs with parent of origin specific effects on expression including two imprinted genes\cite{Garg2012a}
+
+\section{Results}\label{ch04-results}
+\subsection{Opposite Parent of Origin eQTL}\label{Opposite Parent of Origin eQTL} 
+Our opposite parent of origin eQTL did not find any significant results (Bonferonni corrected p-value). We were originally going to follow up significant results from this analysis with maternal and paternal eQTLs using maternal and paternal expression, respectively. 
+
+\subsection{Single Parent eQTL}\label{Single Parent eQTL} 
+We performed the maternal and paternal eQTL analysis anyway, first using parent of origin normalized expression as well as normalized parental expression with uninformative genes removed. We had to remove uninformative genes, as described in the Methods, since the data was sparse and zeros drove most of the analysis.  (Figure xx). 
+
+There were xx SNP gene pairs we could compare across both single parent eQTLs. For those significant in one or the other, the effect sizes were all in the same direction, where we were hoping some SNPs could have opposite effects on their corresponding parental gene expression (Figure xx).
+
+We then compared SNP gene pairs that were significant (Bonferroni) in one parent, and not significant (p>0.05) in the other parent (7,712 SNP gene pairs maternal significant associations not paternally significant; 10,815 paternal significant associations not maternally significant). 
+
+Unfortunately, these are still driven by sparse data and don't look like real parent of origin effect eQTLs (Figure xx).
+
+\subsection{Modified ASE Test}\label{Modified ASE Test} 
+
+For a more simple approach, we did a simple $\chi^2$ test on the reciprocal heterozygotes on their corresponding maternal and paternal expression using maternal and paternal count data corresponding to haplotype specific expression. 
+Using Bonferroni corrected p-value we identified xx significant results. 
+
+
+\section{Discussion}\label{ch04-discussion}
+
+
+
+\section{Methods}\label{ch04-methods}
+
+\subsection{Genotypes and Sample Information}\label{Genotypes and Sample Information}
+LCL RNA-seq transcripts for 306 individuals were mapped to parental haplotypes as in Chapter \ref{ch:imprinted}. We used the measures of total as well as maternal and paternal expression in this study. We used multiple approaches to characterize parent of origin effects on gene expression.
+To be conservative, we used 306 Hutterite individuals for which we have parental genotypes and tested SNPs for which we have at least three individuals in at least three of four parent of origin genotype classes (such that we have at least three individuals in at least one heterozygote category and one heterozygote individual will not drive our analysis).
+
+\subsection{RNA-seq QC}\label{RNA-seq QC}
+Multiple approaches required different QC method. For the total gene expression, we used normalized gene expression. First, we removed lowly expressed genes with a log count per million (cpm) greater than 1 in at least 20 individuals.The R/Bioconductor package edgeR was used to convert the RNA-seq counts to log2 TMM-normalized CPM values\cite{Robinson:2010dd,Robinson:2010cw}. Technical covariates correlated with gene expression Principal Components were regressed out (xx, xx, xx, xx). 
+
+Maternal gene expression was used as both counts and as normalized gene expression. Maternal gene expression counts were used directly from STAR gene count output\cite{Dobin:2002by} subsetted on genes included in the total gene expression analysis. 
+Normalized maternal expression was calculated using similar to total gene expression using edgeR and converting RNA-seq counts to log2 TMM normalized CPM values using normalization factors (library sizes) from the total gene expression (maternal gene expression too sparse on it's own). 
+Same method was used to get paternal gene expression counts and normalized paternal gene expression.
+
+To separate informative parental gene expression from uninformative parental gene expression I compiled all of the heterozygous SNPs for each individual for each gene that was expressed. If a gene for an individual did not have any heterozygous parent of origin SNPs (i.e. informative SNPs), the gene was considered missing (converted to NA for downstream analysis). If there was at least one heterozygous parent of origin SNPs in the corresponding gene, the gene expression value was not altered, since zero expression for that gene for that parent could be informative. This nulled different numbers of genes for different individuals. Figure xx
+
+
+\subsection{Opposite Parent of Origin eQTL}\label{Opposite Parent of Origin eQTL}
+We used the same method outlined in Chapter \ref{ch:pogwas} to detect if SNPs had opposite effects on total gene expression by parental origin. 
+
+\subsection{Single Parent eQTL}\label{Single Parent eQTL}
+To use the parent of origin expression, we performed an eQTL testing for specific parental effects on the same parental gene expression as follows. 
+
+\begin{equation}
+Y _{M}=W\alpha + X_{M}\beta_{M}+g+\epsilon
+\end{equation}
+
+\begin{equation}
+Y _{P}=W\alpha + X_{P}\beta_{P}+g+\epsilon
+\end{equation}
+
+
+
+
+
+
