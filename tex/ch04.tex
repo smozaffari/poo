@@ -46,13 +46,13 @@ We performed the mat-eQTL and pat-eQTL analysis, first using parent of origin no
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=4in]{img/ch04/fig-04-mat-eQTL.pdf}
-\caption[Maternal eQTL Associations Driven by Zeros.]{\textbf{Maternal eQTL Associations Driven by Zeros.} The four most significant maternal eQTL associations. Most of the individuals have no value of expression for these genes, we see most of the genes have a median that corresponds to a value of zero after normalization. }
+\caption[Maternal eQTL Associations Driven by Null Values.]{\textbf{Maternal eQTL Associations Driven by Null Values.} The four most significant maternal eQTL associations. Most of the individuals have no value of expression for these genes, we see most of the genes have a median that corresponds to a value of zero after normalization. }
 \label{fig:mat-eQTL}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=4in]{img/ch04/fig-05-pat-eQTL.pdf}
-\caption[Paternal eQTL Associations Driven by Zeros.]{\textbf{Paternal eQTL Associations Driven by Zeros.} The four most significant paternal eQTL associations. Most of the individuals have no value of expression for these genes, we see most of the genes have a median that corresponds to a value of zero after normalization. }
+\caption[Paternal eQTL Associations Driven by Null Values.]{\textbf{Paternal eQTL Associations Driven by Null Values.} The four most significant paternal eQTL associations. Most of the individuals have no value of expression for these genes, we see most of the genes have a median that corresponds to a value of zero after normalization. }
 \label{fig:pat-eQTL}
 \end{figure}
 
@@ -60,7 +60,7 @@ We performed the mat-eQTL and pat-eQTL analysis, first using parent of origin no
 I then redid the same analysis using informative reads, removing zeros that were due to absence of heterozygous SNPs in the gene (see Methods for more detail). There were 7,398,096 SNP gene pairs we could compare across both single parent eQTLs. For those significant in both, (60,549 SNP gene pairs), the effect sizes were all in the same direction, no SNPs had opposite effects on their corresponding parental gene expression (Figure \ref{fig:effectsizes}). The imbalance of positive and negative effect sizes in Figure \ref{fig:effectsizes} is likely due in part to the sparsity of the data, where most individuals have an expression value of zero and driving the effect size to be positive.
 
 \begin{figure}[!htb]
-\centering \includegraphics[width=5in]{img/ch04/fig-06-effectsizes.pdf}
+\centering \includegraphics[width=4in]{img/ch04/fig-06-effectsizes.pdf}
 \caption[Similar effect sizes across mat-eQTL and pat-eQTL.]{\textbf{Similar effect sizes across mat-eQTL and pat-eQTL.} }
 \label{fig:effectsizes}
 \end{figure}
@@ -71,7 +71,7 @@ We then compared SNP gene pairs that were significant (Bonferroni) in one parent
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=5in]{img/ch04/fig-07-sig_notsig.pdf}
-\caption[Parent specific eQTLs significant in one parent and not the other]{\textbf{Parent specific eQTLs significant in one parent and not the other.} (A) Variant on chromosome 20:20036897 has a significant mat-eQTL association (left) with gene \emph{NAA20} (p-value = 2.32e-27) where the pat-eQTL (right) from the same variant is not significant (p-value = 2.18e-02). In contrast, (B) Variant on chromosome 9:134850002 has a significant pat-eQTL association (right) with gene \emph{MED27} (p-value = 4.7e-32) and mat-eQTL is not significant (p-value = 2.75e-03) (left).}
+\caption[Parent specific eQTLs significant in one parent and not the other.]{\textbf{Parent specific eQTLs significant in one parent and not the other.} (A) Variant on chromosome 20:20036897 has a significant mat-eQTL association (left) with gene \emph{NAA20} (p-value = 2.32e-27) where the pat-eQTL (right) from the same variant is not significant (p-value = 2.18e-02). In contrast, (B) Variant on chromosome 9:134850002 has a significant pat-eQTL association (right) with gene \emph{MED27} (p-value = 4.7e-32) and mat-eQTL is not significant (p-value = 2.75e-03) (left).}
 \label{fig:sig_notsig}
 \end{figure}
 
@@ -97,7 +97,7 @@ To detect parent of origin effects on expression using a different approach, we 
 6 & 3758995 & \emph{BTN3A2} & 3609/1049  & 3328/3330 &  8.40e-144\\  \bottomrule
 \end{tabular}
 \end{adjustbox}
-\caption[Top Ten Significant Genes from PO-ASE Test.]{\textbf{Top Ten Significant Genes from PO-ASE Test.} Most of the top significant genes from PO-ASE test are imprinted genes. P-value of 0 is a really small p-value (\textless 10e-248)}
+\caption[Top Ten Significant Genes from PO-ASE Test.]{\textbf{Top Ten Significant Genes from PO-ASE Test.} Most of the top significant genes from PO-ASE test are imprinted genes. P-value of 0 corresponds to a really small p-value (\textless 10e-248)}
 \label{tab:poase1}
 \end{table}
 
@@ -179,7 +179,7 @@ Here we used parental specific gene expression in 306 Hutterite individuals to c
 
 Our opposite effect model has been successful in identifying opposite effects of parentally inherited variants on quantitative traits in the Hutterites but we weren't able to find any with LCL gene expression. These could be due to a number of limitations of this study, including sample size and tissue studied. We also performed our \emph{cis} mat-eQTL and pat-eQTL. This test identified known significant eQTLs as they would show up in both mat-eQTL and pat-eQTL results since the effect does not depend on the parent of origin. None of the variants compared across the two showed opposite effects by parent of origin. We were not able to find any maternal or paternally only effects on gene expression without breaking down the data further.
 
-We found that most of the negative results were driven by sparsity in the data. Zeros in gene expression could be due to two factors: 1) no heterozygous/parent of origin SNPs in the gene such that homozygous reads could not be assigned to a parent, or 2) there are heterozygous SNPs in the genes but there are no reads. We assigned genes for individuals that did not have any heterozygous SNPs as missing and kept the values for those with at least one heterozygous site in a gene. This resulted in different numbers of individuals and genes to be tested. This provided a more conservative and informative data set but we did not find any significant maternal or paternal only effects on gene expression.
+We found that most of the negative results were driven by sparsity in the data. Null expression values in gene expression could be due to two factors: 1) no heterozygous/parent of origin SNPs in the gene such that homozygous reads could not be assigned to a parent, or 2) there are heterozygous SNPs in the genes but there are no reads. We assigned genes for individuals that did not have any heterozygous SNPs as missing and kept the values for those with at least one heterozygous site in a gene. This resulted in different numbers of individuals and genes to be tested. This provided a more conservative and informative data set but we did not find any significant maternal or paternal only effects on gene expression.
 
 Finally, we performed a PO- ASE test among reciprocal heterozygotes to identify effects of parental variation on gene expression. The missing gene expression (i.e. uninformative) for some individuals, decreased the numbers of reciprocal heterozygotes we could test for each gene.
 
