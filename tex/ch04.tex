@@ -7,11 +7,11 @@
 In this chapter, I explore the impact of parental origin of genetic variation on gene expression. We are interested in identifying any variants that are eQTLs but differ in direction by the parent the variant was inherited from. We perform opposite effect eQTL (oeQTL) and \emph{cis} maternal and paternal eQTL (mat-eQTL, pat-eQTL) using LCL gene expression in 306 Hutterites. We do not find any variants that have opposite effects by parental origin on gene expression with either of these two approaches. We also used a $\chi^2$ test to search for parent specific effects on reciprocal heterozygotes using parent specific gene expression and identified SNPs that have modest parent of origin eQTL effects that would need to be investigated further.
 
 \section{Introduction}\label{ch04-introduction}
-Imprinted genes have one allele silenced in a parent of origin specific manner. In humans, approximately 105 imprinted loci have been identified, many of which play important roles in development and growth\cite{Falls1999,Peters2014}. Dysregulation of imprinted genes or regions can cause diseases that show parent of origin effects, such as Prader-Willi or Angelman syndrome, among others\cite{Peters2014}. Dysregulation of imprinted genes can be caused by large deletions but also by single variant mutations. Imprinted regions have also been associated with complex traits, such as height and age of menarche \cite{Benonisdottir:2016dz,Zoledziewska:2015do}, as well as common diseases such as obesity and some cancers \cite{Peters2014}. We know that SNPs associated with traits are more likely to be eQTLs\citep{Nicolae2010}, and here we explore if different parentally inherited alleles can have different impacts on gene expression. We are not the first to look for parental genetic variation influencing gene expression: Garg et al. used gene expression in LCLs from HapMap trios to identify 30 imprinting eQTLs with parent of origin specific effects on expression including two imprinted genes\cite{Garg2012a}. Garg et al. have looked for impact of parent of origin specific effects on gene expression\citep{Garg2012a}, but none have looked for eQTLs on parent specific expression. 
+Imprinted genes have one allele silenced in a parent of origin specific manner. In humans, approximately 105 imprinted loci have been identified, many of which play important roles in development and growth\cite{Falls1999,Peters2014}. Dysregulation of imprinted genes or regions can cause diseases that show parent of origin effects, such as Prader-Willi or Angelman syndrome, among others\cite{Peters2014}. Dysregulation of imprinted genes can be caused by large deletions but also by single variant mutations. Imprinted regions have also been associated with complex traits, such as height and age of menarche \cite{Benonisdottir:2016dz,Zoledziewska:2015do}, as well as common diseases such as obesity and some cancers \cite{Peters2014}. We know that SNPs associated with traits are more likely to be eQTLs\citep{Nicolae2010}, and here we explore if different parentally inherited alleles can have different impacts on gene expression. We are not the first to look for parental genetic variation influencing gene expression: Garg et al. used gene expression in LCLs from HapMap trios to identify 30 imprinting eQTLs with parent of origin specific effects on expression of which two were imprinted genes\cite{Garg2012a}. Garg et al. have looked for impact of parent of origin specific effects on gene expression\citep{Garg2012a}, but none have looked for eQTLs on parent specific expression. 
 	
-Using RNA-seq and allele specific expression (ASE) we can map genes to parental haplotypes that will inform us of gene expression from parental chromosomes. With parentally mapped gene expression data, we can ask if genetic variation on the parental haplotype can influence gene expression from the same haplotype.  However, we are the first to look for 1) parental genetic variation that can have opposite effects on gene expression, as well as 2) maternal or paternally inherited genetic variation that could affect parental gene expression on the same chromosome. 	
+Using RNA-seq and allele specific expression (ASE) we can map genes to parental haplotypes that will inform us of gene expression from parental chromosomes. With parentally mapped gene expression data, we can ask if genetic variation on the parental haplotype can influence gene expression from the same haplotype.  We are the first to look for 1) parental genetic variation that can have opposite effects on gene expression, as well as 2) maternal or paternally inherited genetic variation that could affect parental gene expression on the same chromosome. 	
 
-Overall, we look for opposite parent of origin effects on total expression, as well as parent-specific expression in the Hutterites, a founder population of European descent, for which we have phased genotype data\cite{Livne2015}. We use RNA-seq from lymphoblastoid cell lines (LCLs) to map transcripts to parental haplotypes and use the parental gene expression to look for variation in \emph{cis} that would effect gene expression. Our study is underpowered to identify any opposite effect parent of origin eQTLs but we do identify a few parent of origin eQTLs where parentally inherited variation can affect parent specific gene expression from the same haplotype. There is no known biological mechanism as to why parent of origin eQTLs could exist. 
+We use methods to detect opposite parent of origin effects on total expression, as well as parent-specific expression in the Hutterites, a founder population of European descent, for which we have phased genotype data\cite{Livne2015}. We use RNA-seq from lymphoblastoid cell lines (LCLs) to map transcripts to parental haplotypes and use the parental gene expression to look for variation in \emph{cis} that would effect gene expression. Our study is likely underpowered to identify any opposite effect parent of origin eQTLs but we do identify a few parent of origin eQTLs where parentally inherited variation can affect parent specific gene expression from the same haplotype. There is no known biological mechanism as to why parent of origin eQTLs could exist. 
 
 \section{Results}\label{ch04-results}
 
@@ -19,27 +19,26 @@ For each of 306 individuals, the total number of transcripts at each gene was as
 
 
 \subsection{Opposite Parent of Origin eQTL (oeQTL) }\label{Opposite Parent of Origin eQTL (oeQTL)} 
-Our original oeQTL identified three significant opposite effect associations but were driven by one individual's genotype. The significant associations are shown in Figures \ref{fig:oeQTL}, \ref{fig:oeQTL2}, and \ref{fig:oeQTL3}. Once we subset SNPs on having at least three individuals in at least three genotype groups, we did not find any significant results (Bonferonni corrected p-value). We were originally going to follow up significant results from this analysis with mat-eQTLs and pat-eQTLs, but proceeded with the mat-eQTL and pat-eQTL analysis anyway.
+Our original oeQTL identified three significant opposite effect associations but these associations were driven by one individual's genotype. The significant associations are shown in Figures \ref{fig:oeQTL}, \ref{fig:oeQTL2}, and \ref{fig:oeQTL3}. Once we subset SNPs on having at least three individuals in at least three genotype groups, we did not find any significant results (Bonferroni corrected p-value). We were originally going to follow up significant results from this analysis with mat-eQTLs and pat-eQTLs, but proceeded with the mat-eQTL and pat-eQTL analysis anyway.
 
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=4in]{img/ch04/fig-01-oeQTL.pdf}
-\caption[Opposite Effect Association driven by one individual's genotype.]{\textbf{Opposite Effect Association driven by one individual's genotype.} Most significant opposite effect eQTL association with p-value 3.1e-09 driven by one individual with a maternal T allele and a paternal C allele.}
+\caption[Opposite effect association with \emph{TIGD5} driven by one individual's genotype.]{\textbf{Opposite effect association driven by one individual's genotype.} Most significant opposite effect eQTL association with p-value 3.1e-09 driven by one individual with a maternal T allele and a paternal C allele.}
 \label{fig:oeQTL}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=4in]{img/ch04/fig-02-oeQTL.pdf}
-\caption[Opposite Effect Association driven by one individual's genotype.]{\textbf{Opposite Effect Association driven by one individual's genotype.} Most significant opposite effect eQTL association with p-value 4.3e-09 driven by one individual with a maternal T allele and a paternal deletion.}
+\caption[Opposite effect association with \emph{SON} driven by one individual's genotype.]{\textbf{Opposite effect association driven by one individual's genotype.} Most significant opposite effect eQTL association with p-value 4.3e-09 driven by one individual with a maternal T allele and a paternal deletion.}
 \label{fig:oeQTL2}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=4in]{img/ch04/fig-03-oeQTL.pdf}
-\caption[Opposite Effect Association driven by one individual's genotype.]{\textbf{Opposite Effect Association driven by one individual's genotype.} Most significant opposite effect eQTL association with p-valye 3.5e-09 driven by one individual with a maternal T allele and a paternal C allele.}
+\caption[Opposite effect association with \emph{CDCA5} driven by one individual's genotype.]{\textbf{Opposite effect association driven by one individual's genotype.} Most significant opposite effect eQTL association with p-value 3.5e-09 driven by one individual with a maternal T allele and a paternal C allele.}
 \label{fig:oeQTL3}
 \end{figure}
-
 
 
 \subsection{Single Parent eQTL (mat-eQTL, pat-eQTL)}\label{Single Parent eQTL (mat-eQTL, pat-eQTL)} 
@@ -67,7 +66,7 @@ I then redid the same analysis using informative reads, removing zeros that were
 \end{figure}
 
 
-We then compared SNP gene pairs that were significant (Bonferroni) in one parent, and not significant (p \textgreater 0.05) in the other parent (7,712 SNP gene pairs were maternally significant and not paternally significant; 10,815 paternal significant associations not maternally significant). An example in Figure \ref{fig:sig_notsig}. 
+We then compared SNP gene pairs that were significant (Bonferroni) in one parent, and not significant (p \textgreater 0.05) in the other parent (7,712 SNP gene pairs were maternally significant and not paternally significant; 10,815 paternal significant associations not maternally significant). An example of each is in Figure \ref{fig:sig_notsig} where the maternally inherited A allele at 20:20036897 (Figure \ref{fig:sig_notsig} A) is associated with increased maternal expression, but at least half of the individuals with the paternally inherited A allele at the same SNP have no expression from the paternal haplotype. In (Figure \ref{fig:sig_notsig} B), A allele at 9:134850002 is associated with increased paternal expression when inherited from the father but not when inherited from the mother.
 
 
 \begin{figure}[!htb]
@@ -79,15 +78,13 @@ We then compared SNP gene pairs that were significant (Bonferroni) in one parent
 
 \subsection{Parent of Origin (PO) - ASE Test}\label{Parent of Origin (PO) - ASE Test} 
 
-To detect parent of origin effects on expression another way, we did a PO ASE test (see Methods) using parental gene expression count data. Using a Bonferonni corrected p-value we identified xx significant results. The top ten significant genes with their most significant SNPs are included in Table \ref{tab:poase1}. The top fourgenes with their most significant SNPs shown in Figures \ref{fig:SNHG14}, \ref{fig:ERAP2}, \ref{fig:ZDBF2}, and \ref{fig:PEG10}. Of the first four significant genes, three were imprinted genes.
+To detect parent of origin effects on expression using a different approach, we did a PO ASE test (see Methods) using parental gene expression count data. Using a Bonferroni corrected p-value we identified 56,800 significant results. The top ten significant genes with their most significant SNPs are included in Table \ref{tab:poase1}. The top four genes with their most significant SNPs shown in Figures \ref{fig:SNHG14}, \ref{fig:ERAP2}, \ref{fig:ZDBF2}, and \ref{fig:PEG10}. Of the 10 most significant genes, 5 are imprinted (\emph{SNHG14}, \emph{ZDBF2}, \emph{PEG10}, \emph{L3MBTL1}, \emph{FAM50B}.)
 
-
-
-\begin{table}
+\begin{table}[!htb]
 \centering
 \begin{adjustbox}{width={\textwidth}}
-\begin{tabular}{@{}p{3cm}p{3cm}p{3cm}p{3cm}p{3cm}p{3cm}@{}}
- \toprule  Chr & bp & Gene & Maternal reads (Ref/Alt) & Paternal reads (Ref/Alt) & p-value \\ \midrule
+\begin{tabular}{@{}p{1cm}p{3cm}p{3cm}p{5cm}p{5cm}p{3cm}@{}}
+ \toprule  Chr & bp & Gene & Maternal Reads (Ref/Alt) & Paternal Reads (Ref/Alt) & p-value \\ \midrule
 15 & 8034579 & \emph{SNHG14} & 15/11  & 587/983 & 0 \\
 2 & 1459666  & \emph{ZDBF2} & 34/49  & 638/1190 & 0\\
 5 & 3342675 & \emph{ERAP2} & 3948/2445 & 4790/7067 & 0\\
@@ -107,38 +104,39 @@ To detect parent of origin effects on expression another way, we did a PO ASE te
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=5in]{img/ch04/fig-08-SNHG14.pdf}
-\caption[Top three significant genes from modified ASE test.]{\textbf{Top three significant genes from modified ASE test.} }
+\caption[Significant PO-ASE association with gene \emph{SNHG14}.]{\textbf{Significant PO-ASE association with gene \emph{SNHG14}.} }
 \label{fig:SNHG14}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=5in]{img/ch04/fig-09-ERAP2.pdf}
-\caption[Top three significant genes from modified ASE test.]{\textbf{Top three significant genes from modified ASE test.} }
+\caption[Significant PO-ASE association with gene \emph{ERAP2}.]{\textbf{Significant PO-ASE association with gene \emph{ERAP2}.} }
 \label{fig:ERAP2}
 \end{figure}
 
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=5in]{img/ch04/fig-10-ZDBF2.pdf}
-\caption[Top three significant genes from modified ASE test.]{\textbf{Top three significant genes from modified ASE test.} }
+\caption[Significant PO-ASE association with gene \emph{ZDBF2}.]{\textbf{Significant PO-ASE association with gene \emph{ZDBF2}.} }
 \label{fig:ZDBF2}
 \end{figure}
 
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=5in]{img/ch04/fig-11-PEG10.pdf}
-\caption[Top three significant genes from modified ASE test.]{\textbf{Top three significant genes from modified ASE test.} }
+\caption[Significant PO-ASE association with gene \emph{PEG10}.]{\textbf{Significant PO-ASE association with gene \emph{PEG10}.} }
 \label{fig:PEG10}
 \end{figure}
+\clearpage
 
 \subsection{Modified ASE Test on Symmetrically Expressed Genes}\label{Modified ASE Test on Symmetrically Expressed Genes} 
-To exclude imprinted genes in the analysis we only tested genes that did not have significant asymmetrical expression (see Methods). We identified 15,340 significant SNPs (not pruned for LD) with 518 genes using Bonferonni (p-value 5.99e-09). The two most significant genes with symmetric expression that are also significant in this test are plotted with their most significant SNPs in Figures \ref{fig:SEC22B} and \ref{fig:ZMAT3}. The top ten genes and their most significant SNPs are listed in Table \ref{tab:poase2}.
+To exclude imprinted genes in the analysis we only tested genes that did not have significant asymmetrical expression (see Methods). We identified 15,340 significant SNPs (not pruned for LD) with 518 genes (using Bonferroni p-value 5.99e-09). The two most significant genes with symmetric expression that are also significant in this test are plotted with their most significant SNPs in Figures \ref{fig:SEC22B} and \ref{fig:ZMAT3}. The top ten genes and their most significant SNPs are listed in Table \ref{tab:poase2}.
 
 
-\begin{table}
+\begin{table}[!htb]
 \centering
 \begin{adjustbox}{width={\textwidth}}
-\begin{tabular}{@{}p{3cm}p{3cm}p{3cm}p{3cm}p{3cm}p{3cm}@{}}
+\begin{tabular}{@{}p{1cm}p{3cm}p{3cm}p{5cm}p{5cm}p{3cm}@{}}
  \toprule  Chr & bp & Gene & Maternal reads (Ref/Alt) & Paternal reads (Ref/Alt) & p-value \\ \midrule
 1 & 404610 & SEC22B & 148/101 & 513/478 & 1.11e-98 \\
 3 & 2222154 & ZMAT3 & 1320/1650 & 257/2085 & 3.53e-83\\
@@ -160,17 +158,17 @@ To exclude imprinted genes in the analysis we only tested genes that did not hav
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=5in]{img/ch04/fig-12-SEC22B.pdf}
-\caption[SEC22B.]{\textbf{SEC22B.} }
+\caption[Significant association from PO-ASE test with \emph{SEC22B}.]{\textbf{Significant association fro PO-ASE test with \emph{SEC22B}.} The most significant SNP (1:404610) with the most significant gene \emph{SEC22B}. We see asymmetry in heterozygote expression. In the top plot with all four genotypes we see expression from the paternal allele in all four genotypes except TT. And we see maternal expression only in the homozygotes. In the plots by parental allele blow, we see clearly that the maternal T allele is associated with increased maternal expression compared to the maternal A allele at this SNP.  We see the opposite effect by the paternal allele where the paternal A allele is associated with increased paternal expression and the paternal T allele with decreased expression. }
 \label{fig:SEC22B}
 \end{figure}
 
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=5in]{img/ch04/fig-13-ZMAT3.pdf}
-\caption[ZMAT3.]{\textbf{ZMAT3.} }
+\caption[Significant association from PO-ASE test with \emph{ZMAT3}.]{\textbf{Significant association fro PO-ASE test with \emph{ZMAT3}.} The most significant SNP (3:2222154) with the second most significant gene \emph{ZMAT3}. We see asymmetry in heterozygote expression. In the top plot with all three genotypes we see expression from the paternal allele in all four genotypes except GA. And we see maternal expression in all genotypes. In the plots by parental allele blow, we see clearly that the maternal alleles are associated with maternal expression, but the paternal A allele, in contrast to the paternal G allele, is not associated with paternal expression.}
 \label{fig:ZMAT3}
 \end{figure}
-
+\clearpage
 
 
 \section{Discussion}\label{ch04-discussion}
@@ -183,25 +181,23 @@ Our opposite effect model has been successful in identifying opposite effects of
 
 We found that most of the negative results were driven by sparsity in the data. Zeros in gene expression could be due to two factors: 1) no heterozygous/parent of origin SNPs in the gene such that homozygous reads could not be assigned to a parent, or 2) there are heterozygous SNPs in the genes but there are no reads. We assigned genes for individuals that did not have any heterozygous SNPs as missing and kept the values for those with at least one heterozygous site in a gene. This resulted in different numbers of individuals and genes to be tested. This provided a more conservative and informative data set but we did not find any significant maternal or paternal only effects on gene expression.
 
-Finally, we performed a modified ASE test among reciprocal heterozygotes to identify effects of parental variation on gene expression. The missing gene expression (i.e. uninformative) for some individuals, decreased the numbers of reciprocal heterozygotes we could test for each gene.
+Finally, we performed a PO- ASE test among reciprocal heterozygotes to identify effects of parental variation on gene expression. The missing gene expression (i.e. uninformative) for some individuals, decreased the numbers of reciprocal heterozygotes we could test for each gene.
 
 These few results could be due to many limitations of our study. Although we were able to determine the parent of origin for many transcripts in the Hutterites, we could not assign every RNA sequencing read to a parent due to lack of heterozygous sites or missing parent of origin information for alleles. A lot of genes were missing parental gene expression resulting in very sparse data. Second, we conducted these studies in LCLs, and therefore could only study parent of origin effects in LCLs and would miss any effects in other tissues or developmental time points. Additionally, our models to test for parent of origin eQTL effects are decent but could be much improved, such as to model over-dispersion in gene expression.
 
-In summary, we did not identify any genetic variation that has opposite parental effects on parental specific or total gene expression. We did identify SNPs with parent of origin eQTLs that were not affecting imprinted genes even though our data is still a bit noisy and underpowered. More sequencing and better modeling could potentially identify more genetic variation that impacts parental gene expression.
+In summary, we did not identify any genetic variation that has opposite parental effects on parental specific or total gene expression. We did identify SNPs with parent of origin eQTLs that were not necessarily affecting imprinted genes even though our data is still a bit noisy and underpowered. More sequencing and better modeling could potentially identify more genetic variation that impacts parental gene expression if such a biological mechanism exists. We expect these possible parent of origin eQTLs to identify variation that can impact imprinting or other silencing status by parent of origin. For example, for gene \emph{ZMAT3} in Figure \ref{fig:ZMAT3} we see expression from all haplotypes except from the paternal A allele. It could suggest that the paternal G allele is disrupting the mechanism that turns off paternal expression at this gene or that the paternal A allele turns on the mechanism to silence the gene expression from the paternal haplotype. There has been no study of such a mechanism and if more evidence for such effects are identified, could lead to new approaches to understanding genetic variation and its impact on gene expression and, ultimately, disease and human health. 
 
 \section{Methods}\label{ch04-methods}
 
 \subsection{Genotypes and Sample Information}\label{Genotypes and Sample Information}
-LCL RNA-seq transcripts for 306 individuals were mapped to parental haplotypes as in Chapter \ref{ch:imprinted}. We used the measures of total as well as maternal and paternal expression in this study. We used multiple approaches to characterize parent of origin effects on gene expression.
-To be conservative, we used 306 Hutterite individuals for which we have parental genotypes and tested SNPs for which we have at least three individuals in at least three of four parent of origin genotype classes (such that we have at least three individuals in at least one heterozygote category and one heterozygote individual will not drive our analysis). We used QCed SNPs with MAF \textgreater 5\%.
+LCL RNA-seq transcripts for 306 individuals were mapped to parental haplotypes as in Chapter \ref{ch:imprinted}. We used the measures of total as well as maternal and paternal expression in this study. We used multiple approaches to characterize parent of origin effects on gene expression. To be conservative, we used 306 Hutterite individuals for which we have parental genotypes and tested SNPs for which we have at least three individuals in at least three of four parent of origin genotype classes (such that we have at least three individuals in at least one heterozygote category and one heterozygote individual will not drive our analysis). We used QCed SNPs with MAF \textgreater 5\%.
 
 \subsection{RNA-seq QC}\label{RNA-seq QC}
-Multiple approaches required different QC method. For the total gene expression, we used normalized gene expression. First, we removed lowly expressed genes with a log count per million (cpm) greater than 1 in at least 20 individuals.The R/Bioconductor package edgeR was used to convert the RNA-seq counts to log2 TMM-normalized CPM values\cite{Robinson:2010dd,Robinson:2010cw}. Technical covariates correlated with gene expression Principal Components were regressed out (RIN, DNA concentration, RNA concentration, Flowcell/Lane). 
+Multiple approaches required different QC methods. For the total gene expression, we used normalized gene expression. First, we removed lowly expressed genes with a log count per million (cpm) greater than 1 in at least 20 individuals.The R/Bioconductor package edgeR was used to convert the RNA-seq counts to log2 TMM-normalized CPM values\cite{Robinson:2010dd,Robinson:2010cw}. Technical covariates correlated with gene expression Principal Components were regressed out (RIN, DNA concentration, RNA concentration, Flowcell/Lane). 
 
 \subsection{Parent of Origin Expression QC}\label{Parent of Origin Expression QC}
 Maternal gene expression was used as both counts and as normalized gene expression. Maternal gene expression counts were used directly from STAR gene count output\cite{Dobin:2002by} subsetted on genes included in the total gene expression analysis. 
-Normalized maternal expression was calculated using similar to total gene expression using edgeR and converting RNA-seq counts to log2 TMM normalized CPM values using normalization factors (library sizes) from the total gene expression (maternal gene expression too sparse on it's own). 
-Same method was used to get paternal gene expression counts and normalized paternal gene expression.
+Normalized maternal expression was calculated using similar to total gene expression using edgeR and converting RNA-seq counts to log2 TMM normalized CPM values using normalization factors (library sizes) from the total gene expression (maternal gene expression too sparse on its own). Same method was used to get paternal gene expression counts and normalized paternal gene expression.
 
 \subsection{Informative Genes}\label{Informative Genes}
 To separate informative parental gene expression from uninformative parental gene expression I compiled all of the heterozygous SNPs for each individual for each gene that was expressed in LCLs. If a gene for an individual did not have any heterozygous parent of origin SNPs (i.e. informative SNPs), the gene was considered missing (converted to NA for downstream analysis). If there was at least one heterozygous parent of origin SNPs in the corresponding gene, the gene expression value was not altered, since zero expression for that gene for that parent could be informative. This nulled different numbers of genes for different individuals (Figure \ref{fig:indspergene}).
@@ -211,14 +207,14 @@ To separate informative parental gene expression from uninformative parental gen
 \caption[Number of Individuals with Gene Expression.]{\textbf{Number of Individuals with Gene Expression.} }
 \label{fig:indspergene}
 \end{figure}
-
+\clearpage
 
 
 \subsection{Opposite Parent of Origin eQTL}\label{Opposite Parent of Origin eQTL}
-We used the same method outlined in Chapter \ref{ch:pogwas} to detect if SNPs had opposite effects on total gene expression by parental origin. 
+We used the same method outlined in Chapter \ref{ch:pogwas} to detect if SNPs had opposite effects on total gene expression by parental origin. We tested SNPs in \emph{cis}, defined as +/-250kb from the TSS of the gene. The model as implemented in GEMMA\cite{Zhou2012} where we used sex and age as covariates and corrected for relatedness (see Methods from Chapter  \ref{ch:pogwas}).
 
 \subsection{Single Parent eQTL}\label{Single Parent eQTL}
-To use the parent of origin expression, we performed a \emph{cis} eQTL testing for specific parental effects on the same parental gene expression as follows. We defined \emph{cis} as +/- 250kb from the TSS of the gene. 
+To use the parent of origin expression, we performed a \emph{cis} eQTL testing for specific parental effects on the same parental gene expression as follows. We defined \emph{cis} as +/- 250kb from the TSS of the gene. The model as implemented in GEMMA\cite{Zhou2012} where we used sex and age as covariates and corrected for relatedness. 
 
 \begin{equation}
 Y _{M}=W\alpha + X_{M}\beta_{M}+g+\epsilon
@@ -229,12 +225,25 @@ Y _{P}=W\alpha + X_{P}\beta_{P}+g+\epsilon
 \end{equation}
 
 
-\subsection{Modified ASE Test}\label{Modified ASE Test}
-We used a simple $\chi^2$ test on the reciprocal heterozygotes on their corresponding maternal and paternal expression using maternal and paternal count data corresponding to haplotype specific expression. 
+\subsection{PO ASE Test}\label{PO ASE Test}
+We used a simple $\chi^2$ test on the reciprocal heterozygotes on their corresponding allelic expression using maternal and paternal count data corresponding to haplotype specific expression. Layout of the matrix for the test is in Table \ref{tab:chi}.
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{@{}p{3cm}|p{5cm}p{5cm}@{}}
+ \toprule  Genotype & A allele (ref) expression & G allele (alt) expression \\ \midrule
+ $A_{M}G_{P}$ & 148  (maternal expression) & 478 (paternal expression) \\
+ $G_{M}A_{P}$ & 513 (paternal expression) & 101 (maternal expression) \\
+ \bottomrule
+\end{tabular}
+\caption[Setup for PO-ASE test.]{\textbf{Setup for PO-ASE test.} For reciprocal genotypes we use the maternal and paternal gene expression counts corresponding to opposite alleles. The chi-squared test here will determine if there is an allele and parental effect.}
+\label{tab:chi}
+\end{table}
+
 
 
 \subsection{Not Asymmetrically Expressed Genes}\label{Not Asymmetrically Expressed Genes}
-We used a binomial test to determine genes that had more maternal expression than paternal expression. We summed paternal and maternal gene expression across all individuals for a gene and used the sum of maternal and paternal gene expression in a binomial test to determine if the ratio of maternal to the sum of maternal and paternal expression is only 1/2. We kept genes not significant (Bonferonni, p \textgreater 3.5e-06) for the Modified ASE Test. 
+We used a binomial test to determine which genes had more maternal expression than paternal expression. We summed paternal and maternal gene expression across all individuals for a gene and used the sum of maternal and paternal gene expression in a binomial test to determine if the ratio of maternal to the sum of maternal and paternal expression is only 1/2. We kept genes not significant (Bonferroni, p \textgreater 3.5e-06) for the Modified ASE Test. 
 
 
 
