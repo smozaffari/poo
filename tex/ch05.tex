@@ -22,14 +22,20 @@ It is important to further investigate these regions. One of the regions with a 
 This is the largest pedigree based genome-wide scan for imprinted regions to date with 306 Hutterite individuals. We also provide a new way of mapping reads to parent of origin haplotypes and identify two new possible imprinted genes.
 
  \subsection{Future Directions}
-It is still necessary to further validate \emph{PXDC1} and \emph{PWAR6} as imprinted genes in a different population. Further characterization of this locus is still required. It is surprising they have not yet been discovered as imprinted genes since they are in known and pretty well characterized imprinted regions. It is possible they are tissue and developmentally specific as has been shown for other imprinted genes\cite{Baran:2015cx}. 
+It is still necessary to further validate \emph{PXDC1} and \emph{PWAR6} as imprinted genes in a different population. Further characterization of this locus is still required. We identified these genes as imprinted but had overall very few parentally mapped reads. This would need to be replicated with many more parentally mapped reads. It is surprising they have not yet been discovered as imprinted genes since they are in known and pretty well characterized imprinted regions. It is possible they are tissue and developmentally specific as has been shown for other imprinted genes\cite{Baran:2015cx}. 
 
 \section{Can parentally inherited genetic variation influence gene expression on the same haplotype?}
 
 In Chapter \ref{ch:poeqtl}, I explored if parentally inherited genetic variation can affect gene expression as well as haplotype specific gene expression. Using the method of Chapter \ref{ch:pogwas} to detect opposite effect association, we did not identify any SNPs that had opposite effects on total gene expression depending on which parent the allele as inherited from. To get at the same effect in a different way, we performed a maternal eQTL (mat-eQTL) with maternal alleles on maternal expression as well as a paternal eQTL (pat-eQTL) with paternal alleles on paternal expression. Across all the SNP gene pairs run on both we did not identify any effects that were opposite in direction. 
 
+To determine if any alleles had a specific effect on gene expression when inherited from one parent or the other, we used a parent of origin allele specific expression (PO-ASE) test and identified alleles that when inherited from one parent, and not the other, had a different effect on gene expression on that haplotype. 
+
 
  \subsection{Future Directions}
+ 
+ While our model has picked up genes that look like they have a PO allele specific effect, there is still a lot to improve on. We use gene expression counts but our model is not modeling overdispersion which needs to be accounted for when looking at gene expression. We are looking or PO-ASE effects with very few parentally mapped reads. For standard eQTL studies we require at least 10 million reads, whereas, here, we have on average 1.8\% of 10 million reads mapped to a parental haplotype resulting on average in about 1.8 million reads to use for an eQTL study. Our study is likely underpowered to identify SNPs that have opposite effects on gene expression depending on which parent it was inherited from. More reads are required to perform this eQTL study and find parent specific effects. 
+ 
+ Even with these parent of origin eQTLs identified in the latter part of Chapter \ref{ch:poeqtl}, it is not clear what known biological mechanism could lead to such an effect. It is possible that the parentally inherited allele different from the rest could disrupt normal expression by inducing silencing of the gene in a chromosome specific manner. It is also possible that the opposite allele - from the same parent - results in abnormal expression of the allele making it a parent of origin effect. 
 
 \section{Concluding remarks}
 
