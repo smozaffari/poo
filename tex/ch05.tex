@@ -6,9 +6,9 @@ As we look past the "low hanging fruit" of GWAS, we turn to other biological mec
 
 \section{A novel method to detect opposite effects of parentally inherited variants on cardiovascular disease and asthma associated traits}
  
- In Chapter \ref{ch:pogwas}, I describe our study to detect genetic variation than can impact cardiovascular disease and asthma associated traits when inherited from one parent and not the other. In order to maximize on our data, we develop a novel method in this chapter that can be used to detect if parentally inherited alleles can have opposite effects on quantitative traits depending on which parent they were inherited from. These associations would be missed in traditional GWAS. Previous studies have explored parent of origin effects but mostly using trios\cite{Garg2012a,Ainsworth:2010bp,Howey:2012hj} and on case control status\cite{Kong:2009kk,Ainsworth:2010bp}. Only a few have begun to search for parent of origin effects on quantitative traits\cite{Benonisdottir:2016dz,Zoledziewska:2015do}.
+ In Chapter \ref{ch:pogwas}, I describe our study to detect genetic variation than can impact cardiovascular disease and asthma associated traits when inherited from one parent and not the other. In order to maximize on our data, we develop a novel method in this chapter that can be used to detect if parentally inherited alleles can have opposite effects on quantitative traits depending on which parent they were inherited from. These associations would be missed in traditional GWAS. Previous studies have explored parent of origin effects but mostly using trios\cite{Garg2012a,Ainsworth:2010bp,Howey:2012hj} and on case control status\cite{Kong:2009kk,Ainsworth:2010bp}. Only a few have begun to search for parent of origin effects on quantitative traits, starting with height\cite{Benonisdottir:2016dz,Zoledziewska:2015do}.
  
- We identify parent of origin effects (POEs) on 11 phenotypes in the Hutterites, most of which are risk factors for cardiovascular disease. Most of the loci we identified have features of imprinted regions and many of the variants are associated with expression of nearby genes. Overall, we show that POEs which can be opposite in direction, are relatively common in humans and have potentially important clinical effects. 
+Using this novel method, we identify parent of origin effects (POEs) on 11 phenotypes in the Hutterites, most of which are risk factors for cardiovascular disease. Most of the loci we identified have features of imprinted regions and many of the variants are associated with expression of nearby genes. Overall, we show that POEs which can be opposite in direction, are relatively common in humans and have potentially important clinical effects. 
  
  \subsection{Future Directions}
 It is necessary to still replicate the results in a different population to verify these effects exist. They did not replicate in the Sardinia population. Additionally a power analysis should be done to confirm our method would pick up genetic variants of the effect size and minor allele frequency that we identified.
@@ -17,16 +17,16 @@ It is important to further investigate these regions. One of the regions with a 
  
 \section{Identifying two novel imprinted genes in known imprinted regions using parent of origin gene expression}
 
- In Chapter \ref{ch:imprinted}, I identified two new imprinted genes using parent of origin and allele specific expression. Using a novel method as a variation on WASP\cite{vandeGeijn:2015hi}, I mapped RNA-seq reads to parental haplotypes using SNPs in the reads and parent of origin information of SNPs. We identified known and novel imprinted genes among our genes with asymmetrical parent of origin gene expression. We validated the patterns of gene expression using RNA-seq from peripheral blood leukocytes (PBLs). To validate the imprinted genes further, we used DNA methylation levels in the PBLs to confirm imprinting control regions (ICRs) previously defined\cite{Joshi:2016bb,Court:2014kc}.
+ In Chapter \ref{ch:imprinted}, I identified two new imprinted genes using parent of origin and allele specific expression. Using a novel method as a variation on WASP\cite{vandeGeijn:2015hi}, I mapped RNA-seq reads to parental haplotypes using SNPs in the reads and parent of origin information of SNPs. We identified known imprinted genes and two novel imprinted genes, \emph{PXDC1} and \emph{PWAR6}, among our genes with asymmetrical parent of origin gene expression. We validated the patterns of gene expression using RNA-seq from peripheral blood leukocytes (PBLs). To validate the imprinted genes further, we used DNA methylation levels in the PBLs to confirm imprinting control regions (ICRs) previously defined\cite{Joshi:2016bb,Court:2014kc}. Our two new imprinted genes lie in known imprinted regions with known ICRs providing more evidence for their imprinting status.
  
-This is the largest pedigree based genome-wide scan for imprinted regions with 306 Hutterite individuals. 
+This is the largest pedigree based genome-wide scan for imprinted regions to date with 306 Hutterite individuals. We also provide a new way of mapping reads to parent of origin haplotypes and identify two new possible imprinted genes.
 
  \subsection{Future Directions}
+It is still necessary to further validate \emph{PXDC1} and \emph{PWAR6} as imprinted genes in a different population. Further characterization of this locus is still required. It is surprising they have not yet been discovered as imprinted genes since they are in known and pretty well characterized imprinted regions. It is possible they are tissue and developmentally specific as has been shown for other imprinted genes\cite{Baran:2015cx}. 
 
+\section{Can parentally inherited genetic variation influence gene expression on the same haplotype?}
 
-
-
-\section{Identifying two novel imprinted genes in known imprinted regions using parent of origin gene expression}
+In Chapter \ref{ch:poeqtl}, I explored if parentally inherited genetic variation can affect gene expression as well as haplotype specific gene expression. Using the method of Chapter \ref{ch:pogwas} to detect opposite effect association, we did not identify any SNPs that had opposite effects on total gene expression depending on which parent the allele as inherited from. To get at the same effect in a different way, we performed a maternal eQTL (mat-eQTL) with maternal alleles on maternal expression as well as a paternal eQTL (pat-eQTL) with paternal alleles on paternal expression. Across all the SNP gene pairs run on both we did not identify any effects that were opposite in direction. 
 
 
  \subsection{Future Directions}
