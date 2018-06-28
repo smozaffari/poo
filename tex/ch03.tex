@@ -20,12 +20,79 @@ Here, we perform a parent of origin ASE study in a large pedigree to characteriz
 \subsection{Mapping Transcripts to Parental Haplotypes}\label{Mapping Transcripts to Parental Haplotypes}
 For each of 306 individuals, the total number of transcripts at each gene was assigned as maternally inherited, paternally inherited, or unknown parent of origin. The last group included transcripts without heterozygote SNPs or SNPs without parent of origin information. Transcripts were assigned to the parentally inherited categories using SNPs in the reads and matching alleles to either the known maternally or paternally inherited alleles. All the genes analyzed had some transcripts of unknown origin (average 97.8\%, range 8.3-100\%). For each gene we assigned parental origin to an average of 1.8\% of transcripts (range: 0-34.7\%), and for each individual we assigned parental origin to an average of 1.4\% of transcripts (range: 0-1.7\%). On average, about 40 SNPs per gene were used to assign the transcripts of a gene to parent (range 1-1839 SNPs). 
 
+
+
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{10cm}p{2cm}p{4cm}p{2cm}@{}}
+\toprule & Mean & Standard Deviation & Range \\ \midrule
+ Proportion of transcripts from each gene assigned to transcripts of unknown origin & 0.978 & 0.031 & (0.083, 1) \\
+ Proportion of transcripts from each gene assigned to parental origin & 0.018 & 0.019 & (0, 0.347) \\
+ Proportion of transcripts for each individual assigned to parental origin & 0.014 & 0.0015 & (0, 0.017) \\ \bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Summary Statistics for Parental Origin of Transcripts.]{\textbf{Summary Statistics for Parental Origin of Transcripts.}}
+\label{tab:summarystats}
+\end{table}
+
+
+
+
 After quality control (see Methods), transcripts in 15,889 genes were detected as expressed in 306 individuals. Some transcripts for 14,791 of those genes could be assigned to a parent. Of these, 75 genes were only expressed on the paternally-inherited allele in at least one individual and not on the maternally inherited allele in any individuals. Similarly, 64 genes were only expressed on the maternally-inherited allele in at least one individual and not on the paternally inherited allele in any individuals (S1 Table).
 
 \subsection{Imprinted Genes in Lymphoblastoid Cell Lines (LCLs)}\label{Imprinted Genes in Lymphoblastoid Cell Lines (LCLs)}
 Among the 139 genes with only paternally inherited expression or only maternally inherited expression, there are three known imprinted genes (\emph{CDKN1C}, \emph{NDN}, \emph{SNRPN}) and one predicted to be imprinted (\emph{IFITM1}) \cite{Luedi:2007ib}. \emph{CDKN1C} showed patterns opposite of what has been reported\cite{Hatada:1995jf,Matsuoka:1996uq}, which could be due to the small sample (only three individuals showed expression from one parent) or to the different cell types used here (LCLs) and in previous studies (developing brain and embryonal tumors for CDKN1C).
 
-We expect some imprinted genes to have ``leaky" expression, such that there is some expression from the parental chromosome that is mostly silenced. To detect these genes, we used a binomial test to find patterns of gene expression asymmetry by parental transcript levels.  This analysis identified 28 genes with an FDR \textless5\% (Table 2). The 11 genes that showed the most asymmetry are known imprinted genes: \emph{ZDBF2}, \emph{PEG10}, \emph{SNHG14}, \emph{NHP2L1}, \emph{L3MBTL1}, \emph{ZNF331}, \emph{LPAR6}, \emph{FAM50B}, \emph{KCNQ1}, \emph{NAP1L5}, and \emph{IGF1R}. Parent of origin expression for \emph{ZDBF2} and \emph{KCNQ1} are shown in Fig 1A and 1B, respectively. We identified two additional genes that showed asymmetry in parental expression from mostly one parent (\emph{PXDC1}, \emph{PWAR6}), which we consider potentially new imprinted genes. The remaining fourteen genes showed significant patterns of asymmetry but had expression from both maternal and paternal transcript levels. These genes are likely not imprinted but could have asymmetry in expression due to an expression quantitative trait loci (eQTL). 
+We expect some imprinted genes to have ``leaky" expression, such that there is some expression from the parental chromosome that is mostly silenced. To detect these genes, we used a binomial test to find patterns of gene expression asymmetry by parental transcript levels.  This analysis identified 28 genes with an FDR \textless5\% (Table \ref{tab:imprintedgenes}). The 11 genes that showed the most asymmetry are known imprinted genes: \emph{ZDBF2}, \emph{PEG10}, \emph{SNHG14}, \emph{NHP2L1}, \emph{L3MBTL1}, \emph{ZNF331}, \emph{LPAR6}, \emph{FAM50B}, \emph{KCNQ1}, \emph{NAP1L5}, and \emph{IGF1R}. Parent of origin expression for \emph{ZDBF2} and \emph{KCNQ1} are shown in Fig \ref{fig:matpatexpression}A and \ref{fig:matpatexpression}B, respectively. We identified two additional genes that showed asymmetry in parental expression from mostly one parent (\emph{PXDC1}, \emph{PWAR6}), which we consider potentially new imprinted genes. The remaining fourteen genes showed significant patterns of asymmetry but had expression from both maternal and paternal transcript levels. These genes are likely not imprinted but could have asymmetry in expression due to an expression quantitative trait loci (eQTL). 
+
+
+
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{3cm}|p{2cm}p{5cm}p{5cm}p{6cm}@{}}
+\toprule Gene & p-value & Number of individuals with more maternal expression than paternal expression & Number of individuals with more paternal expression than maternal expression & References \\ \midrule
+ \multicolumn{5}{c}{A. Known Imprinted}  \\ \hline
+ \emph{ZDBF2} & 1.59e-41 & 2 & 148 & geneimprint.com, Baran et al\citep{Baran:2015cx}, and Babak et al.\citep{Babak2015} \\
+ \emph{PEG10} & 5.51e-38 & 2 & 136 & geneimprint.com, Baran et al\citep{Baran:2015cx}, and Babak et al.\citep{Babak2015} \\
+ \emph{SNHG14} & 1.64e-36 & 2 & 131 & Baran et al\citep{Baran:2015cx} \\
+ \emph{NHP2L1} & 1.24e-33 & 23 & 189 & Babak et al.\citep{Babak2015}  and Docherty et al. \citep{Docherty:2014cx} \\
+ \emph{L3MBTL1} & 6.72e-31 & 2 & 107 & geneimprint.com, and Li et al. \citep{Li:2004km}\\
+ \emph{ZNF331} & 4.05e-25 & 36 & 184 & Daelemans et al.\citep{Daelemans:2010kc} and Baran et al\citep{Baran:2015cx} \\
+ \emph{LPAR6} & 2.65e-23 & 9 & 76 & Baran et al\citep{Baran:2015cx}\\
+ \emph{FAM50B} & 5.29e-23 & 0 & 75 & geneimprint.com, Baran et al\citep{Baran:2015cx}\\
+ \emph{KCNQ1} & 1.34e-22 & 79 & 1 & geneimprint.com, Baran et al\citep{Baran:2015cx} \\
+ \emph{NAP1L5} & 3.76e-09 & 0 & 29 & geneimprint.com \\
+ \emph{IGF1R} & 1.11e-05 & 14 & 49 & geneimprint.com, Sun et al. \citep{Sun:2014eq}, Kang et al. \citep{Kang:2015ko}, Boucher et al. \citep{Boucher:2014gk}, and Al Adhami et al.\citep{AlAdhami:2015dx}\\
+ \multicolumn{5}{c}{B. Conflicting Evidence for Imprinting Status in the Literature}  \\ \hline
+\emph{PRIM2} & 5.53e-05 & 30 & 71 & geneimprint.com, Santoni et al. \citep{Santoni:2017hu}\\
+\multicolumn{5}{c}{C. New Imprinted Genes}  \\ \hline
+ \emph{PXDC1} & 9.83e-14 & 12 & 81 & - \\
+ \emph{PWAR6} & 2.27e-13 & 0 & 43 & - \\
+ \multicolumn{5}{c}{D. Genes with Asymmetrical Parent of Origin Expression}  \\ \hline
+ \emph{SNHG17} & 6.2e-08 & 113 & 45 & - \\
+ \emph{ZNF813} & 8.7e07 & 63 & 132 & - \\
+ \emph{DAAM1} & 1.78e-05 & 66 & 126 & -\\
+ \emph{RP11-379H18.1} & 2.09e-05 & 52 & 106 & - \\
+ \emph{HMGN1P38} & 2.09e-05 & 52 & 106 & - \\
+ \emph{MTX2} & 3.05-05 & 0 & 16 & - \\
+\emph{ZNF714} & 4.61e-05 & 35 & 79 & - \\
+\emph{MAF1} & 4.45e-05 & 17 & 51 & - \\
+\emph{IL16} & 5.71e-05 & 61 & 115 & - \\
+\emph{CPNE1} & 5.56e-05 & 111 & 58 & - \\
+\emph{ATP6V0D1} & 7.03e-05 & 32 & 7  & - \\
+\emph{FAHD1} & 9.34e-05 & 68 & 29 & - \\
+\emph{CNN2} & 1.18e-04 & 127 & 72 & -\\
+\emph{HSP90AB3P} & 1.16e-04 & 7 & 31 & - \\ \bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Results for Genes with Parent of Origin Expression Asymmetry. ]{\textbf{Results for Genes with Parent of Origin Expression Asymmetry. }
+Genes listed by category of imprinting status: (A) Known Imprinted, (B) Conflicting Evidence for Imprinted Status, (C) New Imprinted Genes, (D) Genes with Asymmetrical Parent of Origin Expression. Genes are ordered by significance within each category.}
+\label{tab:imprintedgenes}
+\end{table}
+
+
 
 
 \begin{figure}[!htb]
@@ -40,7 +107,7 @@ Two genes showed gene expression signatures consistent with imprinting but have 
 The remaining fourteen genes show significant asymmetry using the binomial test but do not have expression from mostly one parental chromosome. One of these genes, \emph{SNHG17}, is a noncoding RNA. Another gene with parent of origin asymmetry,  \emph{ZNF813}, is next to a known imprinted gene, \emph{ZNF331}. The remaining genes with asymmetrical parent origin expression have expression from both parental chromosomes, unlike imprinted genes. These genes include  \emph{DAAM1},  which is involved in cytoskeleton, specifically filopodia formation \citep{Hoffmann:2014ki, Luo:2016db}, and has a suggested role for cytoskeleton organization during Mammalian testis morphogenesis and gamete progression \citep{Pariante:2016kn};  \emph{RP11-379H18.1}, a noncoding RNA gene;  \emph{HMGN1P38} \citep{StrichmanAlmashanu:2003cw}; MTX2, a nuclear gene that interacts with mitochondrial membrane protein metaxin 1 and is involved in mitochondrial protein import and metabolism of proteins in mice;   \emph{MAF1} a negative regulator of RNA polymerase 2;  \emph{ZNF714},  \emph{CPNE1},  \emph{IL16},  \emph{ATP6V0D1},  \emph{FAHD1},  \emph{HSP90AB3P}, and  \emph{CNN2} are the remaining genes that show parent of origin asymmetry but not with a pattern consistent with imprinting (S1 Figure).
 
 \subsection{Validation of Imprinted Genes in PBLs}\label{Validation of Imprinted Genes in PBLs}
-Using the same methods described above, we assigned parent of origin to transcripts in PBLs from 99 Hutterite individuals not included in the LCL studies. Maternal and paternal expression in PBLs for all 28 genes identified in LCLs showed similar trends of asymmetry as in LCLs (Figure 2). 
+Using the same methods described above, we assigned parent of origin to transcripts in PBLs from 99 Hutterite individuals not included in the LCL studies. Maternal and paternal expression in PBLs for all 28 genes identified in LCLs showed similar trends of asymmetry as in LCLs (Figure \ref{fig:matpatPBLs}). 
 
 
 \begin{figure}[!htb]
@@ -53,7 +120,7 @@ Using the same methods described above, we assigned parent of origin to transcri
 \subsection{Methylation at Imprinting Control Regions}\label{Methylation at Imprinting Control Regions}
 One of the mechanisms underlying parent of origin effects on expression at imprinted loci is differential methylation at cis-acting imprinting control regions (ICRs). DNA methylation from the Illumina HumanMethylation 450K array was available in PBLs from the same individuals included in the validation studies described above. To determine the expected patterns of methylation at known imprinted loci, we first looked at previously characterized methylated regions at known imprinted regions from Court et al. and Joshi et al. \cite{Court:2014kc,Joshi:2016bb}.
 
-The methylation patterns at the two potentially novel imprinted genes identified in this study, \emph{PXDC1} and \emph{PWAR6}, lie in or near known imprinted regions that contain previously characterized ICRs. These previously characterized ICRs show about 50\% methylation (beta value of between 0.25 and 0.75) in our DNA methylation data, which likely reflect methylation at only one parental chromosome in all the cells in the sample. Methylation patterns in PBLs at these two ICRs fall within this hemi-methylation range, further suggesting that these two genes are indeed imprinted (Fig 3).
+The methylation patterns at the two potentially novel imprinted genes identified in this study, \emph{PXDC1} and \emph{PWAR6}, lie in or near known imprinted regions that contain previously characterized ICRs. These previously characterized ICRs show about 50\% methylation (beta value of between 0.25 and 0.75) in our DNA methylation data, which likely reflect methylation at only one parental chromosome in all the cells in the sample. Methylation patterns in PBLs at these two ICRs fall within this hemi-methylation range, further suggesting that these two genes are indeed imprinted (Fig \ref{fig:methylation}).
 
 
 \begin{figure}[!htb]
@@ -72,7 +139,7 @@ In addition to validating gene expression, we characterized methylation patterns
 
 Although our study is the largest pedigree-based study to date to search genome-wide for imprinted genes, it has limitations. First, we are able to determine the parent of origin for many transcripts in the Hutterites but we could not assign every RNA sequencing read to a parent due to lack of heterozygous sites or missing parent of origin information for alleles. Second, we conducted these studies in lymphoblastoid cell lines, and therefore could only study genes imprinted in this cell type and would miss the many imprinted genes that are tissue-specific and/or developmentally regulated. Third, while we can verify previously characterized ICRs, our study is not designed to identify novel ICRs because DNA methylation values from an array cannot be assigned to parental haplotype. Lastly, although we characterized the gene expression and methylation patterns for two potentially novel imprinted genes, replication of these genes in a different population and in different tissues, and functional characterization of these genes are required to confirm their status as imprinted genes. Similarly, some of the other genes with parent of origin asymmetry in the blood cells examined in this study may show more clear-cut evidence for imprinting in other tissues or at specific periods of development.  
 
-In summary, we have identified novel imprinted genes using gene expression from a founder population. The genes with asymmetrical parental expression had similar patterns of asymmetry in a different source of blood cells and in different individuals, and we were able to replicate the methylation patterns in known ICRs near the known and novel imprinted genes in this study. Our method and study population allowed us to map reads to parental haplotypes and uncovered \emph{PWAR6} and \emph{PXDC1} as novel imprinted genes that could potentially impact disease risk and development.
+In summary, we have identified two new imprinted genes using gene expression from a founder population. The genes with asymmetrical parental expression had similar patterns of asymmetry in a different source of blood cells and in different individuals, and we were able to replicate the methylation patterns in known ICRs near the known and novel imprinted genes in this study. Our method and study population allowed us to map reads to parental haplotypes and uncovered \emph{PWAR6} and \emph{PXDC1} as new imprinted genes that could potentially impact disease risk and development.
 
 \section{Methods}\label{ch03-methods}
 
