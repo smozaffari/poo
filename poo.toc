@@ -1,9 +1,70 @@
-\contentsline {chapter}{List of Figures}{iv}
-\contentsline {chapter}{List of Tables}{v}
-\contentsline {chapter}{Acknowledgments}{vi}
-\contentsline {chapter}{Abstract}{vii}
-\contentsline {chapter}{\numberline {1}Parent of Origin Effects on Quantitative Phenotypes in a Founder Population}{1}
-\contentsline {section}{\numberline {1.1}Abstract}{1}
-\contentsline {section}{\numberline {1.2}Introduction}{1}
-\contentsline {section}{\numberline {1.3}Results}{2}
-\contentsline {chapter}{References}{3}
+\contentsline {chapter}{List of Figures}{vi}{chapter*.3}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.4}
+\contentsline {chapter}{Acknowledgments}{ix}{chapter*.6}
+\contentsline {chapter}{Abstract}{x}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Human Genetics and the Genetics of Complex Traits}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}On The Origin of Genomic Imprinting }{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}The Search for Parent of Origin Effects}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Dissertation Overview}{7}{subsection.1.3.1}
+\contentsline {chapter}{\numberline {2}Parent of Origin Effects on Quantitative Phenotypes in a Founder Population}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Abstract}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Introduction}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Results}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}GWAS}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Parent of Origin GWAS}{12}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Maternal and Paternal GWAS}{12}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}GWAS for Differential Parent of Origin Effects}{15}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Parent of Origin Effects on Gene Expression}{19}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Discussion}{21}{section.2.4}
+\contentsline {section}{\numberline {2.5}Methods}{24}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Sample Composition}{24}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Genotype Data}{24}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Phenotype Data}{25}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}GWAS}{25}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}Maternal and Paternal GWAS}{25}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.6}Differential Effect GWAS (PO-GWAS)}{26}{subsection.2.5.6}
+\contentsline {subsection}{\numberline {2.5.7}Parent of Origin eQTL studies}{27}{subsection.2.5.7}
+\contentsline {subsection}{\numberline {2.5.8}Maternal and Paternal Parent of Origin eQTL}{28}{subsection.2.5.8}
+\contentsline {subsection}{\numberline {2.5.9}Differential Parent of Origin eQTL}{28}{subsection.2.5.9}
+\contentsline {section}{\numberline {2.6}Supplementary Information}{29}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Supplementary Figures}{29}{subsection.2.6.1}
+\contentsline {chapter}{\numberline {3}Parent of origin gene expression in a founder population identifies two novel imprinted genes at known imprinted regions.}{47}{chapter.3}
+\contentsline {section}{\numberline {3.1}Abstract}{47}{section.3.1}
+\contentsline {section}{\numberline {3.2}Introduction}{47}{section.3.2}
+\contentsline {section}{\numberline {3.3}Results}{49}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Mapping Transcripts to Parental Haplotypes}{49}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Imprinted Genes in Lymphoblastoid Cell Lines (LCLs)}{50}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Validation of Imprinted Genes in PBLs}{53}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Methylation at Imprinting Control Regions}{54}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Discussion}{55}{section.3.4}
+\contentsline {section}{\numberline {3.5}Methods}{58}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Genotypes}{58}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}RNA-seq in Lymphoblastoid Cell Lines (LCLs).}{58}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}RNA-seq in Peripheral Blood Leukocytes (PBLs) }{59}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Identifying Imprinted Genes}{59}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}DNA methylation profiling and processing in PBLs}{59}{subsection.3.5.5}
+\contentsline {chapter}{\numberline {4}Parent of Origin Effects on Gene Expression }{63}{chapter.4}
+\contentsline {section}{\numberline {4.1}Abstract}{63}{section.4.1}
+\contentsline {section}{\numberline {4.2}Introduction}{63}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{64}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Opposite Parent of Origin eQTL (oeQTL) }{65}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Single Parent eQTL (mat-eQTL, pat-eQTL)}{67}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Parent of Origin (PO) - ASE Test}{69}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Modified ASE Test on Symmetrically Expressed Genes}{73}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Discussion}{77}{section.4.4}
+\contentsline {section}{\numberline {4.5}Methods}{79}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Genotypes and Sample Information}{79}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}RNA-seq QC}{79}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Parent of Origin Expression QC}{79}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Informative Genes}{80}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Opposite Parent of Origin eQTL}{82}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Single Parent eQTL}{82}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.7}PO ASE Test}{82}{subsection.4.5.7}
+\contentsline {subsection}{\numberline {4.5.8}Not Asymmetrically Expressed Genes}{83}{subsection.4.5.8}
+\contentsline {chapter}{\numberline {5}Conclusion}{84}{chapter.5}
+\contentsline {section}{\numberline {5.1}A novel method to detect opposite effects of parentally inherited variants on cardiovascular disease and asthma associated traits}{84}{section.5.1}
+\contentsline {section}{\numberline {5.2}Identifying two novel imprinted genes in known imprinted regions using parent of origin gene expression}{85}{section.5.2}
+\contentsline {section}{\numberline {5.3}Can genetic variation by parent of origin influence gene expression on the same haplotype?}{86}{section.5.3}
+\contentsline {section}{\numberline {5.4}Concluding remarks}{88}{section.5.4}
+\contentsline {chapter}{References}{89}{section.5.4}

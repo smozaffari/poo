@@ -1,9 +1,977 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{100}
+
+\bibitem{Abney2001}
+Mark Abney, Mary~Sara McPeek, and Carole Ober.
+\newblock {Broad and Narrow Heritabilities of Quantitative Traits in a Founder
+  Population}.
+\newblock {\em The American Journal of Human Genetics}, 68(5):1302--1307, May
+  2001.
+
+\bibitem{Abramowitz2012}
+Lara~K Abramowitz and Marisa~S Bartolomei.
+\newblock {Genomic imprinting: recognition and marking of imprinted loci}.
+\newblock {\em Current opinion in genetics {\&} development}, 22(2):72--78,
+  April 2012.
+
+\bibitem{Abreu:2013je}
+Ana~Paula Abreu, Andrew Dauber, Delanie~B Macedo, Sekoni~D Noel, Vinicius~N
+  Brito, John~C Gill, Priscilla Cukier, Iain~R Thompson, Victor~M Navarro,
+  Priscila~C Gagliardi, T{\^a}nia Rodrigues, Cristiane Kochi, Carlos~Alberto
+  Longui, Dominique Beckers, Francis de~Zegher, Luciana~R Montenegro,
+  Berenice~B Mendonca, Rona~S Carroll, Joel~N Hirschhorn, Ana~Claudia
+  Latronico, and Ursula~B Kaiser.
+\newblock {Central precocious puberty caused by mutations in the imprinted gene
+  MKRN3.}
+\newblock {\em New England Journal of Medicine}, 368(26):2467--2475, June 2013.
+
+\bibitem{Ainsworth:2010bp}
+Holly~F Ainsworth, Jennifer Unwin, Deborah~L Jamison, and Heather~J Cordell.
+\newblock {Investigation of maternal effects, maternal-fetal interactions and
+  parent-of-origin effects (imprinting), using mothers and their offspring}.
+\newblock {\em Genetic Epidemiology}, 35(1):19--45, December 2010.
+
+\bibitem{AlAdhami:2015dx}
+Hala Al~Adhami, Brendan Evano, Anne Le~Digarcher, Charlotte Gueydan, Emeric
+  Dubois, Hugues Parrinello, Christelle Dantec, Tristan Bouschet, Annie
+  Varrault, and Laurent Journot.
+\newblock {A systems-level approach to parental genomic imprinting: the
+  imprinted gene network includes extracellular matrix genes and regulates cell
+  cycle exit and differentiation.}
+\newblock {\em Genome Research}, 25(3):353--367, March 2015.
+
+\bibitem{Anders:2015gf}
+S~Anders, P~T Pyl, and W~Huber.
+\newblock {HTSeq--a Python framework to work with high-throughput sequencing
+  data}.
+\newblock {\em Bioinformatics}, 31(2):166--169, January 2015.
+
+\bibitem{Aryee:2014by}
+Martin~J Aryee, Andrew~E Jaffe, Hector Corrada-Bravo, Christine Ladd-Acosta,
+  Andrew~P Feinberg, Kasper~D Hansen, and Rafael~A Irizarry.
+\newblock {Minfi: a flexible and comprehensive Bioconductor package for the
+  analysis of Infinium DNA methylation microarrays.}
+\newblock {\em Bioinformatics}, 30(10):1363--1369, May 2014.
+
+\bibitem{Babak2012}
+Tomas Babak.
+\newblock {Identification of imprinted loci by transcriptome sequencing.}
+\newblock {\em Methods in molecular biology (Clifton, N.J.)}, 925:79--88, 2012.
+
+\bibitem{Babak2008}
+Tomas Babak, Brian DeVeale, Christopher Armour, Christopher Raymond, Michele~A
+  Cleary, Derek van~der Kooy, Jason~M Johnson, and Lee~P Lim.
+\newblock {Global Survey of Genomic Imprinting by Transcriptome Sequencing}.
+\newblock {\em Current Biology}, 18(22):1735--1741, November 2008.
+
+\bibitem{Babak2015}
+Tomas Babak, Brian DeVeale, Emily~K Tsang, Yiqi Zhou, Xin Li, Kevin~S Smith,
+  Kim~R Kukurba, Rui Zhang, Jin~Billy Li, Derek van~der Kooy, Stephen~B
+  Montgomery, and Hunter~B Fraser.
+\newblock {Genetic conflict reflected in tissue-specific maps of genomic
+  imprinting in human and mouse.}
+\newblock {\em Nature genetics}, 47(5):544--549, May 2015.
+
+\bibitem{Banovich:2014bn}
+Nicholas~E Banovich, Xun Lan, Graham McVicker, Bryce van~de Geijn, Jacob~F
+  Degner, John~D Blischak, Julien Roux, Jonathan~K Pritchard, and Yoav Gilad.
+\newblock {Methylation QTLs are associated with coordinated changes in
+  transcription factor binding, histone modifications, and gene expression
+  levels.}
+\newblock {\em PLoS genetics}, 10(9):e1004663, September 2014.
+
+\bibitem{Baran:2015cx}
+Yael Baran, Meena Subramaniam, Anne Biton, Taru Tukiainen, Emily~K Tsang,
+  Manuel~A Rivas, Matti Pirinen, Maria Gutierrez-Arcelus, Kevin~S Smith, Kim~R
+  Kukurba, Rui Zhang, Celeste Eng, Dara~G Torgerson, Cydney Urbanek, {GTEx
+  Consortium}, Jin~Billy Li, Jose~R Rodriguez-Santana, Esteban~G Burchard,
+  Max~A Seibold, Daniel~G MacArthur, Stephen~B Montgomery, Noah~A Zaitlen, and
+  Tuuli Lappalainen.
+\newblock {The landscape of genomic imprinting across diverse adult human
+  tissues.}
+\newblock {\em Genome Research}, 25(7):927--936, July 2015.
+
+\bibitem{Barlow:2014dv}
+D~P Barlow and M~S Bartolomei.
+\newblock {Genomic Imprinting in Mammals}.
+\newblock {\em Cold Spring Harbor Perspectives in Biology},
+  6(2):a018382--a018382, February 2014.
+
+\bibitem{Benonisdottir:2016dz}
+Stefania Benonisdottir, Asmundur Oddsson, Agnar Helgason, Ragnar~P
+  Kristjansson, Gardar Sveinbjornsson, Arna Oskarsdottir, Gudmar Thorleifsson,
+  Olafur~B Davidsson, Gudny~A Arnadottir, Gerald Sulem, Brynjar~O Jensson,
+  Hilma Holm, Kristjan~F Alexandersson, Laufey Tryggvadottir, G~Bragi Walters,
+  Sigurjon~A Gudjonsson, Lucas~D Ward, Jon~K Sigurdsson, Paul~D Iordache,
+  Michael~L Frigge, Thorunn Rafnar, Augustine Kong, Gisli Masson, Hannes
+  Helgason, Unnur Thorsteinsdottir, Daniel~F Gudbjartsson, Patrick Sulem, and
+  Kari Stefansson.
+\newblock {Epigenetic and genetic components of height regulation}.
+\newblock {\em Nature Communications}, 7:13490, November 2016.
+
+\bibitem{Boucher:2014gk}
+Jeremie Boucher, Marika Charalambous, Kim Zarse, Marcelo~A Mori, Andre
+  Kleinridders, Michael Ristow, Anne~C Ferguson-Smith, and C~Ronald Kahn.
+\newblock {Insulin and insulin-like growth factor 1 receptors are required for
+  normal expression of imprinted genes.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 111(40):14512--14517, October 2014.
+
+\bibitem{Brideau:2010gz}
+C~M Brideau, K~E Eilertson, J~A Hagarman, C~D Bustamante, and P~D Soloway.
+\newblock {Successful Computational Prediction of Novel Imprinted Genes from
+  Epigenomic Features}.
+\newblock {\em Molecular and Cellular Biology}, 30(13):3357--3370, June 2010.
+
+\bibitem{Buiting:2010ci}
+Karin Buiting.
+\newblock {Prader-Willi syndrome and Angelman syndrome.}
+\newblock {\em American journal of medical genetics. Part C, Seminars in
+  medical genetics}, 154C(3):365--376, August 2010.
+
+\bibitem{Canoy:2015ha}
+D~Canoy, V~Beral, A~Balkwill, F~L Wright, M~E Kroll, G~K Reeves, J~Green, B~J
+  Cairns, and {for the Million Women Study Collaborators*}.
+\newblock {Age at Menarche and Risks of Coronary Heart and Other Vascular
+  Diseases in a Large UK Cohort}.
+\newblock {\em Circulation}, 131(3):237--244, January 2015.
+
+\bibitem{Cattanach:1985hu}
+B~M Cattanach and M~Kirk.
+\newblock {Differential activity of maternally and paternally derived
+  chromosome regions in mice}.
+\newblock {\em Nature}, 315(6019):496--498, June 1985.
+
+\bibitem{Chandra:1975tb}
+H~S Chandra and S~W Brown.
+\newblock {Chromosome imprinting and the mammalian X chromosome.}
+\newblock {\em Nature}, 253(5488):165--168, January 1975.
+
+\bibitem{Chess:2016fs}
+Andrew Chess.
+\newblock {Monoallelic Gene Expression in Mammals}.
+\newblock {\em Annual Review of Genetics}, 50(1):317--327, November 2016.
+
+\bibitem{Choufani:2010ca}
+Sanaa Choufani, Cheryl Shuman, and Rosanna Weksberg.
+\newblock {Beckwith-Wiedemann syndrome.}
+\newblock {\em American journal of medical genetics. Part C, Seminars in
+  medical genetics}, 154C(3):343--354, August 2010.
+
+\bibitem{Chuang:2017kp}
+Trees-Juen Chuang, Yu-Hsiang Tseng, Chia-Ying Chen, and Yi-Da Wang.
+\newblock {Assessment of imprinting- and genetic variation-dependent
+  monoallelic expression using reciprocal allele descendants between human
+  family trios}.
+\newblock 7(1):1--12, July 2017.
+
+\bibitem{Court:2014kc}
+Franck Court, Chiharu Tayama, Valeria Romanelli, Alex Martin-Trujillo, Isabel
+  Iglesias-Platas, Kohji Okamura, Naoko Sugahara, Carlos Sim{\'o}n, Harry
+  Moore, Julie~V Harness, Hans Keirstead, Jose~Vicente Sanchez-Mut, Eisuke
+  Kaneki, Pablo Lapunzina, Hidenobu Soejima, Norio Wake, Manel Esteller,
+  Tsutomu Ogata, Kenichiro Hata, Kazuhiko Nakabayashi, and David Monk.
+\newblock {Genome-wide parent-of-origin DNA methylation analysis reveals the
+  intricacies of human imprinting and suggests a germline
+  methylation-independent mechanism of establishment.}
+\newblock {\em Genome Research}, 24(4):554--569, April 2014.
+
+\bibitem{Crouse:1960vc}
+H~V Crouse.
+\newblock {The Controlling Element in Sex Chromosome Behavior in Sciara.}
+\newblock {\em Genetics}, 45(10):1429--1443, October 1960.
+
+\bibitem{Cusanovich:2016id}
+Darren~A Cusanovich, Minal Caliskan, Christine Billstrand, Katelyn Michelini,
+  Claudia Chavarria, Sherryl De~Leon, Amy Mitrano, Noah Lewellyn, Jack~A Elias,
+  Geoffrey~L Chupp, Roberto~M Lang, Sanjiv~J Shah, Jeanne~M Decara, Yoav Gilad,
+  and Carole Ober.
+\newblock {Integrated analyses of gene expression and genetic association
+  studies in a founder population.}
+\newblock {\em Human Molecular Genetics}, 25(10):2104--2112, May 2016.
+
+\bibitem{Daelemans:2010kc}
+Caroline Daelemans, Matthew~E Ritchie, Guillaume Smits, Sayeda Abu-Amero, Ian~M
+  Sudbery, Matthew~S Forrest, Susana Campino, Taane~G Clark, Philip Stanier,
+  Dominic Kwiatkowski, Panos Deloukas, Emmanouil~T Dermitzakis, Simon
+  Tavar{\'e}, Gudrun~E Moore, and Ian Dunham.
+\newblock {High-throughput analysis of candidate imprinted genes and
+  allele-specific gene expression in the human term placenta.}
+\newblock {\em BMC genetics}, 11(1):25, April 2010.
+
+\bibitem{Demenais:2018hy}
+Florence Demenais, Patricia Margaritte-Jeannin, Kathleen~C Barnes, William O~C
+  Cookson, Janine Altm{\"u}ller, Wei Ang, R~Graham Barr, Terri~H Beaty, Allan~B
+  Becker, John Beilby, Hans Bisgaard, Unnur~Steina Bjornsdottir, Eugene
+  Bleecker, Klaus B{\o}nnelykke, Dorret~I Boomsma, Emmanuelle Bouzigon,
+  Christopher~E Brightling, Myriam Brossard, Guy~G Brusselle, Esteban Burchard,
+  Kristin~M Burkart, Andrew Bush, Moira Chan-Yeung, Kian~Fan Chung,
+  Alexessander Couto~Alves, John~A Curtin, Adnan Custovic, Denise Daley,
+  Johan~C de~Jongste, Blanca~E Del-Rio-Navarro, Kathleen~M Donohue, Liesbeth
+  Duijts, Celeste Eng, Johan~G Eriksson, Martin Farrall, Yuliya Fedorova,
+  Bjarke Feenstra, Manuel~A Ferreira, {Australian Asthma Genetics Consortium
+  (AAGC) collaborators}, Maxim~B Freidin, Zofia Gajdos, Jim Gauderman, Ulrike
+  Gehring, Frank Geller, Jon Genuneit, Sina~A Gharib, Frank Gilliland, Raquel
+  Granell, Penelope~E Graves, Daniel~F Gudbjartsson, Tari Haahtela, Susan~R
+  Heckbert, Dick Heederik, Joachim Heinrich, Markku Heli{\"o}vaara, John
+  Henderson, Blanca~E Himes, Hiroshi Hirose, Joel~N Hirschhorn, Albert Hofman,
+  Patrick Holt, Jouke Hottenga, Thomas~J Hudson, Jennie Hui, Medea Imboden,
+  Vladimir Ivanov, Vincent W~V Jaddoe, Alan James, Christer Janson,
+  Marjo-Riitta Jarvelin, Deborah Jarvis, Graham Jones, Ingileif Jonsdottir,
+  Pekka Jousilahti, Michael Kabesch, Mika K{\"a}h{\"o}nen, David~B Kantor,
+  Alexandra~S Karunas, Elza Khusnutdinova, Gerard~H Koppelman, Anita~L
+  Kozyrskyj, Eskil Kreiner, Michiaki Kubo, Rajesh Kumar, Ashish Kumar, Mikko
+  Kuokkanen, Lies Lahousse, Tarja Laitinen, Catherine Laprise, Mark Lathrop,
+  Susanne Lau, Young-Ae Lee, Terho Lehtim{\"a}ki, S{\'e}bastien Letort,
+  Albert~M Levin, Guo Li, Liming Liang, Laura~R Loehr, Stephanie~J London,
+  Daan~W Loth, Ani Manichaikul, Ingo Marenholz, Fernando~J Martinez, Melanie~C
+  Matheson, Rasika~A Mathias, Kenji Matsumoto, Hamdi Mbarek, Wendy~L McArdle,
+  Mads Melbye, Erik Mel{\'e}n, Deborah Meyers, Sven Michel, Hamida Mohamdi,
+  Arthur~W Musk, Rachel~A Myers, Maartje A~E Nieuwenhuis, Emiko Noguchi,
+  George~T O{\textquoteright}Connor, Ludmila~M Ogorodova, Cameron~D Palmer,
+  Aarno Palotie, Julie~E Park, Craig~E Pennell, G{\"o}ran Pershagen, Alexey
+  Polonikov, Dirkje~S Postma, Nicole Probst-Hensch, Valery~P Puzyrev,
+  Benjamin~A Raby, Olli~T Raitakari, Adaikalavan Ramasamy, Stephen~S Rich,
+  Colin~F Robertson, Isabelle Romieu, Muhammad~T Salam, Veikko Salomaa, Vivi
+  Schl{\"u}nssen, Robert Scott, Polina~A Selivanova, Torben Sigsgaard, Angela
+  Simpson, Val{\'e}rie Siroux, Lewis~J Smith, Maria Solodilova, Marie Standl,
+  Kari Stefansson, David~P Strachan, Bruno~H Stricker, Atsushi Takahashi,
+  Philip~J Thompson, Gudmar Thorleifsson, Unnur Thorsteinsdottir, Carla M~T
+  Tiesler, Dara~G Torgerson, Tatsuhiko Tsunoda, Andr{\'e}~G Uitterlinden, Ralf
+  J~P van~der Valk, Amaury Vaysse, Sailaja Vedantam, Andrea von Berg, Erika von
+  Mutius, Judith~M Vonk, Johannes Waage, Nick~J Wareham, Scott~T Weiss, Wendy~B
+  White, Magnus Wickman, Elisabeth Wid{\'e}n, Gonneke Willemsen, L~Keoki
+  Williams, Inge~M Wouters, James~J Yang, Jing~Hua Zhao, Miriam~F Moffatt,
+  Carole Ober, and Dan~L Nicolae.
+\newblock {Multiancestry association study identifies new asthma risk loci that
+  colocalize with immune-cell enhancer marks.}
+\newblock {\em Nature genetics}, 50(1):42--53, January 2018.
+
+\bibitem{Dobin:2002by}
+Alexander Dobin and Thomas~R Gingeras.
+\newblock {\em {Mapping RNA-seq Reads with STAR}}, volume~29 of {\em Mapping
+  RNA-seq Reads with STAR}.
+\newblock John Wiley {\&} Sons, Inc., Hoboken, NJ, USA, August 2002.
+
+\bibitem{Docherty:2014cx}
+Louise~E Docherty, Faisal~I Rezwan, Rebecca~L Poole, Hannah Jagoe, Hannah Lake,
+  Gabrielle~A Lockett, Hasan Arshad, David~I Wilson, John~W Holloway, I~Karen
+  Temple, and Deborah J~G Mackay.
+\newblock {Genome-wide DNA methylation analysis of patients with imprinting
+  disorders identifies differentially methylated regions associated with novel
+  candidate imprinted genes.}
+\newblock {\em Journal of medical genetics}, 51(4):229--238, April 2014.
+
+\bibitem{Du:2008ev}
+Pan Du, Warren~A Kibbe, and Simon~M Lin.
+\newblock {lumi: a pipeline for processing Illumina microarray.}
+\newblock {\em Bioinformatics}, 24(13):1547--1548, July 2008.
+
+\bibitem{Eggermann:2010gl}
+Thomas Eggermann.
+\newblock {Russell-Silver syndrome.}
+\newblock {\em American journal of medical genetics. Part C, Seminars in
+  medical genetics}, 154C(3):355--364, August 2010.
+
+\bibitem{Eichler:2010kd}
+Evan~E Eichler, Jonathan Flint, Greg Gibson, Augustine Kong, Suzanne~M Leal,
+  Jason~H Moore, and Joseph~H Nadeau.
+\newblock {Missing heritability and strategies for finding the underlying
+  causes of complex disease.}
+\newblock {\em Nature reviews. Genetics}, 11(6):446--450, June 2010.
+
+\bibitem{Elli:2016et}
+Francesca~Marta Elli, Agnes Linglart, Intza Garin, Luisa de~Sanctis, Paolo
+  Bordogna, Virginie Grybek, Arrate Pereda, Federica Giachero, Elisa Verrua,
+  Patrick Hanna, Giovanna Mantovani, and Guiomar Perez~de Nanclares.
+\newblock {The Prevalence of GNAS Deficiency-Related Diseases in a Large Cohort
+  of Patients Characterized by the EuroPHP Network.}
+\newblock {\em The Journal of clinical endocrinology and metabolism},
+  101(10):3657--3668, October 2016.
+
+\bibitem{Falls1999}
+J~Greg Falls, David~J Pulford, Andrew~A Wylie, and Randy~L Jirtle.
+\newblock {Genomic Imprinting: Implications for Human Disease}.
+\newblock {\em The American Journal of Pathology}, 154(3):635--647, March 1999.
+
+\bibitem{Fountain:2017dd}
+Michael~D Fountain, Emmelien Aten, Megan~T Cho, Jane Juusola, Magdalena~A
+  Walkiewicz, Joseph~W Ray, Fan Xia, Yaping Yang, Brett~H Graham, Carlos~A
+  Bacino, Lorraine Potocki, Arie van Haeringen, Claudia A~L Ruivenkamp, {MD},
+  Pedro Mancias, Hope Northrup, Mary~K Kukolich, Marjan~M Weiss, Conny M~A van
+  Ravenswaaij-Arts, Inge~B Mathijssen, Sebastien Levesque, Naomi Meeks, Jill~A
+  Rosenfeld, Danielle Lemke, Ada Hamosh, Suzanne~K Lewis, Simone Race, Laura~L
+  Stewart, Beverly Hay, Andrea~M Lewis, Rita~L Guerreiro, Jose~T Bras, Marcia~P
+  Martins, Gerarda Derksen-Lubsen, Els Peeters, Connie Stumpel, Sander
+  Stegmann, Levinus~A Bok, Gijs W~E Santen, and Christian~P Schaaf.
+\newblock {The phenotypic spectrum of Schaaf-Yang syndrome: 18 new affected
+  individuals from 14 families.}
+\newblock {\em Genetics in medicine : official journal of the American College
+  of Medical Genetics}, 19(1):45--52, January 2017.
+
+\bibitem{Gabory:2009be}
+A~Gabory, M~A Ripoche, A~Le~Digarcher, F~Watrin, A~Ziyyat, T~Forne, H~Jammes,
+  J~F~X Ainscough, M~A Surani, L~Journot, and L~Dandolo.
+\newblock {H19 acts as a trans regulator of the imprinted gene network
+  controlling growth in mice}.
+\newblock {\em Development}, 136(20):3413--3421, September 2009.
+
+\bibitem{Garg2012a}
+Paras Garg, Christelle Borel, and Andrew~J Sharp.
+\newblock {Detection of Parent-of-Origin Specific Expression Quantitative Trait
+  Loci by Cis-Association Analysis of Gene Expression in Trios}.
+\newblock {\em PLoS ONE}, 7(8):e41695, August 2012.
+
+\bibitem{Gibson:2012kc}
+Greg Gibson.
+\newblock {Rare and common variants: twenty arguments.}
+\newblock {\em Nature reviews. Genetics}, 13(2):135--145, January 2012.
+
+\bibitem{Consortium2015}
+{GTEx Consortium}.
+\newblock {Human genomics. The Genotype-Tissue Expression (GTEx) pilot
+  analysis: multitissue gene regulation in humans.}
+\newblock {\em Science}, 348(6235):648--660, May 2015.
+
+\bibitem{Haig:2000if}
+David Haig.
+\newblock {The Kinship Theory of Genomic Imprinting}.
+\newblock {\em Annual Review of Ecology and Systematics}, 31(1):9--32, November
+  2000.
+
+\bibitem{Hatada:1995jf}
+I~Hatada and T~Mukai.
+\newblock {Genomic imprinting of p57KIP2, a cyclin-dependent kinase inhibitor,
+  in mouse.}
+\newblock {\em Nature genetics}, 11(2):204--206, October 1995.
+
+\bibitem{Hoffmann:2014ki}
+Ann-Kathrin Hoffmann, Xenia Naj, and Stefan Linder.
+\newblock {Daam1 is a regulator of filopodia formation and phagocytic uptake of
+  Borrelia burgdorferi by primary human macrophages.}
+\newblock {\em FASEB journal : official publication of the Federation of
+  American Societies for Experimental Biology}, 28(7):3075--3089, July 2014.
+
+\bibitem{Howey:2012hj}
+Richard Howey and Heather~J Cordell.
+\newblock {PREMIM and EMIM: tools for estimation of maternal, imprinting and
+  interaction effects using multinomial modelling.}
+\newblock {\em BMC Bioinformatics}, 13(1):149, June 2012.
+
+\bibitem{Igartua:2017ir}
+Catherine Igartua, Sahar~V Mozaffari, Dan~L Nicolae, and Carole Ober.
+\newblock {Rare non-coding variants are associated with plasma lipid traits in
+  a founder population.}
+\newblock {\em Scientific reports}, 7(1):16415, November 2017.
+
+\bibitem{Ioannides:2014ka}
+Yiannis Ioannides, Kemi Lokulo-Sodipe, Deborah J~G Mackay, Justin~H Davies, and
+  I~Karen Temple.
+\newblock {Temple syndrome: improving the recognition of an underdiagnosed
+  chromosome 14 imprinting disorder: an analysis of 51 published cases.}
+\newblock {\em Journal of medical genetics}, 51(8):495--501, August 2014.
+
+\bibitem{Johnson:1974uf}
+D~R Johnson.
+\newblock {Hairpin-tail: a case of post-reductional gene action in the mouse
+  egg.}
+\newblock {\em Genetics}, 76(4):795--805, April 1974.
+
+\bibitem{Johnson:2007fp}
+W~Evan Johnson, Cheng Li, and Ariel Rabinovic.
+\newblock {Adjusting batch effects in microarray expression data using
+  empirical Bayes methods.}
+\newblock {\em Biostatistics (Oxford, England)}, 8(1):118--127, January 2007.
+
+\bibitem{Joshi:2016bb}
+Ricky~S Joshi, Paras Garg, Noah Zaitlen, Tuuli Lappalainen, Corey~T Watson,
+  Nidha Azam, Daniel Ho, Xin Li, Stylianos~E Antonarakis, Han~G Brunner, Karin
+  Buiting, Sau~Wai Cheung, Bradford Coffee, Thomas Eggermann, David Francis,
+  Joep~P Geraedts, Giorgio Gimelli, Samuel~G Jacobson, Cedric Le~Caignec,
+  Nicole de~Leeuw, Thomas Liehr, Deborah~J Mackay, Stephen~B Montgomery,
+  Alistair~T Pagnamenta, Peter Papenhausen, David~O Robinson, Claudia
+  Ruivenkamp, Charles Schwartz, Bernhard Steiner, David~A Stevenson, Urvashi
+  Surti, Thomas Wassink, and Andrew~J Sharp.
+\newblock {DNA Methylation Profiling of Uniparental Disomy Subjects Provides a
+  Map of Parental Epigenetic Bias in the Human Genome.}
+\newblock {\em American journal of human genetics}, 99(3):555--566, September
+  2016.
+
+\bibitem{Jun:2012je}
+Goo Jun, Matthew Flickinger, Kurt~N Hetrick, Jane~M Romm, Kimberly~F Doheny,
+  Goncalo~R Abecasis, Michael Boehnke, and Hyun~Min Kang.
+\newblock {Detecting and Estimating Contamination of Human DNA Samples in
+  Sequencing and Array-Based Genotype Data}.
+\newblock {\em The American Journal of Human Genetics}, 91(5):839--848,
+  November 2012.
+
+\bibitem{Kagami:2015gn}
+Masayo Kagami, Kenji Kurosawa, Osamu Miyazaki, Fumitoshi Ishino, Kentaro
+  Matsuoka, and Tsutomu Ogata.
+\newblock {Comprehensive clinical studies in 34 patients with molecularly
+  defined UPD(14)pat and related conditions (Kagami-Ogata syndrome).}
+\newblock {\em European Journal of Human Genetics}, 23(11):1488--1498, November
+  2015.
+
+\bibitem{Kagami:2017gp}
+Masayo Kagami, Keiko Matsubara, Kazuhiko Nakabayashi, Akie Nakamura, Shinichiro
+  Sano, {MD}, Kohji Okamura, {PhD1}, Kenichiro Hata, Maki Fukami, Tsutomu
+  Ogata, and {PhD2}.
+\newblock {Genome-wide multilocus imprinting disturbance analysis in Temple
+  syndrome and Kagami-Ogata syndrome.}
+\newblock {\em Genetics in medicine : official journal of the American College
+  of Medical Genetics}, 19(4):476--482, April 2017.
+
+\bibitem{Kalish:2014gd}
+Jennifer~M Kalish, Connie Jiang, and Marisa~S Bartolomei.
+\newblock {Epigenetics and imprinting in human disease.}
+\newblock {\em The International journal of developmental biology},
+  58(2-4):291--298, 2014.
+
+\bibitem{Kang:2015ko}
+Lihua Kang, Jingnan Sun, Xue Wen, Jiuwei Cui, Guanjun Wang, Andrew~R Hoffman,
+  Ji-Fan Hu, and Wei Li.
+\newblock {Aberrant allele-switch imprinting of a novel IGF1R intragenic
+  antisense non-coding RNA in breast cancers.}
+\newblock {\em European journal of cancer (Oxford, England : 1990)},
+  51(2):260--270, January 2015.
+
+\bibitem{Kong:2009kk}
+Augustine Kong, Valgerdur Steinthorsdottir, Gisli Masson, Gudmar Thorleifsson,
+  Patrick Sulem, Soren Besenbacher, Aslaug Jonasdottir, Asgeir Sigurdsson,
+  Kari~Th Kristinsson, Adalbjorg Jonasdottir, Michael~L Frigge, Arnaldur
+  Gylfason, Pall~I Olason, Sigurjon~A Gudjonsson, Sverrir Sverrisson, Simon~N
+  Stacey, Bardur Sigurgeirsson, Kristrun~R Benediktsdottir, Helgi Sigurdsson,
+  Thorvaldur Jonsson, Rafn Benediktsson, Jon~H Olafsson, Oskar~Th Johannsson,
+  Astradur~B Hreidarsson, Gunnar Sigurdsson, {DIAGRAM Consortium}, Anne~C
+  Ferguson-Smith, Daniel~F Gudbjartsson, Unnur Thorsteinsdottir, and Kari
+  Stefansson.
+\newblock {Parental origin of sequence variants associated with complex
+  diseases.}
+\newblock {\em Nature}, 462(7275):868--874, December 2009.
+
+\bibitem{Laurin:2017jv}
+Charles~A Laurin, Gabriel Cuellar-Partida, Gibran Hemani, George Davey~Smith,
+  Jian Yang, and David~M Evans.
+\newblock {Partitioning Phenotypic Variance Due To Parent-Of-Origin Effects
+  Using Genomic Relatedness Matrices}.
+\newblock {\em bioRxiv}, pages 1--41, May 2017.
+
+\bibitem{Lawson2013}
+Heather~A Lawson, James~M Cheverud, and Jason~B Wolf.
+\newblock {Genomic imprinting and parent-of-origin effects on complex traits}.
+\newblock {\em Nature reviews. Genetics}, 14(9):609--617, August 2013.
+
+\bibitem{Leek:2012ee}
+Jeffrey~T Leek, W~Evan Johnson, Hilary~S Parker, Andrew~E Jaffe, and John~D
+  Storey.
+\newblock {The sva package for removing batch effects and other unwanted
+  variation in high-throughput experiments.}
+\newblock {\em Bioinformatics}, 28(6):882--883, March 2012.
+
+\bibitem{Li:2004km}
+Juan Li, Anthony~J Bench, George~S Vassiliou, Nasios Fourouclas, Anne~C
+  Ferguson-Smith, and Anthony~R Green.
+\newblock {Imprinting of the human L3MBTL gene, a polycomb family member
+  located in a region of chromosome 20 deleted in human myeloid malignancies.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  101(19):7341--7346, May 2004.
+
+\bibitem{Li:2017bq}
+Xin Li, Yungil Kim, Emily~K Tsang, Joe~R Davis, Farhan~N Damani, Colby Chiang,
+  Gaelen~T Hess, Zachary Zappala, Benjamin~J Strober, Alexandra~J Scott, Amy
+  Li, Andrea Ganna, Michael~C Bassik, Jason~D Merker, {GTEx Consortium},
+  {Laboratory, Data Analysis {\&}Coordinating Center
+  (LDACC){\textemdash}Analysis Working Group}, {Statistical Methods
+  groups{\textemdash}Analysis Working Group}, {Enhancing GTEx (eGTEx) groups},
+  {NIH Common Fund}, {NIH/NCI}, {NIH/NHGRI}, {NIH/NIMH}, {NIH/NIDA},
+  {Biospecimen Collection Source Site{\textemdash}NDRI}, {Biospecimen
+  Collection Source Site{\textemdash}RPCI}, {Biospecimen Core
+  Resource{\textemdash}VARI}, {Brain Bank Repository{\textemdash}University of
+  Miami Brain Endowment Bank}, {Leidos Biomedical{\textemdash}Project
+  Management}, {ELSI Study}, {Genome Browser Data Integration
+  {\&}Visualization{\textemdash}EBI}, {Genome Browser Data Integration
+  {\&}Visualization{\textemdash}UCSC Genomics Institute, University of
+  California Santa Cruz}, Ira~M Hall, Alexis Battle, and Stephen~B Montgomery.
+\newblock {The impact of rare variation on gene expression across tissues.}
+\newblock {\em Nature}, 550(7675):239--243, October 2017.
+
+\bibitem{Livne2015}
+Oren~E Livne, Lide Han, Gorka Alkorta-Aranburu, William Wentworth-Sheilds, Mark
+  Abney, Carole Ober, and Dan~L Nicolae.
+\newblock {PRIMAL: Fast and Accurate Pedigree-based Imputation from Sequence
+  Data in a Founder Population}.
+\newblock {\em PLOS Computational Biology}, 11(3):e1004139, March 2015.
+
+\bibitem{Lokody2014}
+Isabel Lokody.
+\newblock {Gene expression: Consequences of parent-of-origin effects}.
+\newblock {\em Nature reviews. Genetics}, 15(3):145--145, January 2014.
+
+\bibitem{Luedi:2007ib}
+Philippe~P Luedi, Fred~S Dietrich, Jennifer~R Weidman, Jason~M Bosko, Randy~L
+  Jirtle, and Alexander~J Hartemink.
+\newblock {Computational and experimental identification of novel human
+  imprinted genes.}
+\newblock {\em Genome Research}, 17(12):1723--1730, December 2007.
+
+\bibitem{Luo:2016db}
+Weiwei Luo, Zi~Zhao Lieu, Ed~Manser, Alexander~D Bershadsky, and Michael~P
+  Sheetz.
+\newblock {Formin DAAM1 Organizes Actin Filaments in the Cytoplasmic Nodal
+  Actin Network}.
+\newblock {\em PLoS ONE}, 11(10):e0163915--22, October 2016.
+
+\bibitem{Lyon:1984gh}
+Mary~F Lyon and Sohaila Rastan.
+\newblock {Parental source of chromosome imprinting and its relevance for X
+  chromosome inactivation}.
+\newblock {\em Differentiation}, 26(1):63--67, June 1984.
+
+\bibitem{Mackay:2006bv}
+D~J~G Mackay, S~E Boonen, J~Clayton-Smith, J~Goodship, J~M~D Hahnemann, S~G
+  Kant, P~R Nj{\o}lstad, N~H Robin, D~O Robinson, R~Siebert, J~P~H Shield, H~E
+  White, and I~K Temple.
+\newblock {A maternal hypomethylation syndrome presenting as transient neonatal
+  diabetes mellitus.}
+\newblock {\em Human Genetics}, 120(2):262--269, September 2006.
+
+\bibitem{Mackay:2017kn}
+Deborah J~G Mackay and I~Karen Temple.
+\newblock {Human imprinting disorders: Principles, practice, problems and
+  progress.}
+\newblock {\em European journal of medical genetics}, 60(11):618--626, November
+  2017.
+
+\bibitem{Maksimovic:2012ib}
+Jovana Maksimovic, Lavinia Gordon, and Alicia Oshlack.
+\newblock {SWAN: Subset-quantile within array normalization for illumina
+  infinium HumanMethylation450 BeadChips.}
+\newblock {\em Genome biology}, 13(6):R44, June 2012.
+
+\bibitem{Mantovani:2016em}
+Giovanna Mantovani, Anna Spada, and Francesca~Marta Elli.
+\newblock {Pseudohypoparathyroidism and Gs$\alpha$-cAMP-linked disorders:
+  current view and open issues.}
+\newblock {\em Nature Reviews Endocrinology}, 12(6):347--356, June 2016.
+
+\bibitem{Martin:2011eu}
+Marcel Martin.
+\newblock {Cutadapt removes adapter sequences from high-throughput sequencing
+  reads}.
+\newblock {\em EMBnet.journal}, 17(1):10, August 2011.
+
+\bibitem{Matsuoka:1996uq}
+S~Matsuoka, J~S Thompson, M~C Edwards, J~M Bartletta, P~Grundy, L~M Kalikin,
+  J~W Harper, S~J Elledge, and A~P Feinberg.
+\newblock {Imprinting of the gene encoding a human cyclin-dependent kinase
+  inhibitor, p57KIP2, on chromosome 11p15.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  93(7):3026--3030, April 1996.
+
+\bibitem{McGrath:1984ky}
+James McGrath and Davor Solter.
+\newblock {Completion of mouse embryogenesis requires both the maternal and
+  paternal genomes}.
+\newblock {\em Cell}, 37(1):179--183, May 1984.
+
+\bibitem{Mott2014}
+Richard Mott, Wei Yuan, Pamela Kaisaki, Xiangchao Gan, James Cleak, Andrew
+  Edwards, Amelie Baud, and Jonathan Flint.
+\newblock {The Architecture of Parent-of-Origin Effects in Mice}.
+\newblock {\em Cell}, 156(1-2):332--342, January 2014.
+
+\bibitem{Mulchandani:2016kf}
+Surabhi Mulchandani, Elizabeth~J Bhoj, Minjie Luo, Nina Powell-Hamilton, Kim
+  Jenny, Karen~W Gripp, Miriam Elbracht, Thomas Eggermann, Claire L~S Turner,
+  I~Karen Temple, Deborah J~G Mackay, Holly Dubbs, David~A Stevenson, Leah
+  Slattery, Elaine~H Zackai, Nancy~B Spinner, Ian~D Krantz, and Laura~K Conlin.
+\newblock {Maternal uniparental disomy of chromosome 20: a novel imprinting
+  disorder of growth failure.}
+\newblock {\em Genetics in medicine : official journal of the American College
+  of Medical Genetics}, 18(4):309--315, April 2016.
+
+\bibitem{Nicholls:vh}
+R~D Nicholls, JHM Knoll, M~G Butler, and S~Karam Nature.
+\newblock {Genetic imprinting suggested by maternal heterodisomy in
+  non-deletion Prader-Willi syndrome}.
+\newblock {\em nature.com}, 1989.
+
+\bibitem{NicodemusJohnson:2016go}
+Jessie Nicodemus-Johnson, Rachel~A Myers, Noburu~J Sakabe, Debora~R Sobreira,
+  Douglas~K Hogarth, Edward~T Naureckas, Anne~I Sperling, Julian Solway,
+  Steven~R White, Marcelo~A Nobrega, Dan~L Nicolae, Yoav Gilad, and Carole
+  Ober.
+\newblock {DNA methylation in lung cells is associated with asthma endotypes
+  and genetic risk.}
+\newblock {\em JCI insight}, 1(20):e90151, December 2016.
+
+\bibitem{Nicolae2010}
+Dan~L Nicolae, Eric Gamazon, Wei Zhang, Shiwei Duan, M~Eileen Dolan, and
+  Nancy~J Cox.
+\newblock {Trait-Associated SNPs Are More Likely to Be eQTLs: Annotation to
+  Enhance Discovery from GWAS}.
+\newblock {\em PLoS genetics}, 6(4):e1000888, April 2010.
+
+\bibitem{Nilsson:2013jy}
+Mats~I Nilsson, Aliyah~A Nissar, Dhuha Al-Sajee, Mark~A Tarnopolsky, Gianni
+  Parise, Boleslav Lach, Dieter~O F{\"u}rst, Peter F~M van~der Ven, Rudolf~A
+  Kley, and Thomas~J Hawke.
+\newblock {Xin Is a Marker of Skeletal Muscle Damage Severity in Myopathies}.
+\newblock {\em The American Journal of Pathology}, 183(6):1703--1709, December
+  2013.
+
+\bibitem{Ober:2016ga}
+Carole Ober.
+\newblock {Asthma Genetics in the Post-GWAS Era.}
+\newblock {\em Annals of the American Thoracic Society}, 13 Suppl 1:S85--90,
+  March 2016.
+
+\bibitem{Ober:2001dy}
+Carole Ober, Mark Abney, and Mary~Sara McPeek.
+\newblock {The Genetic Dissection of Complex Traits in a Founder Population}.
+\newblock {\em The American Journal of Human Genetics}, 69(5):1068--1079,
+  November 2001.
+
+\bibitem{Ogata:2016jb}
+Tsutomu Ogata and Masayo Kagami.
+\newblock {Kagami-Ogata syndrome: a clinically recognizable upd(14)pat and
+  related disorder affecting the chromosome 14q32.2 imprinted region.}
+\newblock {\em Journal of human genetics}, 61(2):87--94, February 2016.
+
+\bibitem{Okae:2011hj}
+Hiroaki Okae, Hitoshi Hiura, Yuichiro Nishida, Ryo Funayama, Satoshi Tanaka,
+  Hatsune Chiba, Nobuo Yaegashi, Keiko Nakayama, Hiroyuki Sasaki, and Takahiro
+  Arima.
+\newblock {Re-investigation and RNA sequencing-based identification of genes
+  with placenta-specific imprinted expression}.
+\newblock {\em Human Molecular Genetics}, 21(3):548--558, October 2011.
+
+\bibitem{OLeary:2016cm}
+Nuala~A O'Leary, Mathew~W Wright, J~Rodney Brister, Stacy Ciufo, Diana Haddad,
+  Rich McVeigh, Bhanu Rajput, Barbara Robbertse, Brian Smith-White, Danso
+  Ako-Adjei, Alexander Astashyn, Azat Badretdin, Yiming Bao, Olga Blinkova,
+  Vyacheslav Brover, Vyacheslav Chetvernin, Jinna Choi, Eric Cox, Olga
+  Ermolaeva, Catherine~M Farrell, Tamara Goldfarb, Tripti Gupta, Daniel Haft,
+  Eneida Hatcher, Wratko Hlavina, Vinita~S Joardar, Vamsi~K Kodali, Wenjun Li,
+  Donna Maglott, Patrick Masterson, Kelly~M McGarvey, Michael~R Murphy,
+  Kathleen O'Neill, Shashikant Pujar, Sanjida~H Rangwala, Daniel Rausch,
+  Lillian~D Riddick, Conrad Schoch, Andrei Shkeda, Susan~S Storz, Hanzhen Sun,
+  Francoise Thibaud-Nissen, Igor Tolstoy, Raymond~E Tully, Anjana~R Vatsan,
+  Craig Wallin, David Webb, Wendy Wu, Melissa~J Landrum, Avi Kimchi, Tatiana
+  Tatusova, Michael DiCuccio, Paul Kitts, Terence~D Murphy, and Kim~D Pruitt.
+\newblock {Reference sequence (RefSeq) database at NCBI: current status,
+  taxonomic expansion, and functional annotation}.
+\newblock {\em Nucleic Acids Research}, 44(D1):D733--D745, January 2016.
+
+\bibitem{Pariante:2016kn}
+Paolo Pariante, Raffaele Dotolo, Massimo Venditti, Diana Ferrara, Aldo
+  Donizetti, Francesco Aniello, and Sergio Minucci.
+\newblock {First Evidence of DAAM1 Localization During the Post-Natal
+  Development of Rat Testis and in Mammalian Sperm.}
+\newblock {\em Journal of cellular physiology}, 231(10):2172--2184, October
+  2016.
+
+\bibitem{Patten:2016cb}
+Manus~M Patten, Michael Cowley, Rebecca~J Oakey, and Robert Feil.
+\newblock {Regulatory links between imprinted genes: evolutionary predictions
+  and consequences}.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences},
+  283(1824):20152760, February 2016.
+
+\bibitem{Paper2014b}
+John~Rb Perry, Felix Day, Cathy~E Elks, Patrick Sulem, Deborah~J Thompson,
+  Teresa Ferreira, Chunyan He, Daniel~I Chasman, T{\~o}nu Esko, Gudmar
+  Thorleifsson, Eva Albrecht, Wei~Q Ang, Tanguy Corre, Diana~L Cousminer,
+  Bjarke Feenstra, Nora Franceschini, Andrea Ganna, Andrew~D Johnson, Sanela
+  Kjellqvist, Kathryn~L Lunetta, George McMahon, Ilja~M Nolte, Lavinia
+  Paternoster, Eleonora Porcu, Albert~V Smith, Lisette Stolk, Alexander Teumer,
+  Natalia T{\v s}ernikova, Emmi Tikkanen, Sheila Ulivi, Erin~K Wagner, Najaf
+  Amin, Laura~J Bierut, Enda~M Byrne, Jouke-Jan Hottenga, Daniel~L Koller,
+  Massimo Mangino, Tune~H Pers, Laura~M Yerges-Armstrong, Jing~Hua Zhao,
+  Irene~L Andrulis, Hoda Anton-Culver, Femke Atsma, Stefania Bandinelli,
+  Matthias~W Beckmann, Javier Benitez, Carl Blomqvist, Stig~E Bojesen,
+  Manjeet~K Bolla, Bernardo Bonanni, Hiltrud Brauch, Hermann Brenner, Julie~E
+  Buring, Jenny Chang-Claude, Stephen Chanock, Jinhui Chen, Georgia
+  Chenevix-Trench, J~Margriet Coll{\'e}e, Fergus~J Couch, David Couper,
+  Andrea~D Coveillo, Angela Cox, Kamila Czene, Adamo~Pio D'adamo, George~Davey
+  Smith, Immaculata De~Vivo, Ellen~W Demerath, Joe Dennis, Peter Devilee,
+  Aida~K Dieffenbach, Alison~M Dunning, Gudny Eiriksdottir, Johan~G Eriksson,
+  Peter~A Fasching, Luigi Ferrucci, Dieter Flesch-Janys, Henrik Flyger, Tatiana
+  Foroud, Lude Franke, Melissa~E Garcia, Montserrat Garc{\'\i}a-Closas, Frank
+  Geller, Eco~Ej de~Geus, Graham~G Giles, Daniel~F Gudbjartsson, Vilmundur
+  Gudnason, Pascal Gu{\'e}nel, Suiqun Guo, Per Hall, Ute Hamann, Robin Haring,
+  Catharina~A Hartman, Andrew~C Heath, Albert Hofman, Maartje~J Hooning, John~L
+  Hopper, Frank~B Hu, David~J Hunter, David Karasik, Douglas~P Kiel, Julia~A
+  Knight, Veli-Matti Kosma, Zolt{\'a}n Kutalik, Sandra Lai, Diether Lambrechts,
+  Annika Lindblom, Reedik M{\"a}gi, Patrik~K Magnusson, Arto Mannermaa,
+  Nicholas~G Martin, Gisli Masson, Patrick~F McArdle, Wendy~L McArdle, Mads
+  Melbye, Kyriaki Michailidou, Evelin Mihailov, Lili Milani, Roger~L Milne,
+  Heli Nevanlinna, Patrick Neven, Ellen~A Nohr, Albertine~J Oldehinkel, Ben~A
+  Oostra, Aarno Palotie, Munro Peacock, Nancy~L Pedersen, Paolo Peterlongo,
+  Julian Peto, Paul~Dp Pharoah, Dirkje~S Postma, Anneli Pouta, Katri
+  Pylk{\"a}s, Paolo Radice, Susan Ring, Fernando Rivadeneira, Antonietta
+  Robino, Lynda~M Rose, Anja Rudolph, Veikko Salomaa, Serena Sanna, David
+  Schlessinger, Marjanka~K Schmidt, Mellissa~C Southey, Ulla Sovio, Meir~J
+  Stampfer, Doris St{\"o}ckl, Anna~M Storniolo, Nicholas~J Timpson, Jonathan
+  Tyrer, Jenny~A Visser, Peter Vollenweider, Henry V{\"o}lzke, Gerard Waeber,
+  Melanie Waldenberger, Henri Wallaschofski, Qin Wang, Gonneke Willemsen,
+  Robert Winqvist, Bruce~Hr Wolffenbuttel, Margaret~J Wright, {Australian
+  Ovarian Cancer Study}, {GENICA Network}, {kConFab}, {LifeLines Cohort Study},
+  {InterAct Consortium}, {Early Growth Genetics (EGG) Consortium}, Dorret~I
+  Boomsma, Michael~J Econs, Kay-Tee Khaw, Ruth~Jf Loos, Mark~I McCarthy,
+  Grant~W Montgomery, John~P Rice, Elizabeth~A Streeten, Unnur
+  Thorsteinsdottir, Cornelia~M van Duijn, Behrooz~Z Alizadeh, Sven Bergmann,
+  Eric Boerwinkle, Heather~A Boyd, Laura Crisponi, Paolo Gasparini, Christian
+  Gieger, Tamara~B Harris, Erik Ingelsson, Marjo-Riitta Jarvelin, Peter Kraft,
+  Debbie Lawlor, Andres Metspalu, Craig~E Pennell, Paul~M Ridker, Harold
+  Snieder, Thorkild~Ia S{\o}rensen, Tim~D Spector, David~P Strachan,
+  Andr{\'e}~G Uitterlinden, Nicholas~J Wareham, Elisabeth Wid{\'e}n, Marek
+  Zygmunt, Anna Murray, Douglas~F Easton, Kari Stefansson, Joanne~M Murabito,
+  and Ken~K Ong.
+\newblock {Parent-of-origin-specific allelic associations among 106 genomic
+  loci for age at menarche.}
+\newblock {\em Nature}, 514(7520):92--97, October 2014.
 
 \bibitem{Peters2014}
 Jo~Peters.
 \newblock {The role of genomic imprinting in biology and disease: an expanding
-  view}.
-\newblock {\em Nat. Rev. Genet.}, 2014.
+  view.}
+\newblock {\em Nature reviews. Genetics}, 15(8):517--530, August 2014.
+
+\bibitem{Pires2014}
+Nuno~D Pires and Ueli Grossniklaus.
+\newblock {Different yet similar: evolution of imprinting in flowering plants
+  and mammals}.
+\newblock {\em F1000Prime Reports}, 6, August 2014.
+
+\bibitem{Proudhon:2011eh}
+C~Proudhon and D~Bourc'his.
+\newblock {Identification and resolution of artifacts in the interpretation of
+  imprinted gene expression}.
+\newblock {\em Briefings in Functional Genomics}, 9(5-6):374--384, January
+  2011.
+
+\bibitem{Reik:1989el}
+Wolf Reik.
+\newblock {Genomic imprinting and genetic disorders in man}.
+\newblock {\em Trends in Genetics}, 5:332--336, January 1989.
+
+\bibitem{Johnson:1974kc}
+DR~Johnson~Genetics Research and {1974}.
+\newblock {Further observations on the hairpin-tail (Thp) mutation in the
+  mouse}.
+\newblock {\em cambridge.org}, 24(02):207, April 2009.
+
+\bibitem{Robinson:2010cw}
+Mark~D Robinson, Davis~J McCarthy, and Gordon~K Smyth.
+\newblock {edgeR: a Bioconductor package for differential expression analysis
+  of digital gene expression data.}
+\newblock {\em Bioinformatics}, 26(1):139--140, January 2010.
+
+\bibitem{Robinson:2010dd}
+Mark~D Robinson and Alicia Oshlack.
+\newblock {A scaling normalization method for differential expression analysis
+  of RNA-seq data.}
+\newblock {\em Genome biology}, 11(3):R25, 2010.
+
+\bibitem{Santoni:2017hu}
+Federico~A Santoni, Georgios Stamoulis, Marco Garieri, Emilie Falconnet,
+  Pascale Ribaux, Christelle Borel, and Stylianos~E Antonarakis.
+\newblock {Detection of Imprinted Genes by Single-Cell Allele-Specific Gene
+  Expression.}
+\newblock {\em American journal of human genetics}, 100(3):444--453, March
+  2017.
+
+\bibitem{Sapienza:1989vm}
+C~Sapienza.
+\newblock {Genome imprinting and dominance modification.}
+\newblock {\em Annals of the New York Academy of Sciences}, 564:24--38, 1989.
+
+\bibitem{Servin:2007gj}
+Bertrand Servin and Matthew Stephens.
+\newblock {Imputation-Based Analysis of Association Studies: Candidate Regions
+  and Quantitative Traits}.
+\newblock {\em PLoS genetics}, 3(7):e114, 2007.
+
+\bibitem{Stein:2016hn}
+Michelle~M Stein, Cara~L Hrusch, Justyna Gozdz, Catherine Igartua, Vadim
+  Pivniouk, Sean~E Murray, Julie~G Ledford, Mauricius Marques~dos Santos,
+  Rebecca~L Anderson, Nervana Metwali, Julia~W Neilson, Raina~M Maier, Jack~A
+  Gilbert, Mark Holbreich, Peter~S Thorne, Fernando~D Martinez, Erika von
+  Mutius, Donata Vercelli, Carole Ober, and Anne~I Sperling.
+\newblock {Innate Immunity and Asthma Risk in Amish and Hutterite Farm
+  Children.}
+\newblock {\em New England Journal of Medicine}, 375(5):411--421, August 2016.
+
+\bibitem{StrichmanAlmashanu:2003cw}
+Liora~Z Strichman-Almashanu, Michael Bustin, and David Landsman.
+\newblock {Retroposed copies of the HMG genes: a window to genome dynamics.}
+\newblock {\em Genome Research}, 13(5):800--812, May 2003.
+
+\bibitem{Stridh2014}
+Pernilla Stridh, Sabrina Ruhrmann, Petra Bergman, M{\'e}lanie
+  Thess{\'e}n~Hedreul, Sevasti Flytzani, Amennai~Daniel Beyeen, Alan Gillett,
+  Nina Krivosija, Johan {\"O}ckinger, Anne~C Ferguson-Smith, and Maja Jagodic.
+\newblock {Parent-of-Origin Effects Implicate Epigenetic Regulation of
+  Experimental Autoimmune Encephalomyelitis and Identify Imprinted Dlk1 as a
+  Novel Risk Gene}.
+\newblock {\em PLoS genetics}, 10(3):e1004265, March 2014.
+
+\bibitem{Sun:2014eq}
+Jingnan Sun, Wei Li, Yunpeng Sun, Dehai Yu, Xue Wen, Hong Wang, Jiuwei Cui,
+  Guanjun Wang, Andrew~R Hoffman, and Ji-Fan Hu.
+\newblock {A novel antisense long noncoding RNA within the IGF1R gene locus is
+  imprinted in hematopoietic malignancies.}
+\newblock {\em Nucleic acids research}, 42(15):9588--9601, September 2014.
+
+\bibitem{Surani1984}
+M~A~H Surani, S~C Barton, and M~L Norris.
+\newblock {Development of reconstituted mouse eggs suggests imprinting of the
+  genome during gametogenesis}.
+\newblock {\em Nature}, 308(5959):548--550, April 1984.
+
+\bibitem{Szafranski:2016fz}
+Przemyslaw Szafranski, Tomasz Gambin, Avinash~V Dharmadhikari, Kadir~Caner
+  Akdemir, Shalini~N Jhangiani, Jennifer Schuette, Nihal Godiwala, Svetlana~A
+  Yatsenko, Jessica Sebastian, Suneeta Madan-Khetarpal, Urvashi Surti,
+  Rosanna~G Abellar, David~A Bateman, Ashley~L Wilson, Melinda~H Markham, Jill
+  Slamon, Fernando Santos-Simarro, Mar{\'\i}a Palomares, Juli{\'a}n Nevado,
+  Pablo Lapunzina, Brian Hon-Yin Chung, Wai-Lap Wong, Yoyo Wing~Yiu Chu, Gary
+  Tsz~Kin Mok, Eitan Kerem, Joel Reiter, Namasivayam Ambalavanan, Scott~A
+  Anderson, David~R Kelly, Joseph Shieh, Taryn~C Rosenthal, Kristin Scheible,
+  Laurie Steiner, M~Anwar Iqbal, Margaret~L McKinnon, Sara~Jane Hamilton,
+  Kamilla Schlade-Bartusiak, Dawn English, Glenda Hendson, Elizabeth~R Roeder,
+  Thomas~S DeNapoli, Rebecca~Okashah Littlejohn, Daynna~J Wolff, Carol~L
+  Wagner, Alison Yeung, David Francis, Elizabeth~K Fiorino, Morris Edelman,
+  Joyce Fox, Denise~A Hayes, Sandra Janssens, Elfride De~Baere, Bj{\"o}rn
+  Menten, Anne Loccufier, Lieve Vanwalleghem, Philippe Moerman, Yves Sznajer,
+  Amy~S Lay, Jennifer~L Kussmann, Jasneek Chawla, Diane~J Payton, Gael~E
+  Phillips, Erwin Brosens, Dick Tibboel, Annelies de~Klein, Isabelle Maystadt,
+  Richard Fisher, Neil Sebire, Alison Male, Maya Chopra, Jason Pinner, Girvan
+  Malcolm, Gregory Peters, Susan Arbuckle, Melissa Lees, Zoe Mead, Oliver
+  Quarrell, Richard Sayers, Martina Owens, Charles Shaw-Smith, Janet Lioy,
+  Eileen McKay, Nicole de~Leeuw, Ilse Feenstra, Liesbeth Spruijt, Frances
+  Elmslie, Timothy Thiruchelvam, Carlos~A Bacino, Claire Langston, James~R
+  Lupski, Partha Sen, Edwina Popek, and Pawe{\l} Stankiewicz.
+\newblock {Pathogenetics of alveolar capillary dysplasia with misalignment of
+  pulmonary veins}.
+\newblock {\em Human Genetics}, 135(5):569--586, April 2016.
+
+\bibitem{Takagi:1975ua}
+N~Takagi and M~Sasaki.
+\newblock {Preferential inactivation of the paternally derived X chromosome in
+  the extraembryonic membranes of the mouse.}
+\newblock {\em Nature}, 256(5519):640--642, August 1975.
+
+\bibitem{vandeGeijn:2015hi}
+Bryce van~de Geijn, Graham McVicker, Yoav Gilad, and Jonathan~K Pritchard.
+\newblock {WASP: allele-specific software for robust molecular quantitative
+  trait locus discovery}.
+\newblock {\em Nature Methods}, 12(11):1061--1063, November 2015.
+
+\bibitem{Varrault:2006kn}
+Annie Varrault, Charlotte Gueydan, Annie Delalbre, Anja Bellmann, Souheir
+  Houssami, Cindy Aknin, Dany Severac, Laetitia Chotard, Malik Kahli, Anne
+  Le~Digarcher, Paul Pavlidis, and Laurent Journot.
+\newblock {Zac1 Regulates an Imprinted Gene Network Critically Involved in the
+  Control of Embryonic Growth}.
+\newblock {\em Developmental Cell}, 11(5):711--722, November 2006.
+
+\bibitem{Wakeling:2017kv}
+Emma~L Wakeling, Fr{\'e}d{\'e}ric Brioude, Oluwakemi Lokulo-Sodipe, Susan~M
+  O'Connell, Jennifer Salem, Jet Bliek, Ana P~M Canton, Krystyna~H Chrzanowska,
+  Justin~H Davies, Renuka~P Dias, B{\'e}atrice Dubern, Miriam Elbracht, Eloise
+  Giabicani, Adda Grimberg, Karen Gr{\o}nskov, Anita C~S Hokken-Koelega,
+  Alexander~A Jorge, Masayo Kagami, Agnes Linglart, Mohamad Maghnie, Klaus
+  Mohnike, David Monk, Gudrun~E Moore, Philip~G Murray, Tsutomu Ogata,
+  Isabelle~Oliver Petit, Silvia Russo, Edith Said, Meropi Toumba, Zeynep
+  T{\"u}mer, Gerhard Binder, Thomas Eggermann, Madeleine~D Harbison, I~Karen
+  Temple, Deborah J~G Mackay, and Ir{\`e}ne Netchine.
+\newblock {Diagnosis and management of Silver-Russell syndrome: first
+  international consensus statement.}
+\newblock In {\em Nature reviews. Endocrinology}, pages 105--124. North West
+  Thames Regional Genetics Service, London North West Healthcare NHS Trust,
+  Watford Road, Harrow HA1 3UJ, UK., Nature Publishing Group, February 2017.
+
+\bibitem{Wang:2014jg}
+Qinchuan Wang, Jenny Li-Chun Lin, Albert~J Erives, Cheng-I Lin, and Jim
+  Jung-Ching Lin.
+\newblock {New insights into the roles of Xin repeat-containing proteins in
+  cardiac development, function, and disease.}
+\newblock {\em International review of cell and molecular biology},
+  310:89--128, 2014.
+
+\bibitem{Wang:2009bt}
+Y~Wang, J~R O'Connell, P~F McArdle, J~B Wade, S~E Dorff, S~J Shah, X~Shi,
+  L~Pan, E~Rampersaud, H~Shen, J~D Kim, A~R Subramanya, N~I Steinle, A~Parsa,
+  C~C Ober, P~A Welling, A~Chakravarti, A~B Weder, R~S Cooper, B~D Mitchell,
+  A~R Shuldiner, and Y~P~C Chang.
+\newblock {Whole-genome association study identifies STK39 as a hypertension
+  susceptibility gene}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  106(1):226--231, January 2009.
+
+\bibitem{Weinberg:1998cf}
+C~R Weinberg, A~J Wilcox, and R~T Lie.
+\newblock {A Log-Linear Approach to Case-Parent{\textendash}Triad Data:
+  Assessing Effects of Disease Genes That Act Either Directly or through
+  Maternal Effects and That May Be Subject to Parental Imprinting}.
+\newblock {\em The American Journal of Human Genetics}, 62(4):969--978, April
+  1998.
+
+\bibitem{Weinberg:1999km}
+Clarice~R Weinberg.
+\newblock {Methods for Detection of Parent-of-Origin Effects in Genetic Studies
+  of Case-Parents Triads}.
+\newblock {\em The American Journal of Human Genetics}, 65(1):229--235, July
+  1999.
+
+\bibitem{Weiss:2005cq}
+Lauren~A Weiss, Mark Abney, Edwin~H Cook~Jr., and Carole Ober.
+\newblock {Sex-Specific Genetic Architecture of Whole Blood Serotonin Levels}.
+\newblock {\em The American Journal of Human Genetics}, 76(1):33--41, January
+  2005.
+
+\bibitem{WellcomeTrustCaseControlConsortium:2007do}
+{Wellcome Trust Case Control Consortium}, Peter Donnelly, Willem~H Ouwehand,
+  Nick Craddock, Nilesh~J Samani, John~A Todd, Mark~I McCarthy, Jeffrey~C
+  Barrett, Andrew~P Morris, Lon~R Cardon, Chris C~A Spencer, Matthew~A Brown,
+  Panos Deloukas, Martin Farrall, Alistair~S Hall, Andrew~T Hattersley,
+  Christopher~G Mathew, and Miles Parkes.
+\newblock {Genome-wide association study of 14,000 cases of seven common
+  diseases and 3,000 shared controls.}
+\newblock {\em Nature}, 447(7145):661--678, June 2007.
+
+\bibitem{Zaitlen2013}
+Noah Zaitlen, Peter Kraft, Nick Patterson, Bogdan Pasaniuc, Gaurav Bhatia,
+  Samuela Pollack, and Alkes~L Price.
+\newblock {Using Extended Genealogy to Estimate Components of Heritability for
+  23 Quantitative and Dichotomous Traits}.
+\newblock {\em PLoS genetics}, 9(5):e1003520, May 2013.
+
+\bibitem{Zhou2012}
+Xiang Zhou and Matthew Stephens.
+\newblock {Genome-wide efficient mixed-model analysis for association studies}.
+\newblock {\em Nature Genetics}, 44(7):821--824, June 2012.
+
+\bibitem{Zoledziewska:2015do}
+Magdalena Zoledziewska, Carlo Sidore, Charleston W~K Chiang, Serena Sanna,
+  Antonella Mulas, Maristella Steri, Fabio Busonero, Joseph~H Marcus, Michele
+  Marongiu, Andrea Maschio, Diego Ortega Del~Vecchyo, Matteo Floris, Antonella
+  Meloni, Alessandro Delitala, Maria~Pina Concas, Federico Murgia, Ginevra
+  Biino, Simona Vaccargiu, Ramaiah Nagaraja, Kirk~E Lohmueller, {UK10K
+  Consortium}, Nicholas~J Timpson, Nicole Soranzo, Ioanna Tachmazidou, George
+  Dedoussis, Eleftheria Zeggini, {Understanding Society Scientific Group},
+  Sergio Uzzau, Chris Jones, Robert Lyons, Andrea Angius, Goncalo~R Abecasis,
+  John Novembre, David Schlessinger, and Francesco Cucca.
+\newblock {Height-reducing variants and selection for short stature in
+  Sardinia.}
+\newblock {\em Nature genetics}, 47(11):1352--1356, November 2015.
+
+\bibitem{Zuk:cc}
+O~Zuk, E~Hechter, SR~Sunyaev Proceedings~of the, and {2012}.
+\newblock {The mystery of missing heritability: Genetic interactions create
+  phantom heritability}.
+\newblock {\em National Acad Sciences}, 2012.
 
 \end{thebibliography}

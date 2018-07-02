@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: poo.aux
 A level-1 auxiliary file: tex/acknowledgments.aux
 A level-1 auxiliary file: tex/abstract.aux
@@ -7,46 +7,49 @@ A level-1 auxiliary file: tex/ch01.aux
 A level-1 auxiliary file: tex/ch02.aux
 A level-1 auxiliary file: tex/ch03.aux
 A level-1 auxiliary file: tex/ch04.aux
+A level-1 auxiliary file: tex/ch05.aux
 The style file: plain.bst
 Database file #1: refs.bib
-You've used 1 entry,
+Warning--empty journal in Chuang:2017kp
+You've used 116 entries,
             2118 wiz_defined-function locations,
-            509 strings with 4194 characters,
-and the built_in function-call counts, 224 in all, are:
-= -- 20
-> -- 7
-< -- 0
-+ -- 3
-- -- 2
-* -- 10
-:= -- 48
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 4
+            1268 strings with 49460 characters,
+and the built_in function-call counts, 74100 in all, are:
+= -- 6257
+> -- 7252
+< -- 3
++ -- 2884
+- -- 2768
+* -- 7839
+:= -- 13263
+add.period$ -- 349
+call.type$ -- 116
+change.case$ -- 1731
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 10
-empty$ -- 18
-format.name$ -- 2
-if$ -- 42
+cite$ -- 117
+duplicate$ -- 1292
+empty$ -- 3110
+format.name$ -- 2768
+if$ -- 13567
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 4
+int.to.str$ -- 116
+missing$ -- 117
+newline$ -- 583
+num.names$ -- 232
+pop$ -- 1516
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 1616
 quote$ -- 0
-skip$ -- 7
+skip$ -- 845
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 3322
+swap$ -- 132
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 12
+type$ -- 462
+warning$ -- 1
+while$ -- 441
+width$ -- 119
+write$ -- 1278
+(There was 1 warning)
