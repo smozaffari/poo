@@ -236,12 +236,16 @@ To test for a difference in the same allele inherited from each parent, includin
 Y =W\alpha + X_{M}\beta_{M}+ X_{P}\beta_{P}+g+\epsilon
 \end{equation}
 
-This new model allows us to measure the difference in parental effect of the same allele when the genotype is a covariate in Equation 2.5. 
 \begin{equation}
 Y =W\alpha + X_{MP}\beta_{MP}+g+\epsilon
 \end{equation}
 
-$X_{PM}$ is a $n \times 1$ vector of genotypes with possible values [ 0,1,2 ], equivalent to $X_P+ X_M. (\beta_M-\beta_P )$ is the difference in parental effect size. If the difference in parental effect size is large and significantly different from 0 it suggests a parent of origin effect exists at this variant. $((X_M-X_P ))/2$ is a $n \times 1$ vector of genotypes with possible values [-1,0,1].  $((\beta_P+\beta_M))/2$   is the average parental effect size that is captured in normal GWAS using genotypes. The average genotypes are added in as a covariate, with the average parental effect size the corresponding covariate coefficient. This differential effect GWAS was tested in GEMMA using BIMBAM format to use average genotype values \cite{Servin:2007gj}.
+This new model allows us to measure the difference in parental effect of the same allele when the genotype is a covariate in Equation 2.5. 
+\begin{equation}
+Y =W\alpha + \frac{X_{M}-X_{P}}{2}(\beta_{M}-\beta_{P}) + X_{MP}\frac{(\beta_{P}+\beta_{M})}{2} +g+\epsilon
+\end{equation}
+
+$X_{MP}$ is a $n \times 1$ vector of genotypes with possible values [ 0,1,2 ], equivalent to $X_P+ X_M. (\beta_M-\beta_P )$ is the difference in parental effect size. If the difference in parental effect size is large and significantly different from 0 it suggests a parent of origin effect exists at this variant. $((X_M-X_P ))/2$ is a $n \times 1$ vector of genotypes with possible values [-1,0,1].  $((\beta_P+\beta_M))/2$   is the average parental effect size that is captured in normal GWAS using genotypes. The average genotypes are added in as a covariate, with the average parental effect size the corresponding covariate coefficient. This differential effect GWAS was tested in GEMMA using BIMBAM format to use average genotype values \cite{Servin:2007gj}.
 
 
 \subsection{Parent of Origin eQTL studies}\label{Parent of Origin eQTL studies}
