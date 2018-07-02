@@ -21,13 +21,13 @@ No previous study has included a broad range of human quantitative phenotypes or
 \section{Results}\label{ch02-results}
 
 \subsection{GWAS}\label{GWAS Results}
-We first performed standard genome-wide association studies (GWAS) of 21 traits in the Hutterites (Table S1). These studies identified one genome wide significant association (p \textless 5x10-8) with each of five of the 21 traits: low density lipoprotein level (LDL)-cholesterol, triglycerides, carotid artery intima media thickness (CIMT), left ventricular mass index (LVMI), and monocyte count. The results of all 21 GWAS are summarized in Table S2 and Supplementary Figure \ref{fig:fig-s1a}. Results for all variants for all GWAS are deposited in dbGaP (phs000185 - submission in progress).
+We first performed standard genome-wide association studies (GWAS) of 21 traits in the Hutterites (Table \ref{tab:tab-s1a}). These studies identified one genome wide significant association (p \textless 5x10-8) with each of five of the 21 traits: low density lipoprotein level (LDL)-cholesterol, triglycerides, carotid artery intima media thickness (CIMT), left ventricular mass index (LVMI), and monocyte count. The results of all 21 GWAS are summarized in Table S2 and Supplementary Figure \ref{fig:fig-s1a}. Results for all variants for all GWAS are deposited in dbGaP (phs000185 - submission in progress).
 
 \subsection{Parent of Origin GWAS}\label{Parent of Origin GWAS}
 We considered two possible mechanisms of POEs. In the first, the effect size of one parent's allele is close to zero and the effect size of the other parent's allele is significantly different from zero. For these cases, we performed a paternal only or maternal only GWAS. In other cases, the maternal and paternal alleles may both have effect sizes different from zero, but the effects are significantly different from each other or opposite in direction. To detect these types of POEs, we developed a model that tests for differences between parental effects (see Methods). This model is especially powerful to identify variants with parental effects in opposite directions.
 
 \subsection{Maternal and Paternal GWAS}\label{Maternal and Paternal GWAS}
-Using the same phenotypes, genotypes, pedigree, and criteria for significance as in the standard GWAS, we tested for maternal and paternal effects on each trait by testing each parentally inherited allele with the trait of interest, similar to previous studies \citep{Kong:2009kk,Zoledziewska:2015do,Garg2012a}. Variants were considered to have POEs if they had a p-value less than 5x10-8 in only one parent and were not significant in the standard GWAS (i.e., the LDL association on chromosome 19 and the triglycerides association chromosome 11 were not considered to have POEs; see Table S1). The most significant parent of origin associations are summarized in Table \ref{tab:singleparent}. All significant results of the parent of origin GWAS for all 21 phenotypes are included in Table S5. 
+Using the same phenotypes, genotypes, pedigree, and criteria for significance as in the standard GWAS, we tested for maternal and paternal effects on each trait by testing each parentally inherited allele with the trait of interest, similar to previous studies \citep{Kong:2009kk,Zoledziewska:2015do,Garg2012a}. Variants were considered to have POEs if they had a p-value less than 5x10-8 in only one parent and were not significant in the standard GWAS (i.e., the LDL association on chromosome 19 and the triglycerides association chromosome 11 were not considered to have POEs; see Table \ref{tab:tab-s2}). The most significant parent of origin associations are summarized in Table \ref{tab:singleparent}. All significant results of the parent of origin GWAS for all 21 phenotypes are included in Table \ref{tab:tab-s5}. 
 
 
 \begin{table}
@@ -134,7 +134,52 @@ Nine linked variants on chromosome 1 were associated with opposite POEs of blood
 
 \subsection{Parent of Origin Effects on Gene Expression}\label{Parent of Origin Effects on Gene Expression}
 
-To determine if any of the associated variants also showed POEs on gene expression in the Hutterites, we used RNA-seq gene expression data from lymphoblastoid cell lines (LCLs) collected from 430 of the individuals in the GWAS sample. We first tested for association of maternal and paternal variants with genes detected as expressed in the LCLs and whose transcript start site was within 1Mb of each associated SNP. There were no significant associations after multiple testing correction, similar to a previous study \cite{Benonisdottir:2016dz}. However, because we considered this to be exploratory analyses, we show results for the five most significant parent of origin eQTLs (Table 3). We next used the opposite effect model for each SNP in Table \ref{tab:oppparent} and expression of all genes that were detected as expressed in LCLs and whose transcript start site was within 1Mb of the associated SNP. This resulted in 57 tests (1 SNP for each of 8 phenotypes, and 57 genes). The five most significant opposite effect eQTLs, none of which passed the Bonferroni threshold of 8.77 x 10-4, are shown in Table 4. The most significant opposite effect eQTL was for \emph{POLR1E} expression with the SNP on chromosome 9 (rs7033776) that was associated with total cholesterol (opposite effect eQTL P = 9.86 x 10-4) (Figure \ref{fig:fig-s15}). \emph{POLR1E} is involved in the purine metabolism pathway as well as DNA-directed polymerase activity. The same SNP, rs7033776, had modest opposite effects with the expression of three other genes in the region (\emph{PAX5}, \emph{FBXO10}, and \emph{FRMPD1}), a signature consistent with an imprinted region. Another SNP with opposite POEs on LVMI, rs16853098, was an opposite effect eQTL for \emph{STK39}, a gene that has been previously associated with hypertension \cite{Wang:2009bt}.
+To determine if any of the associated variants also showed POEs on gene expression in the Hutterites, we used RNA-seq gene expression data from lymphoblastoid cell lines (LCLs) collected from 430 of the individuals in the GWAS sample. We first tested for association of maternal and paternal variants with genes detected as expressed in the LCLs and whose transcript start site was within 1Mb of each associated SNP. There were no significant associations after multiple testing correction, similar to a previous study \cite{Benonisdottir:2016dz}. However, because we considered this to be exploratory analyses, we show results for the five most significant parent of origin eQTLs (Table \ref{tab:pogexp}). We next used the opposite effect model for each SNP in Table \ref{tab:oppparent} and expression of all genes that were detected as expressed in LCLs and whose transcript start site was within 1Mb of the associated SNP. This resulted in 57 tests (1 SNP for each of 8 phenotypes, and 57 genes). The five most significant opposite effect eQTLs, none of which passed the Bonferroni threshold of 8.77 x 10-4, are shown in Table \ref{tab:oppgexp}. The most significant opposite effect eQTL was for \emph{POLR1E} expression with the SNP on chromosome 9 (rs7033776) that was associated with total cholesterol (opposite effect eQTL P = 9.86 x 10-4) (Figure \ref{fig:fig-s15}). \emph{POLR1E} is involved in the purine metabolism pathway as well as DNA-directed polymerase activity. The same SNP, rs7033776, had modest opposite effects with the expression of three other genes in the region (\emph{PAX5}, \emph{FBXO10}, and \emph{FRMPD1}), a signature consistent with an imprinted region. Another SNP with opposite POEs on LVMI, rs16853098, was an opposite effect eQTL for \emph{STK39}, a gene that has been previously associated with hypertension \cite{Wang:2009bt}.
+
+
+
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{3cm}|p{2cm}p{2cm}p{2cm}p{2.5cm}p{2cm}p{2cm}p{2cm}@{}}
+\toprule Phenotype & Sample Size & rsid & chr:loc & Gene & Beta (SE) & Maternal eQTL p-value & Paternal eQTL p-value  \\ \midrule
+ \multicolumn{2}{c}{A. Maternal Associations} &&&&&& \\ \hline
+
+CIMT & 334 & rs4077567 & 1:216703202 & \emph{ABCA12} & 0.039 (0.017) & 2.14E-02 & 1.53E-02 \\ \hline
+Age at menarche & 336 & rs7184983 & 16:56554709 & \emph{POLR2C} & -0.085 (0.039) & 2.91E-02 & 7.93E-01 \\ \hline
+Age at menarche & 336 & rs7184983 & 16:56554709 & \emph{SLC12A3} & -0.064 (0.031) & 3.77E-02 & 	2.28E-01 \\ \hline
+CIMT & 334 & rs4077567 & 1:216703202 & \emph{RPL37A} & 0.030 (0.016) & 5.72E-02 & 5.90E-01 \\ \hline
+LVM & 457 & rs74232282 & 1:41662388 & \emph{SMAP2} & 1.40 (0.159) & 5.82E-02	& 1.12E-01 \\ \hline
+ \multicolumn{2}{c}{B. Paternal Associations} &&&&&&  \\ \hline
+Total cholesterol & 352 & rs113588203 & 1:228979165 & \emph{HIST3H2A} & 	0.560 (0.308) & 	8.81E-01 & 	6.85E-02 \\ \hline
+Total cholesterol & 352 & rs113588203 & 1:228979165 & \emph{SPHAR} & 	0.073 (0.047) & 	6.01E-01 & 	1.20E-01 \\ \hline
+LDL & 352 & rs1110603 & 16:87687317 & \emph{MAP1LC3B} & -0.024 (0.015) & 	4.35E-01 & 	1.25E-01 \\ \hline
+LDL & 352 & rs1110603 & 16:87687317 & \emph{FBXO31} & -0.027 (0.018)	 & 1.56E-01 & 	1.36E-01 \\ \hline
+Total cholesterol & 357 & rs113588203 & 1:228979165 & \emph{RAB4A} & 	-0.039 (0.028) & 	6.16E-01 & 	1.59E-01\\ \bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Parent of Origin eQTLs in LCLs. ]{\textbf{Parent of Origin eQTLs in LCLs.}The most significant SNP for each phenotype (Table \ref{tab:singleparent}) was tested for association with gene expression for genes with TSS within 1Mb of the SNP. The effect sizes correspond to the maternal (A) or paternal (B) effect sizes.}
+\label{tab:pogexp}
+\end{table}
+
+
+
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{3cm}|p{2cm}p{2cm}p{2cm}p{2.5cm}p{2cm}p{2cm}@{}}
+\toprule Phenotype & Sample Size & rsid & chr:loc & Gene & $\beta_{M}-\beta_{P}$ (SE) & Opposite Effect p-value  \\ \midrule
+Total cholesterol & 381 & rs7033776	 & 9:36704465	 &\emph{POLR1E} & 	0.0603 (0.399) & 9.86E-04\\ \hline
+Total cholesterol & 381 & rs7033776	 & 9:36704465	 &\emph{PAX5} & 	0.0608 (0.0253) & 	0.0162\\ \hline
+Total cholesterol & 381 & rs7033776	 & 9:36704465	 &\emph{FBXO10} & 	0.0789 (0.0337) & 	0.019\\ \hline
+LVMI	 & 355 & rs16853098 & 2:168013281 	 & \emph{STK39}	 &-0.238 (0.124) & 	0.055\\ \hline
+Total cholesterol & 381 & rs7033776 & 	9:36704465 & 	\emph{FRMPD1} & 	0.185 (0.0988) & 	0.060 \\ \bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Opposite Parent of Origin eQTLs in LCLs. ]{\textbf{Opposite Parent of Origin eQTLs in LCLs.} The most significant SNP for each phenotype (Table \ref{tab:oppparent}) was tested for opposite effect eQTLs with genes with TSS within 1Mb of the SNP. The effect size corresponds to the difference in maternal and paternal effect sizes.}
+\label{tab:oppgexp}
+\end{table}
+
 
 
 \section{Discussion}\label{ch02-discussion}
@@ -160,16 +205,15 @@ Other regions associated with POEs harbor genes involved in transcriptional repr
 The individuals in this study have participated in one or more of our studies on the genetics of complex traits in the Hutterites \cite{Cusanovich:2016id,Weiss:2005cq,Abney2001}. The more than 1,500 Hutterites in our study are related to each other in a 13-generation pedigree including 3,671 individuals. 
 
 \subsection{Genotype Data}\label{Genotype Data}
-Variants detected in the whole genome sequences of 98 Hutterites were previously imputed to an additional 1,317 individuals using PRIMAL, a high-accuracy pedigree based imputation method \cite{Livne2015}. PRIMAL was used to phase alleles and assign parent of origin for 83\% of about 12 million autosomal SNPs. For these studies, we selected SNPs that had a MAF 1\% and genotype call rate 85\%. This yielded 5,891,982 autosomal SNPs. Parent of origin allele call rates differed among individuals and between phenotypes (Table S1 %\ref{tab:fig-s1}).
+Variants detected in the whole genome sequences of 98 Hutterites were previously imputed to an additional 1,317 individuals using PRIMAL, a high-accuracy pedigree based imputation method \cite{Livne2015}. PRIMAL was used to phase alleles and assign parent of origin for 83\% of about 12 million autosomal SNPs. For these studies, we selected SNPs that had a MAF 1\% and genotype call rate 85\%. This yielded 5,891,982 autosomal SNPs. Parent of origin allele call rates differed among individuals and between phenotypes (Table \ref{tab:tab-s1a}).
 
 \subsection{Phenotype Data}\label{Phenotype Data}
-We included 21 quantitative phenotypes that were previously measured in the Hutterites. Descriptions for each phenotype, as well as exclusion criteria, transformations, and covariates used with each phenotype in the GWAS, are available in the Supplementary Methods (Table S1 %\ref{tab:fig-s1}). 
+We included 21 quantitative phenotypes that were previously measured in the Hutterites. Descriptions for each phenotype, as well as exclusion criteria, transformations, and covariates used with each phenotype in the GWAS, are available in the Supplementary Methods (Table \ref{tab:tab-s1a}). 
 
 Descriptions for 18 of the 21 phenotypes can be found in Cusanovich et al \cite{Cusanovich:2016id}. The remaining three are described here. Height was measured in cm on a stadiometer with shoes removed. BMI was calculated using weight (kg, measured on scale) divided by height (m) squared. Age at menarche was collected retrospectively by interview. 
 
 \subsection{GWAS}\label{GWAS Methods}
-We used a linear mixed model as implemented in GEMMA to test for genome wide association with 21 phenotypes using an additive model. We corrected for relatedness, as well as relevant covariates (Table S1 
-%\ref{tab:fig-s1}).
+We used a linear mixed model as implemented in GEMMA to test for genome wide association with 21 phenotypes using an additive model. We corrected for relatedness, as well as relevant covariates (Table \ref{tab:tab-s1a}).
 
 
 \subsection{Maternal and Paternal GWAS}\label{Maternal and Paternal GWAS Methods}
@@ -208,11 +252,11 @@ RNA-seq data from LCLs were available from a previous study in the Hutterites \c
 
 \subsection{Maternal and Paternal Parent of Origin eQTL}\label{Maternal and Paternal Parent of Origin Parent of Origin eQTL}
 
-LCL RNA-seq data was used to test the single parent model for the most significant SNP from the maternal or paternal only GWAS for each phenotype. We selected all genes detected as expressed in the LCLs and residing within 1Mb of each most significant associated SNP. Summary of the SNPs and genes tested are in Table S3.
+LCL RNA-seq data was used to test the single parent model for the most significant SNP from the maternal or paternal only GWAS for each phenotype. We selected all genes detected as expressed in the LCLs and residing within 1Mb of each most significant associated SNP. Summary of the SNPs and genes tested are in Table \ref{tab:tab-s3}.
 
 \subsection{Differential Parent of Origin eQTL}\label{Differential Parent of Origin eQTL}
 
-LCL RNA-seq data was used to test the opposite effect model for the most significant SNP in each region that was associated with a phenotype in the parent of origin opposite effects GWAS. We selected all genes detected as expressed in the LCLs and residing within 1Mb of each associated SNP. Summary of the SNPs and genes tested are in Table S4.
+LCL RNA-seq data was used to test the opposite effect model for the most significant SNP in each region that was associated with a phenotype in the parent of origin opposite effects GWAS. We selected all genes detected as expressed in the LCLs and residing within 1Mb of each associated SNP. Summary of the SNPs and genes tested are in Table \ref{tab:tab-s4}.
 
 \clearpage
 \section{Supplementary Information}\label{fig-supplementary-information}
@@ -296,10 +340,9 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 
 
 \begin{figure}[!htb]
-	\ContinuedFloat*
 	\centering
 	\includegraphics[width=5in]{img/ch02/fig-s7a.pdf}
-	\caption[Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes]{\textbf{Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes} }
+	\caption[Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes. ]{\textbf{Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes .} }
 	\label{fig:fig-s7a}
 \end{figure}
 
@@ -386,13 +429,181 @@ LCL RNA-seq data was used to test the opposite effect model for the most signifi
 
 
 
+\begin{landscape}
+
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{2.5cm}|p{1cm}p{2cm}p{2cm}p{1cm}p{1cm}p{4cm}p{3cm}p{5cm}@{}}
+\toprule Quantitative Trait & Sample Size & M/F Ratio & Age range (years) & GWAS call rate & PO call rate & Transformation & Covariates & Exclusions\\ \midrule
+SBP & 807 & 	371/436 & 	6-85 & 	0.94 & 	0.82 & 	log & 	age, sex, age*sex, technician & \multirow{2}{5cm}{Anti-hypertensive medication} \\ \cline{1-8}
+DBP & 807 & 	371/436 & 	6-85 & 	0.94 & 	0.82 & 	log & 	age, sex, age*sex, inbreeding, technician	 & \\ \hline
+HDL & 828 & 	381/447 & 	14-85 & 	0.94 & 	0.80 & 	cube root & 	age, sex	& \multirow{4}{5cm}{Anti-hypercholesterolemia medication, hormone replacement therapy, birth control; diagnosis of sitosterolemia} \\ \cline{1-8}
+LDL & 807 & 	367/440 & 	14-85 & 	- &	0.80 & 	cube root	age, sex	& \\ \cline{1-8}
+Triglycerides & 828 & 382/446	14-85 & 	0.94	&0.80	&log	&age, sex	& \\ \cline{1-8}
+Total cholesterol/HDL&	828 & 381/447&	14-85&	0.94&	0.80	&log	&age, sex	& \\ \hline
+Monocyte count & 1069&	503/566&	5.47-85.10	&0.94&	0.81&	log&	age, sex, age*sex & \multirow{4}{5cm}{Antibiotics, immunosupressants, and/or steroids was an exclusion for all WBC count phenotypes. Antifungal medication was an exclusion for the Eosinophil Count phenotype.}\\ \cline{1-8}
+Lymphocyte count & 1079 & 	507/572	&6-85 & 	0.94	 & - &	log	 & age	 & \\ \cline{1-8}
+Eosinophil count & 1068 & 	502/566 & 	5.47-85.10	 & 0.94	 & 0.81	 & square root(log()) & 	sex	 & \\ \cline{1-8}
+Neutrophil count & 1070 & 	503/567 & 	5.47-85.10 & 	0.94	 & 0.81	 & log	 & age, sex, age*sex, phase	 & \\ \cline{1-8}
+LAVI & 637 & 	296/341 & 	14-88 & 	0.94 & 	0.80	 & log & 	age, sex & 	Pregnant, history of heart valve replacement, or poor quality echocardiography images \\ \hline
+LVMI	 & 621 & 	286/335 & 	14-88 & 	0.94	 & 0.79 & 	log	 & age, sex	 & Aortic stenosis by history or echocardiogram Cholesterol and/or thyroid medication or poor quality echocardiography images \\ \hline
+CIMT & 547 & 248/299 & 	14-86 & 	0.94 & 	0.80 & 	inverse & 	age, sex	 & Cholesterol and/or thyroid medication, history of liver disease, or poor quality imaging \\ \hline
+FeNO & 825 & 381/444 & 	6-85 & 	0.95 & 	0.82 & 	log & 	age, sex, technician	 & Poor quality measurements  \\ \bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Summary of the Hutterite Phenotypes and Sample Composition. ]{\textbf{Summary of the Hutterite Phenotypes and Sample Composition.} *SBP: Systolic Blood Pressure, DBP: Diastolic Blood Pressure, HDL: High Density Lipoprotein, LDL: Low Density Lipoprotein, LAVI: Left Atrial Volume Index, LVMI: Left Ventricular Mass Index, CIMT: Carotid Intima Media Thickness, FeNO: Fraction of Exhaled Nitric Oxide, FEV\textsubscript{1}: Forced Expiratory Volume at 1 s, FVC: Forced Vital Capacity, BRI: Bronchial Responsiveness Index}
+\label{tab:tab-s1a}
+\end{table}
+
+
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{2.5cm}|p{1cm}p{2cm}p{2cm}p{1cm}p{1cm}p{4cm}p{3cm}|p{5cm}@{}}
+\toprule Quantitative Trait & Sample Size & M/F Ratio & Age range (years) & GWAS call rate & PO call rate & Transformation & Covariates & Exclusions\\ \midrule
+BRI & 950	 & 445/505 & 	6.11-78.22 & 	0.94	 & 0.82	 & none	 & age, inbreeding & 	Pregnant and/or lactating or medical contraindications (e.g. beta-blockers, asthma medication 24 hour prior to examination, cystic fibrosis) \\ \hline
+FEV\textsubscript{1} & 1102 & 509/593 & 	5.47-8.47	 & 0.94 &	0.82 & 	none	 & Age, sex, height, height squared, phase, sex * age group (<17 vs ≥17 years old), age*sex*age group, height*sex*age group	 & \multirow{2}{5cm}{Poor quality FEV1 and/or FVC measurements or medical contraindications (e.g. asthma medication 24 hour prior to examination, cystic fibrosis)} \\ \cline{1-8}
+FEV\textsubscript{1}/FVC & 1106 & 512/594 & 	5.47-8.47 & 	0.94	 & 0.82 & 	none & 	age, sex, age*sex, inbreeding	 & \\ \hline
+Total serum IgE	 & 1219 & 562/657 & 	6-91	 & 0.94 & 	0.81 & 	log	 & age	 & Xolair medication \\ \hline
+BMI & 1188 & 	577/652 & 5.5-89.2 & 	0.94	 & 0.82 & 	log & 	log(age), sex, phase, colony	 & Pregnancy \\ \hline
+Height & 1199 & 576/669 & 5-89 & 	0.94 & 	0.82 & 	none	& age, age*sex group (<15 years old males+females), age*sex (≥15 years old males), age*sex  ≥15 years old females)	 & - \\ \hline
+Age at menarche & 477 & 0/719 & 	9-17 & 	0.92 & 	0.71	 & none & 	birthyear	 & - \\ \bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Summary of the Hutterite Phenotypes and Sample Composition (Continued). ]{\textbf{Summary of the Hutterite Phenotypes and Sample Composition (Continued).} *SBP: Systolic Blood Pressure, DBP: Diastolic Blood Pressure, HDL: High Density Lipoprotein, LDL: Low Density Lipoprotein, LAVI: Left Atrial Volume Index, LVMI: Left Ventricular Mass Index, CIMT: Carotid Intima Media Thickness, FeNO: Fraction of Exhaled Nitric Oxide, FEV\textsubscript{1}: Forced Expiratory Volume at 1 s, FVC: Forced Vital Capacity, BRI: Bronchial Responsiveness Index}
+\label{tab:tab-s1b}
+\end{table}
+
+
+
+\end{landscape}
+
+
+\begin{landscape}
+
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{2cm}|p{2.5cm}p{4cm}p{3cm}p{2cm}p{3cm}p{2.1cm}p{1.5cm}p{3cm}p{2cm}@{}}
+\toprule Phenotype & Sample size & Most significant GWAS p-value & SNP Sample Size & rsid (Effect allele/Other allele) & chr:loc & Beta (SE) & Variant & (Nearest) Gene & MAF \\ \midrule
+
+BMI & 1188 & 8.04E-07 & 1016	 & rs139659764 (A/G) & 13:81274241 & -8.16E-02 (1.64E-02) & intergenic & \emph{LINC00377} & 0.07555 \\ \hline
+
+BRI & 950 & 3.05E-07 & 935 & rs7498042 (T/G) & 15:91119014 & 3.34E-02        (6.47E-03) & intron & \emph{CRTC3} & 0.2921\\ \hline
+
+CIMT & 547 & 1.51E-09 & 470 & rs116908536 (A/G) & 11:33699981 & -0.144         (2.34E-02) & intron & \emph{LOC105376617} & 0.05183\\ \hline
+
+DBP & 807 & 9.66E-07 & 999 & rs116196949 (T/C) & 18:9014768 & -4.84E-02         (9.82E-03) & intergenic & \emph{NDUFV2} & 0.1312\\ \hline
+
+Eosinophil count & 1068 & 1.44E-07 & 939 & rs62544465 (A/G) & 9:26045558 & 8.17E-02     (1.68E-02) & intergenic & \emph{LOC100506422} & 0.147\\ \hline
+
+FeNO & 825 & 2.15E-07 & 753 & rs1121780 (T/C) & 2:42961321 & 0.157      (2.96E-02) & intron & \emph{MTA3} & 0.4824\\ \hline
+
+FEV\textsubscript{1} & 1102 & 1.22E-06 & 1102 & rs13281444 (C/T) & 8:6520628 & 1.11E-01       (2.28E-02) & intron & \emph{LOC100507530} & 0.358\\ \hline
+
+FEV\textsubscript{1}/FVC & 1106 & 2.49E-07 & 1099 & rs8028898 (A/G) & 15:71679543	 & -2.75E-01       (5.31E-02) & intron & \emph{THSD4} & 0.2049\\ \hline
+
+HDL & 828 & 8.81E-07 & 828 & rs186133312 (A/T) & 16:58850424 & -0.483        (9.73E-02) & intergenic	 & \emph{GOT2} & 0.0687\\ \hline
+
+Height & 1199 & 7.62E-07	 & 1009 & rs1318252 (G/A) & 11:1653200 & 1.38         (0.278) & intergenic & \emph{KRTAP5-5} & 0.4239\\ \hline
+
+IgE & 1219 & 3.99E-07 & 1187 & rs66498879 (C/T) & 11:125495211 & -0.256        (5.045E-02) & 5\rq UTR & \emph{CHEK1} & 0.3243\\ \hline
+
+LAVI & 637 & 3.07E-06 & 573 & rs17205373 (G/C) & 6:32626210 & -0.1144        (2.81E-02) & intergenic & \emph{HLA-DQB1} & 0.09724\\ \hline
+
+LDL & 807 & 2.83E-17 & 714 & rs557778817 (T/C) & 19:11305534 & 1.3         (0.15) & intron & \emph{KANK2} & 0.03382\\ \hline
+
+LVMI	 & 621 & 1.23E-09 & 517 & rs113389683 (A/G) & 8:36026788 & 0.153      (2.47E-02) & intergenic & \emph{UNC5D, KCNU1} & 0.08624\\ \hline
+
+Lymphocyte count & 1079 & 5.67E-08 & 894 & rs4323874 (G/A) & 11:129110347 & 8.19E-02 (1.49E-02) & intergenic & \emph{ARHGAP32} & 0.4395\\ \hline
+Age at Menarche & 477 & 3.17E-07 & 463 & rs785474 (G/C) & 1:46609106 & 4.5E-01 (8.72E-02) & intron & \emph{PIK3R3} & 0.4268\\ \hline
+Monocyte count & 1069 & 1.36E-08 & 902 & rs531317434 (G/T) & 7:9466593 & -0.27 (4.73E-02) & intergenic & \emph{NXPH1, PER4} & 0.03361\\ \hline
+Neutrophil count & 1070 & 2.1E-07 & 1070 & rs1215134 (C/T) & 9:15347518 & -8.97E-02 (1.71E-02) & intergenic & \emph{TTC39B} & 0.4307\\ \hline
+
+SBP & 807 & 5.23E-06 & 774 & rs28742608 (G/T) & 5:1440934 & -4.8E-02 (1.05E-02) & intron & \emph{LC6A3} & 0.07549\\ \hline
+
+Total Cholesterol & 828 & 1.20E-07 & 828 & rs11084211 (A/G) & 19:53460861 & 0.287 (5.39E-02) & intron & \emph{ZNF816, ZNF816-ZNF321P} & 0.3071\\ \hline
+
+Triglycerides & 828 & 7.12E-13	 & 707 & rs184333869 (T/C) & 11:117947268 & -1.28 (0.175) & intron & \emph{TMPRSS4} & 0.02399\\ \bottomrule
+
+\end{tabular}
+\end{adjustbox}
+\caption[GWAS Results. ]{\textbf{GWAS Results.} Phenotype definitions, exclusions, transformations and covariates are summarized in Table \ref{tab:tab-s1a}}
+\label{tab:tab-s2}
+\end{table}
+
+\end{landscape}
 
 
 
 
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{5cm}|p{5cm}|p{10cm}@{}}
+\toprule Phenotype & SNP & genes +/- 1Mb expressed in LCLs\\ \midrule
+
+ \multicolumn{2}{c}{A. Maternal Associations} &\\ \hline
+ 
+ Age at Menarche & rs7184983 & \emph{AMFR, ARL2BP, BBS2, CCDC102A, CCL17, CCL22, CES5A, CETP, CIAPIN1, COQ9, CPNE2, CX2CL1, DOK4, FAM192A, GNAO1, HERPUD1, MR1E, MT1L, MT2A, NLRC5, NUDT21, NUP93, OGFOD1, PLLP, POLR2C, RSPRY1, SLC12A3} \\ \hline
+CIMT & rs4077567 & \emph{ABCA12, ATIC, FN1, IGFBP2, MREG, PECR, RPL37A, SMARCAL1, TMEM169, XRCC5} \\ \hline
+
+\multirow{2}{5cm}{FEV1} & rs9849387 & \emph{ROBO1} \\ \cline{2-3}
+ & rs6791779 & \emph{ZNF717} \\ \hline
+LVMI	 & rs574232282 & \emph{CITED4, COL9A2, FOXJ3, HIVEP3, KCNQ4, NFYC, RIMS3, RLF, SCMH1, SMAP2, ZMPSTE24, SNF684} \\ \hline
+\multicolumn{2}{c}{B. Paternal Associations} &\\  \hline
+\multirow{2}{5cm}{LDL} & rs12024326 & \emph{ADAMTS10, ANGPTL4, AHGEF18, CAMSAP3, CCL25, CD209, CD320, CERS4, CLEC4G, CTXN1, ELAVL1, EMR4P, EVI5L, FCER2, HNRNPM, INSR, KANK3, MAP2K7, MARCH2, MCOLN1, MYO1F, NDUFA, PCP2, PEX11G, PNPLA6, RAB11B, RAB11B-AS1, RPS28, SNAPC2, STXBP2, TIMM44, TRAPPC5, XAB2, ZNF358, ZNF414, ZNF557, ZNF558} \\  \cline{2-3}
+
+ & rs4843650 & \emph{BANP, C16orf95, FBXO31, KLHDC4, MAP1LC3B, SLC7A5, ZC3H18, ZCCHC14, ZFPM1, ZNF469
+SBP	rs1536182	COG3, CTF2F2, KIAA0226L, LCP1, LRCH1, NUFIP1, SLC25A30, SLC25A30-AS1, TPT1, TPT1-AS1, ZC3H13}\\ \hline
+Total Cholesterol & rs113588203 & \emph{ABCB10, ARF1, C1orf35, GUK1, HIST3H2A, IBA57, IBA57-AS1, MRPL55, NUP133, OBSCN, RAB4A, RHOU, RNF187, SNORA51, SPHAR, TAF5L, TRIM11, TRIM17, URB2, WNT3A} \\ \bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Candidate Genes for Parent of Origin eQTL. ]{\textbf{Candidate Genes for Parent of Origin eQTL.}}
+\label{tab:tab-s3}
+\end{table}
 
 
 
 
+\begin{table}
+\centering
+\begin{adjustbox}{width={\textwidth}}
+\begin{tabular}{@{}p{5cm}|p{5cm}|p{10cm}@{}}
+\toprule Phenotype & SNP & Genes +/- 1Mb expressed in LCLs \\ \midrule
+Total Cholesterol & rs7033776 & \emph{CLTA, CREB3, FBXO10, FRMPD1, GBA2, GLIPE2, GNE, GRHPR, HINT2, MELK, MSMP, NRP2, PAX5, POLR1E, RECK, RGP1, SPAG8, TLN1, TMEM8B, TOMM5, ZBTB5, ZCCHC7} \\ \hline
+\multirow{2}{5cm}{BMI} & rs77785972 & \emph{CHD1, RGMB, RGMB-AS1, RIOK2} \\ \cline{2-3}
+ &  rs17605739	 & - \\ \hline
+LDL & rs1032596 & \emph{C16orf74, C16orf95, COX4I1, GINS2, IRF8, MTHFSD}\\ \hline
+Triglycerides & rs7527236 & \emph{LYPLA1, RRP15, TGFB2}\\ \hline
+LVMI	 & rs16853098 & \emph{STK39} \\ \hline
+Age at menarche & rs58758366 & -\\ \hline
+Eosinophil count & rs2355879 & \emph{AKR7A2, ALDH4A1, ARHGEF10L, CAPZB, IFFO2, MRTO4, PQLC2, RCC2, UBR4}\\ \hline
+Neutrophil count & rs142030841 & \emph{C18orf21, CELF4, ELP2, FHOD3, KIAA1328, MOCOS, RPRD1A, SLC39A6, TPGS2} \\ \hline
+FEV\textsubscript{1} & rs12714812 & \emph{FAM86DP} \\ \bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption[Candidate Genes for Parent of Origin Differential eQTL. ]{\textbf{Candidate Genes for Parent of Origin Differential eQTL.}}
+\label{tab:tab-s4}
+\end{table}
+
+
+
+\begin{table}
+\caption[Maternal GWAS results with p-value \textless 5x10-08. ]{\textbf{Maternal GWAS results with p-value \textless 5x10-08.} Significant results from the Maternal GWAS, not pruned for LD. }
+\label{tab:tab-s5}
+\end{table}
+
+
+\begin{table}
+\caption[Paternal GWAS results with p-value \textless 5x10-08. ]{\textbf{Paternal GWAS results with p-value \textless 5x10-08.}Significant results from the Paternal GWAS, not pruned for LD.}
+\label{tab:tab-s6}
+\end{table}
+
+
+\begin{table}
+\caption[Differential Effect GWAS results with p-value \textless 5x10-08. ]{\textbf{Differential Effect  GWAS results with p-value \textless 5x10-08.} Significant results from the Differential Effect GWAS, not pruned for LD.}
+\end{table}
 
 
