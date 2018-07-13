@@ -1,7 +1,7 @@
 \contentsline {chapter}{List of Figures}{vi}{chapter*.3}
 \contentsline {chapter}{List of Tables}{viii}{chapter*.4}
 \contentsline {chapter}{Acknowledgments}{ix}{chapter*.6}
-\contentsline {chapter}{Abstract}{x}{chapter*.7}
+\contentsline {chapter}{Abstract}{xi}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Human Genetics and the Genetics of Complex Traits}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}On The Origin of Genomic Imprinting }{3}{section.1.2}
@@ -44,27 +44,27 @@
 \contentsline {subsection}{\numberline {3.5.3}RNA-seq in Peripheral Blood Leukocytes (PBLs) }{59}{subsection.3.5.3}
 \contentsline {subsection}{\numberline {3.5.4}Identifying Imprinted Genes}{59}{subsection.3.5.4}
 \contentsline {subsection}{\numberline {3.5.5}DNA methylation profiling and processing in PBLs}{59}{subsection.3.5.5}
-\contentsline {chapter}{\numberline {4}Parent of Origin Effects on Gene Expression }{63}{chapter.4}
-\contentsline {section}{\numberline {4.1}Abstract}{63}{section.4.1}
-\contentsline {section}{\numberline {4.2}Introduction}{63}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{64}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Opposite Parent of Origin eQTL (oeQTL) }{65}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Single Parent eQTL (mat-eQTL, pat-eQTL)}{67}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Parent of Origin (PO) - ASE Test}{69}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Modified ASE Test on Symmetrically Expressed Genes}{73}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Discussion}{77}{section.4.4}
-\contentsline {section}{\numberline {4.5}Methods}{79}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Genotypes and Sample Information}{79}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}RNA-seq QC}{79}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Parent of Origin Expression QC}{79}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Informative Genes}{80}{subsection.4.5.4}
-\contentsline {subsection}{\numberline {4.5.5}Opposite Parent of Origin eQTL}{82}{subsection.4.5.5}
-\contentsline {subsection}{\numberline {4.5.6}Single Parent eQTL}{82}{subsection.4.5.6}
-\contentsline {subsection}{\numberline {4.5.7}PO ASE Test}{82}{subsection.4.5.7}
-\contentsline {subsection}{\numberline {4.5.8}Not Asymmetrically Expressed Genes}{83}{subsection.4.5.8}
-\contentsline {chapter}{\numberline {5}Conclusion}{84}{chapter.5}
-\contentsline {section}{\numberline {5.1}A novel method to detect opposite effects of parentally inherited variants on cardiovascular disease and asthma associated traits}{84}{section.5.1}
-\contentsline {section}{\numberline {5.2}Identifying two novel imprinted genes in known imprinted regions using parent of origin gene expression}{85}{section.5.2}
-\contentsline {section}{\numberline {5.3}Can genetic variation by parent of origin influence gene expression on the same haplotype?}{86}{section.5.3}
-\contentsline {section}{\numberline {5.4}Concluding remarks}{88}{section.5.4}
-\contentsline {chapter}{References}{89}{section.5.4}
+\contentsline {chapter}{\numberline {4}Parent of Origin Effects on Gene Expression }{67}{chapter.4}
+\contentsline {section}{\numberline {4.1}Abstract}{67}{section.4.1}
+\contentsline {section}{\numberline {4.2}Introduction}{67}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{68}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Opposite Parent of Origin eQTL (oeQTL) }{69}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Single Parent eQTL (mat-eQTL, pat-eQTL)}{71}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Parent of Origin (PO) - ASE Test}{73}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Modified ASE Test on Symmetrically Expressed Genes}{77}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Discussion}{81}{section.4.4}
+\contentsline {section}{\numberline {4.5}Methods}{83}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Genotypes and Sample Information}{83}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}RNA-seq QC}{83}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Parent of Origin Expression QC}{83}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Informative Genes}{84}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Opposite Parent of Origin eQTL}{86}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Single Parent eQTL}{86}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.7}PO ASE Test}{86}{subsection.4.5.7}
+\contentsline {subsection}{\numberline {4.5.8}Not Asymmetrically Expressed Genes}{87}{subsection.4.5.8}
+\contentsline {chapter}{\numberline {5}Conclusion}{88}{chapter.5}
+\contentsline {section}{\numberline {5.1}A novel method to detect opposite effects of parentally inherited variants on cardiovascular disease and asthma associated traits}{88}{section.5.1}
+\contentsline {section}{\numberline {5.2}Identifying two novel imprinted genes in known imprinted regions using parent of origin gene expression}{89}{section.5.2}
+\contentsline {section}{\numberline {5.3}Can genetic variation by parent of origin influence gene expression on the same haplotype?}{90}{section.5.3}
+\contentsline {section}{\numberline {5.4}Concluding remarks}{92}{section.5.4}
+\contentsline {chapter}{References}{93}{section.5.4}

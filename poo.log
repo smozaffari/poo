@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 JUL 2018 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 JUL 2018 09:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -600,13 +600,13 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 \openout2 = `tex/acknowledgments.aux'.
 
 
-(./tex/acknowledgments.tex) [9
+(./tex/acknowledgments.tex [9
 
 
-]
+]) [10]
 \openout2 = `tex/abstract.aux'.
 
- (./tex/abstract.tex) [10
+ (./tex/abstract.tex) [11
 
 
 
@@ -625,7 +625,7 @@ l.14
 
 
 
-] <img/ch01/fig-01-lowhangingfruit.pdf, id=565, 794.97pt x 614.295pt>
+] <img/ch01/fig-01-lowhangingfruit.pdf, id=577, 794.97pt x 614.295pt>
 File: img/ch01/fig-01-lowhangingfruit.pdf Graphic file (type pdf)
 
 <use img/ch01/fig-01-lowhangingfruit.pdf>
@@ -972,7 +972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []
 
 [12] [13]
-<img/ch02/fig-01-menarche_matpatgwas.pdf, id=799, 495.07962pt x 266.9975pt>
+<img/ch02/fig-01-menarche_matpatgwas.pdf, id=811, 495.07962pt x 266.9975pt>
 File: img/ch02/fig-01-menarche_matpatgwas.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-01-menarche_matpatgwas.pdf>
@@ -980,7 +980,7 @@ Package pdftex.def Info: img/ch02/fig-01-menarche_matpatgwas.pdf used on input
 line 63.
 (pdftex.def)             Requested size: 433.62pt x 233.8585pt.
  [14 <./img/ch02/fig-01-menarche_matpatgwas.pdf>]
-<img/ch02/fig-02-ldl_matpatgwas.pdf, id=913, 495.07962pt x 266.9975pt>
+<img/ch02/fig-02-ldl_matpatgwas.pdf, id=926, 495.07962pt x 266.9975pt>
 File: img/ch02/fig-02-ldl_matpatgwas.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-02-ldl_matpatgwas.pdf>
@@ -1232,7 +1232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []\OT1/cmr/m/n/12 0.099
  []
 
-<img/ch02/fig-03-menarche_oegwas.pdf, id=1026, 324.3618pt x 172.49945pt>
+<img/ch02/fig-03-menarche_oegwas.pdf, id=1038, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-03-menarche_oegwas.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-03-menarche_oegwas.pdf>
@@ -1240,7 +1240,7 @@ Package pdftex.def Info: img/ch02/fig-03-menarche_oegwas.pdf used on input line
  116.
 (pdftex.def)             Requested size: 361.34999pt x 192.17941pt.
 
-<img/ch02/fig-04-bmi_oegwas.pdf, id=1027, 324.3618pt x 172.49945pt>
+<img/ch02/fig-04-bmi_oegwas.pdf, id=1039, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-04-bmi_oegwas.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-04-bmi_oegwas.pdf>
@@ -1438,133 +1438,133 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
  [23] [24] [25] [26] [27] [28]
-<img/ch02/fig-s1a.pdf, id=1283, 614.295pt x 794.97pt>
+<img/ch02/fig-s1a.pdf, id=1296, 614.295pt x 794.97pt>
 File: img/ch02/fig-s1a.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s1a.pdf>
 Package pdftex.def Info: img/ch02/fig-s1a.pdf used on input line 274.
 (pdftex.def)             Requested size: 361.34999pt x 467.63326pt.
 
-<img/ch02/fig-s1b.pdf, id=1284, 614.295pt x 794.97pt>
+<img/ch02/fig-s1b.pdf, id=1297, 614.295pt x 794.97pt>
 File: img/ch02/fig-s1b.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s1b.pdf>
 Package pdftex.def Info: img/ch02/fig-s1b.pdf used on input line 282.
 (pdftex.def)             Requested size: 361.34999pt x 467.63326pt.
 
-<img/ch02/fig-s1c.pdf, id=1285, 614.295pt x 794.97pt>
+<img/ch02/fig-s1c.pdf, id=1298, 614.295pt x 794.97pt>
 File: img/ch02/fig-s1c.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s1c.pdf>
 Package pdftex.def Info: img/ch02/fig-s1c.pdf used on input line 291.
 (pdftex.def)             Requested size: 361.34999pt x 467.63326pt.
 
-<img/ch02/fig-s2.pdf, id=1286, 495.07962pt x 266.9975pt>
+<img/ch02/fig-s2.pdf, id=1299, 495.07962pt x 266.9975pt>
 File: img/ch02/fig-s2.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s2.pdf>
 Package pdftex.def Info: img/ch02/fig-s2.pdf used on input line 301.
 (pdftex.def)             Requested size: 361.34999pt x 194.8821pt.
 
-<img/ch02/fig-s3.pdf, id=1287, 495.07962pt x 273.02pt>
+<img/ch02/fig-s3.pdf, id=1300, 495.07962pt x 273.02pt>
 File: img/ch02/fig-s3.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s3.pdf>
 Package pdftex.def Info: img/ch02/fig-s3.pdf used on input line 310.
 (pdftex.def)             Requested size: 361.34999pt x 199.27794pt.
 
-<img/ch02/fig-s4.pdf, id=1288, 495.07962pt x 266.9975pt>
+<img/ch02/fig-s4.pdf, id=1301, 495.07962pt x 266.9975pt>
 File: img/ch02/fig-s4.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s4.pdf>
 Package pdftex.def Info: img/ch02/fig-s4.pdf used on input line 319.
 (pdftex.def)             Requested size: 361.34999pt x 194.8821pt.
 
-<img/ch02/fig-s5.pdf, id=1289, 495.07962pt x 266.9975pt>
+<img/ch02/fig-s5.pdf, id=1302, 495.07962pt x 266.9975pt>
 File: img/ch02/fig-s5.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s5.pdf>
 Package pdftex.def Info: img/ch02/fig-s5.pdf used on input line 329.
 (pdftex.def)             Requested size: 361.34999pt x 194.8821pt.
 
-<img/ch02/fig-s6.pdf, id=1290, 495.07962pt x 266.9975pt>
+<img/ch02/fig-s6.pdf, id=1303, 495.07962pt x 266.9975pt>
 File: img/ch02/fig-s6.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s6.pdf>
 Package pdftex.def Info: img/ch02/fig-s6.pdf used on input line 339.
 (pdftex.def)             Requested size: 361.34999pt x 194.8821pt.
 
-<img/ch02/fig-s7a.pdf, id=1291, 614.295pt x 794.97pt>
+<img/ch02/fig-s7a.pdf, id=1304, 614.295pt x 794.97pt>
 File: img/ch02/fig-s7a.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s7a.pdf>
 Package pdftex.def Info: img/ch02/fig-s7a.pdf used on input line 348.
 (pdftex.def)             Requested size: 361.34999pt x 467.63326pt.
 
-<img/ch02/fig-s7b.pdf, id=1292, 614.295pt x 794.97pt>
+<img/ch02/fig-s7b.pdf, id=1305, 614.295pt x 794.97pt>
 File: img/ch02/fig-s7b.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s7b.pdf>
 Package pdftex.def Info: img/ch02/fig-s7b.pdf used on input line 357.
 (pdftex.def)             Requested size: 361.34999pt x 467.63326pt.
 
-<img/ch02/fig-s7c.pdf, id=1293, 614.295pt x 794.97pt>
+<img/ch02/fig-s7c.pdf, id=1306, 614.295pt x 794.97pt>
 File: img/ch02/fig-s7c.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s7c.pdf>
 Package pdftex.def Info: img/ch02/fig-s7c.pdf used on input line 367.
 (pdftex.def)             Requested size: 361.34999pt x 467.63326pt.
 
-<img/ch02/fig-s8.pdf, id=1294, 324.3618pt x 172.49945pt>
+<img/ch02/fig-s8.pdf, id=1307, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-s8.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s8.pdf>
 Package pdftex.def Info: img/ch02/fig-s8.pdf used on input line 375.
 (pdftex.def)             Requested size: 361.34999pt x 192.17941pt.
 
-<img/ch02/fig-s9.pdf, id=1295, 324.3618pt x 172.49945pt>
+<img/ch02/fig-s9.pdf, id=1308, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-s9.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s9.pdf>
 Package pdftex.def Info: img/ch02/fig-s9.pdf used on input line 382.
 (pdftex.def)             Requested size: 361.34999pt x 192.17941pt.
 
-<img/ch02/fig-s10.pdf, id=1296, 324.3618pt x 172.49945pt>
+<img/ch02/fig-s10.pdf, id=1309, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-s10.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s10.pdf>
 Package pdftex.def Info: img/ch02/fig-s10.pdf used on input line 389.
 (pdftex.def)             Requested size: 361.34999pt x 192.17941pt.
 
-<img/ch02/fig-s11.pdf, id=1297, 324.3618pt x 172.49945pt>
+<img/ch02/fig-s11.pdf, id=1310, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-s11.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s11.pdf>
 Package pdftex.def Info: img/ch02/fig-s11.pdf used on input line 396.
 (pdftex.def)             Requested size: 361.34999pt x 192.17941pt.
 
-<img/ch02/fig-s12.pdf, id=1298, 324.3618pt x 172.49945pt>
+<img/ch02/fig-s12.pdf, id=1311, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-s12.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s12.pdf>
 Package pdftex.def Info: img/ch02/fig-s12.pdf used on input line 403.
 (pdftex.def)             Requested size: 361.34999pt x 192.17941pt.
 
-<img/ch02/fig-s13.pdf, id=1299, 324.3618pt x 172.49945pt>
+<img/ch02/fig-s13.pdf, id=1312, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-s13.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s13.pdf>
 Package pdftex.def Info: img/ch02/fig-s13.pdf used on input line 410.
 (pdftex.def)             Requested size: 361.34999pt x 192.17941pt.
 
-<img/ch02/fig-s14.pdf, id=1300, 324.3618pt x 172.49945pt>
+<img/ch02/fig-s14.pdf, id=1313, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-s14.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s14.pdf>
 Package pdftex.def Info: img/ch02/fig-s14.pdf used on input line 417.
 (pdftex.def)             Requested size: 361.34999pt x 192.17941pt.
 
-<img/ch02/fig-s15.pdf, id=1301, 324.3618pt x 172.49945pt>
+<img/ch02/fig-s15.pdf, id=1314, 324.3618pt x 172.49945pt>
 File: img/ch02/fig-s15.pdf Graphic file (type pdf)
 
 <use img/ch02/fig-s15.pdf>
@@ -2226,7 +2226,7 @@ Underfull \hbox (badness 4429) in paragraph at lines 55--55
 \OT1/cmr/m/n/12 more pa-ter-nal ex-pres-sion
  []
 
-[50] <img/ch03/fig-01.pdf, id=2566, 375.804pt x 308.65312pt>
+[50] <img/ch03/fig-01.pdf, id=2580, 375.804pt x 308.65312pt>
 File: img/ch03/fig-01.pdf Graphic file (type pdf)
 
 <use img/ch03/fig-01.pdf>
@@ -2238,14 +2238,14 @@ Overfull \hbox (36.13501pt too wide) in paragraph at lines 99--100
  []
 
 [51 <./img/ch03/fig-01.pdf>] [52]
-<img/ch03/fig-02.pdf, id=3071, 375.804pt x 254.9525pt>
+<img/ch03/fig-02.pdf, id=3083, 375.804pt x 254.9525pt>
 File: img/ch03/fig-02.pdf Graphic file (type pdf)
 
 <use img/ch03/fig-02.pdf>
 Package pdftex.def Info: img/ch03/fig-02.pdf used on input line 114.
 (pdftex.def)             Requested size: 433.62pt x 294.19287pt.
  [53] [54 <./img/ch03/fig-02.pdf>]
-<img/ch03/fig-03.pdf, id=3127, 375.804pt x 562.60187pt>
+<img/ch03/fig-03.pdf, id=3140, 375.804pt x 562.60187pt>
 File: img/ch03/fig-03.pdf Graphic file (type pdf)
 
 <use img/ch03/fig-03.pdf>
@@ -2256,28 +2256,44 @@ Package pdftex.def Info: img/ch03/fig-03.pdf used on input line 127.
 LaTeX Warning: Text page 56 contains only floats.
 
 [56 <./img/ch03/fig-03.pdf>] [57] [58] [59]
-<img/ch03/fig-s1.pdf, id=3238, 614.295pt x 794.97pt>
+<img/ch03/fig-s1.pdf, id=3250, 614.295pt x 794.97pt>
 File: img/ch03/fig-s1.pdf Graphic file (type pdf)
  <use img/ch03/fig-s1.pdf>
 Package pdftex.def Info: img/ch03/fig-s1.pdf used on input line 167.
 (pdftex.def)             Requested size: 361.34999pt x 467.63326pt.
 
-<img/ch03/fig-s2.pdf, id=3239, 375.804pt x 319.15736pt>
+<img/ch03/fig-s2.pdf, id=3251, 375.804pt x 319.15736pt>
 File: img/ch03/fig-s2.pdf Graphic file (type pdf)
 
 <use img/ch03/fig-s2.pdf>
 Package pdftex.def Info: img/ch03/fig-s2.pdf used on input line 177.
 (pdftex.def)             Requested size: 361.34999pt x 306.89891pt.
-) [60] [61 <./img/ch03/fig-s1.pdf>] [62 <./img/ch03/fig-s2.pdf>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]\OT1/cmr/m/it/12 RP11-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]\OT1/cmr/m/it/12 CTD-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]\OT1/cmr/m/it/12 CTD-
+ []
+
+) [60] [61 <./img/ch03/fig-s1.pdf>] [62 <./img/ch03/fig-s2.pdf>] [63] [64]
+[65] [66]
 \openout2 = `tex/ch04.aux'.
 
  (./tex/ch04.tex
 Chapter 4.
-[63
+[67
 
 
 
-] [64] <img/ch04/fig-01-oeQTLs.pdf, id=8082, 405.515pt x 794.97pt>
+] [68] <img/ch04/fig-01-oeQTLs.pdf, id=8112, 405.515pt x 794.97pt>
 File: img/ch04/fig-01-oeQTLs.pdf Graphic file (type pdf)
 
 <use img/ch04/fig-01-oeQTLs.pdf>
@@ -2287,111 +2303,111 @@ Package pdftex.def Info: img/ch04/fig-01-oeQTLs.pdf used on input line 25.
 
 LaTeX Warning: Float too large for page by 2.36276pt on input line 28.
 
-[65] [66 <./img/ch04/fig-01-oeQTLs.pdf>]
-<img/ch04/fig-04-mat-eQTL.pdf, id=8130, 614.295pt x 611.28375pt>
+[69] [70 <./img/ch04/fig-01-oeQTLs.pdf>]
+<img/ch04/fig-04-mat-eQTL.pdf, id=8159, 614.295pt x 611.28375pt>
 File: img/ch04/fig-04-mat-eQTL.pdf Graphic file (type pdf)
 
 <use img/ch04/fig-04-mat-eQTL.pdf>
 Package pdftex.def Info: img/ch04/fig-04-mat-eQTL.pdf used on input line 35.
 (pdftex.def)             Requested size: 289.07999pt x 287.66718pt.
 
-<img/ch04/fig-05-pat-eQTL.pdf, id=8131, 614.295pt x 611.28375pt>
+<img/ch04/fig-05-pat-eQTL.pdf, id=8160, 614.295pt x 611.28375pt>
 File: img/ch04/fig-05-pat-eQTL.pdf Graphic file (type pdf)
 
 <use img/ch04/fig-05-pat-eQTL.pdf>
 Package pdftex.def Info: img/ch04/fig-05-pat-eQTL.pdf used on input line 41.
 (pdftex.def)             Requested size: 289.07999pt x 287.66718pt.
- [67
+ [71
 
  <./img/ch04/fig-04-mat-eQTL.pdf>]
-<img/ch04/fig-06-effectsizes.pdf, id=8171, 433.62pt x 433.62pt>
+<img/ch04/fig-06-effectsizes.pdf, id=8200, 433.62pt x 433.62pt>
 File: img/ch04/fig-06-effectsizes.pdf Graphic file (type pdf)
 
 <use img/ch04/fig-06-effectsizes.pdf>
 Package pdftex.def Info: img/ch04/fig-06-effectsizes.pdf used on input line 50.
 
 (pdftex.def)             Requested size: 289.07999pt x 289.09473pt.
- [68 <./img/ch04/fig-05-pat-eQTL.pdf>]
-<img/ch04/fig-07-sig_notsig.pdf, id=8206, 558.085pt x 644.4075pt>
+ [72 <./img/ch04/fig-05-pat-eQTL.pdf>]
+<img/ch04/fig-07-sig_notsig.pdf, id=8235, 558.085pt x 644.4075pt>
 File: img/ch04/fig-07-sig_notsig.pdf Graphic file (type pdf)
 
 <use img/ch04/fig-07-sig_notsig.pdf>
 Package pdftex.def Info: img/ch04/fig-07-sig_notsig.pdf used on input line 60.
 (pdftex.def)             Requested size: 361.34999pt x 417.25716pt.
 
-<img/ch04/SNHG14.pdf, id=8212, 432.22278pt x 355.3275pt>
+<img/ch04/SNHG14.pdf, id=8241, 432.22278pt x 355.3275pt>
 File: img/ch04/SNHG14.pdf Graphic file (type pdf)
 
 <use img/ch04/SNHG14.pdf>
 Package pdftex.def Info: img/ch04/SNHG14.pdf used on input line 93.
 (pdftex.def)             Requested size: 252.94499pt x 207.94435pt.
 
-<img/ch04/ERAP2.pdf, id=8213, 432.22278pt x 355.3275pt>
+<img/ch04/ERAP2.pdf, id=8242, 432.22278pt x 355.3275pt>
 File: img/ch04/ERAP2.pdf Graphic file (type pdf)
 
 <use img/ch04/ERAP2.pdf>
 Package pdftex.def Info: img/ch04/ERAP2.pdf used on input line 99.
 (pdftex.def)             Requested size: 252.94499pt x 207.94435pt.
 
-<img/ch04/ZDBF2.pdf, id=8214, 432.22278pt x 355.3275pt>
+<img/ch04/ZDBF2.pdf, id=8243, 432.22278pt x 355.3275pt>
 File: img/ch04/ZDBF2.pdf Graphic file (type pdf)
 
 <use img/ch04/ZDBF2.pdf>
 Package pdftex.def Info: img/ch04/ZDBF2.pdf used on input line 106.
 (pdftex.def)             Requested size: 252.94499pt x 207.94435pt.
- [69 <./img/ch04/fig-06-effectsizes.pdf>] [70 <./img/ch04/fig-07-sig_notsig.pdf
->] [71 <./img/ch04/SNHG14.pdf>] [72 <./img/ch04/ERAP2.pdf> <./img/ch04/ZDBF2.pd
+ [73 <./img/ch04/fig-06-effectsizes.pdf>] [74 <./img/ch04/fig-07-sig_notsig.pdf
+>] [75 <./img/ch04/SNHG14.pdf>] [76 <./img/ch04/ERAP2.pdf> <./img/ch04/ZDBF2.pd
 f>]
-<img/ch04/PEG10.pdf, id=8355, 432.22278pt x 355.3275pt>
+<img/ch04/PEG10.pdf, id=8384, 432.22278pt x 355.3275pt>
 File: img/ch04/PEG10.pdf Graphic file (type pdf)
 
 <use img/ch04/PEG10.pdf>
 Package pdftex.def Info: img/ch04/PEG10.pdf used on input line 113.
 (pdftex.def)             Requested size: 252.94499pt x 207.94435pt.
- [73
+ [77
 
  <./img/ch04/PEG10.pdf>]
-<img/ch04/SEC22B.pdf, id=8393, 432.22278pt x 355.3275pt>
+<img/ch04/SEC22B.pdf, id=8422, 432.22278pt x 355.3275pt>
 File: img/ch04/SEC22B.pdf Graphic file (type pdf)
 
 <use img/ch04/SEC22B.pdf>
 Package pdftex.def Info: img/ch04/SEC22B.pdf used on input line 149.
 (pdftex.def)             Requested size: 361.34999pt x 297.06337pt.
 
-<img/ch04/ZMAT3.pdf, id=8394, 432.22278pt x 355.3275pt>
+<img/ch04/ZMAT3.pdf, id=8423, 432.22278pt x 355.3275pt>
 File: img/ch04/ZMAT3.pdf Graphic file (type pdf)
 
 <use img/ch04/ZMAT3.pdf>
 Package pdftex.def Info: img/ch04/ZMAT3.pdf used on input line 156.
 (pdftex.def)             Requested size: 361.34999pt x 297.06337pt.
- [74] [75 <./img/ch04/SEC22B.pdf>] [76 <./img/ch04/ZMAT3.pdf>] [77
+ [78] [79 <./img/ch04/SEC22B.pdf>] [80 <./img/ch04/ZMAT3.pdf>] [81
 
-] [78] [79]
-<img/ch04/fig-08-individualspergene.pdf, id=8485, 578.16pt x 433.62pt>
+] [82] [83]
+<img/ch04/fig-08-individualspergene.pdf, id=8514, 578.16pt x 433.62pt>
 File: img/ch04/fig-08-individualspergene.pdf Graphic file (type pdf)
 
 <use img/ch04/fig-08-individualspergene.pdf>
 Package pdftex.def Info: img/ch04/fig-08-individualspergene.pdf used on input l
 ine 195.
 (pdftex.def)             Requested size: 361.34999pt x 271.01183pt.
- [80] [81 <./img/ch04/fig-08-individualspergene.pdf>] [82
+ [84] [85 <./img/ch04/fig-08-individualspergene.pdf>] [86
 
-]) [83]
+]) [87]
 \openout2 = `tex/ch05.aux'.
 
  (./tex/ch05.tex
 Chapter 5.
-[84
+[88
 
 
 
-] [85] [86] [87]) [88] (./poo.bbl [89
+] [89] [90] [91]) [92] (./poo.bbl [93
 
 
-] [90] [91] [92] [93] [94] [95]
-[96] [97] [98] [99] [100] [101] [102])
+] [94] [95] [96] [97] [98] [99]
+[100] [101] [102] [103] [104] [105] [106])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
- [103]
+ [107]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./poo.aux
 (./tex/acknowledgments.aux) (./tex/abstract.aux) (./tex/ch01.aux)
@@ -2407,10 +2423,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 10113 strings out of 492995
- 155374 string characters out of 6132704
- 298332 words of memory out of 5000000
- 13039 multiletter control sequences out of 15000+600000
+ 10126 strings out of 492995
+ 155581 string characters out of 6132704
+ 354767 words of memory out of 5000000
+ 13043 multiletter control sequences out of 15000+600000
  11660 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,14n,79p,2401b,892s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2424,10 +2440,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on poo.pdf (113 pages, 37766223 bytes).
+Output written on poo.pdf (118 pages, 37777501 bytes).
 PDF statistics:
- 8753 PDF objects out of 8907 (max. 8388607)
- 5656 compressed objects within 57 object streams
- 371 named destinations out of 1000 (max. 500000)
+ 8784 PDF objects out of 8907 (max. 8388607)
+ 5682 compressed objects within 57 object streams
+ 380 named destinations out of 1000 (max. 500000)
  766 words of extra memory for PDF output out of 10000 (max. 10000000)
 
