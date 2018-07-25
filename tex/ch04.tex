@@ -23,7 +23,7 @@ Our original oeQTL identified three significant opposite effect associations but
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=4in]{img/ch04/fig-01-oeQTLs.pdf}
-\caption[Opposite effect eQTLs driven by one individual's genotype.]{\textbf{Opposite effect eQTLs driven by one individual's genotype.} The three most significant opposite effect eQTLs for genes A) \emph{TIGD5} (p-value 3.1e-09), B) \emph{SON} (p-value 4.3e-09) and C) \emph{CDCA5} (p-value 3.5e-09). The parent of origin eQTL is driven by one heterozygous individual for each gene.}
+\caption[Opposite effect eQTLs driven by one individual's genotype.]{\textbf{Opposite effect eQTLs driven by one individual's genotype.} The three most significant opposite effect eQTLs for genes A) \emph{TIGD5} (p-value $ 3.1 \times 10^{-9} $), B) \emph{SON} (p-value $4.3 \times 10^{-9} $) and C) \emph{CDCA5} (p-value $3.5 \times 10^{-9} $). The parent of origin eQTL is driven by one heterozygous individual for each gene.}
 \label{fig:oeQTL}
 \end{figure}
 \clearpage
@@ -58,7 +58,7 @@ We compared SNP gene pairs that were significant (Bonferroni) in one parent, and
 
 \begin{figure}[!htb]
 \centering \includegraphics[width=5in]{img/ch04/fig-07-sig_notsig.pdf}
-\caption[Parent specific eQTLs significant in one parent and not the other.]{\textbf{Parent specific eQTLs significant in one parent and not the other.} (A) Variant on chromosome 20:20036897 has a significant mat-eQTL association (left) with gene \emph{NAA20} (p-value = 2.32e-27) where the pat-eQTL (right) from the same variant is not significant (p-value = 2.18e-02). In contrast, (B) Variant on chromosome 9:134850002 has a significant pat-eQTL association (right) with gene \emph{MED27} (p-value = 4.7e-32) and mat-eQTL is not significant (p-value = 2.75e-03) (left).}
+\caption[Parent specific eQTLs significant in one parent and not the other.]{\textbf{Parent specific eQTLs significant in one parent and not the other.} (A) Variant on chromosome 20:20036897 has a significant mat-eQTL association (left) with gene \emph{NAA20} (p-value = $2.32 \times 10^{-27} $) where the pat-eQTL (right) from the same variant is not significant (p-value = $2.18 \times 10^{-2} $). In contrast, (B) Variant on chromosome 9:134850002 has a significant pat-eQTL association (right) with gene \emph{MED27} (p-value = $4.7 \times 10^{-32} $) and mat-eQTL is not significant (p-value = $2.75 \times 10^{-3} $) (left).}
 \label{fig:sig_notsig}
 \end{figure}
 
@@ -77,14 +77,14 @@ To detect parent of origin effects on expression using a different approach, we 
 5 & 3342675 & \emph{ERAP2} & 3948/2445 & 4790/7067 & 0\\
 7 & 4671649 &  \emph{PEG10}* & 42/4  & 635/1073 & 0 \\
 8 & 5271050 & \emph{PABPC1} & 600/2564 & 21/494 & 0 \\
-20 & 9548868 & \emph{L3MBTL1}* & 13/18 & 527/699 & 9.88e-248 \\
-14 & 8007882 & \emph{IGHG1} &   794/156  & 1711/918 & 5.15e-191\\
-6 & 3666034 & \emph{FAM50B}* & 0/6 & 481/362 & 1.58e-180\\
-22 & 9799426 & \emph{IGLV2-5} & 240/499 & 23/1 & 6.56e-145\\
-6 & 3758995 & \emph{BTN3A2} & 3609/1049  & 3328/3330 &  8.40e-144\\  \bottomrule
+20 & 9548868 & \emph{L3MBTL1}* & 13/18 & 527/699 & 9.88E-248 \\
+14 & 8007882 & \emph{IGHG1} &   794/156  & 1711/918 & 5.15E-191\\
+6 & 3666034 & \emph{FAM50B}* & 0/6 & 481/362 & 1.58E-180\\
+22 & 9799426 & \emph{IGLV2-5} & 240/499 & 23/1 & 6.56E-145\\
+6 & 3758995 & \emph{BTN3A2} & 3609/1049  & 3328/3330 &  8.40E-144\\  \bottomrule
 \end{tabular}
 \end{adjustbox}
-\caption[Top Ten Significant Genes from PO-ASE Test.]{\textbf{Top Ten Significant Genes from PO-ASE Test.} Five of the top ten significant genes from the PO-ASE test are imprinted genes (* represents imprinted genes). P-value of 0 corresponds to a really small p-value (\textless 10e-248)}
+\caption[Top Ten Significant Genes from PO-ASE Test.]{\textbf{Top Ten Significant Genes from PO-ASE Test.} Five of the top ten significant genes from the PO-ASE test are imprinted genes (* represents imprinted genes). P-value of 0 corresponds to a really small p-value (\textless $10 \times 10^{-248} $)}
 \label{tab:poase1}
 \end{table}
 
@@ -119,7 +119,7 @@ To detect parent of origin effects on expression using a different approach, we 
 \subsection{Modified ASE Test on Symmetrically Expressed Genes}\label{Modified ASE Test on Symmetrically Expressed Genes} 
 We were not surprised to find that the most significant genes from the PO-ASE test were imprinted genes since one haplotype of imprinted genes is silenced, and the other haplotype will be expressed contributing to the significant difference in parental gene expression. We are searching for genes that have different parental expression based on a parentally inherited allele in \emph{cis}. Imprinted genes, as those we identified in Figures \ref{fig:SNHG14}, \ref{fig:ZDBF2}, and \ref{fig:PEG10}, are consistently not expressed from the imprinted haplotype, irrespective of which allele was inherited. We wanted to identify a parent of origin allele effect on expression.
  
-To exclude imprinted genes in the analysis we only tested genes that did not have significant asymmetrical expression (see Methods). We were searching for genes that were more symmetrically expressed from each parental haplotype to identify if a parentally inherited allele can affect expression from the same haplotype in \emph{cis}. We identified 15,340 significant SNPs (not pruned for LD) with 518 genes (using Bonferroni p-value 5.99e-09). The two most significant genes from the PO-ASE test and with symmetric expression are plotted with their most significant SNPs in Figures \ref{fig:SEC22B} and \ref{fig:ZMAT3}. The top ten genes and their most significant SNPs are listed in Table \ref{tab:poase2}.
+To exclude imprinted genes in the analysis we only tested genes that did not have significant asymmetrical expression (see Methods). We were searching for genes that were more symmetrically expressed from each parental haplotype to identify if a parentally inherited allele can affect expression from the same haplotype in \emph{cis}. We identified 15,340 significant SNPs (not pruned for LD) with 518 genes (using Bonferroni p-value $5.99 \times 10^{-9} $). The two most significant genes from the PO-ASE test and with symmetric expression are plotted with their most significant SNPs in Figures \ref{fig:SEC22B} and \ref{fig:ZMAT3}. The top ten genes and their most significant SNPs are listed in Table \ref{tab:poase2}.
 
 
 \begin{table}[!htb]
@@ -127,16 +127,16 @@ To exclude imprinted genes in the analysis we only tested genes that did not hav
 \begin{adjustbox}{width={\textwidth}}
 \begin{tabular}{@{}p{1cm}p{3cm}p{3cm}p{5cm}p{5cm}p{3cm}@{}}
  \toprule  Chr & bp & Gene & Maternal reads (Ref/Alt) & Paternal reads (Ref/Alt) & p-value \\ \midrule
-1 & 404610 & SEC22B & 148/101 & 513/478 & 1.11e-98 \\
-3 & 2222154 & ZMAT3 & 1320/1650 & 257/2085 & 3.53e-83\\
-8 & 5425272 & PARP10 & 128/334 & 324/1018 & 1.06e-71 \\
-12 & 7253839 & OAS3 & 4465/939 & 2069/4327 & 1.06e-65 \\
-11 & 6368707 & IRF7 & 620/2463 & 2079/167 & 2.94e-6520 \\
-14 & 8008568 & IGHV2-5 & 291/295 & 22/135 & 1.80e-62 \\
-17 & 8884867 & CCDC137 & 1449/865 & 173/1819 & 1.45e-57\\
-14 & 7958818 & ITPK1 & 387/686 & 862/1056 & 2.48e-57\\
-17 & 8865144 & SEPT9 & 560/2595 & 2594/1305 & 7.50e-50\\
-17 & 8730038 & SLFN5 & 2528/3084 & 1678/2539 & 1.27e-48\\  \bottomrule
+1 & 404610 & SEC22B & 148/101 & 513/478 & 1.11E-98 \\
+3 & 2222154 & ZMAT3 & 1320/1650 & 257/2085 & 3.53E-83\\
+8 & 5425272 & PARP10 & 128/334 & 324/1018 & 1.06E-71 \\
+12 & 7253839 & OAS3 & 4465/939 & 2069/4327 & 1.06E-65 \\
+11 & 6368707 & IRF7 & 620/2463 & 2079/167 & 2.94E-62 \\
+14 & 8008568 & IGHV2-5 & 291/295 & 22/135 & 1.80E-62 \\
+17 & 8884867 & CCDC137 & 1449/865 & 173/1819 & 1.45E-57\\
+14 & 7958818 & ITPK1 & 387/686 & 862/1056 & 2.48E-57\\
+17 & 8865144 & SEPT9 & 560/2595 & 2594/1305 & 7.50E-50\\
+17 & 8730038 & SLFN5 & 2528/3084 & 1678/2539 & 1.27E-48\\  \bottomrule
 \end{tabular}
 \end{adjustbox}
 \caption[Top Ten Significant Genes from PO-ASE Test after Filtering Asymmetrically Expressed Genes.]{\textbf{Top Ten Significant Genes from PO-ASE Test after Filtering Asymmetrically Expressed Genes.} Filtering on symmetrical expression removed imprinted genes from being the most significant genes from PO-ASE test.}
@@ -233,7 +233,7 @@ We used a simple $\chi^2$ test on the reciprocal heterozygotes on their correspo
 
 
 \subsection{Not Asymmetrically Expressed Genes}\label{Not Asymmetrically Expressed Genes}
-We used a binomial test to determine which genes had more maternal expression than paternal expression. We summed paternal and maternal gene expression across all individuals for a gene and used the sum of maternal and paternal gene expression in a binomial test to determine if the ratio of maternal to the sum of maternal and paternal expression is only 1/2. We kept genes not significant (Bonferroni, p \textgreater $3.5 \times 10^{06}$) for the Modified ASE Test. 
+We used a binomial test to determine which genes had more maternal expression than paternal expression. We summed paternal and maternal gene expression across all individuals for a gene and used the sum of maternal and paternal gene expression in a binomial test to determine if the ratio of maternal to the sum of maternal and paternal expression is only 1/2. We kept genes not significant (Bonferroni, p \textgreater $3.5 \times 10^{-6}$) for the Modified ASE Test. 
 
 
 
