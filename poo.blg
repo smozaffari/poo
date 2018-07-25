@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: poo.aux
 A level-1 auxiliary file: tex/acknowledgments.aux
@@ -10,47 +10,46 @@ A level-1 auxiliary file: tex/ch04.aux
 A level-1 auxiliary file: tex/ch05.aux
 The style file: plain.bst
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "Mozaffari:dg"
 Warning--empty journal in Chuang:2017kp
-You've used 116 entries,
+You've used 119 entries,
             2118 wiz_defined-function locations,
-            1270 strings with 49484 characters,
-and the built_in function-call counts, 74100 in all, are:
-= -- 6257
-> -- 7252
+            1288 strings with 49827 characters,
+and the built_in function-call counts, 75029 in all, are:
+= -- 6351
+> -- 7290
 < -- 3
-+ -- 2884
-- -- 2768
-* -- 7839
-:= -- 13263
-add.period$ -- 349
-call.type$ -- 116
-change.case$ -- 1731
++ -- 2899
+- -- 2780
+* -- 7913
+:= -- 13421
+add.period$ -- 358
+call.type$ -- 119
+change.case$ -- 1746
 chr.to.int$ -- 0
-cite$ -- 117
-duplicate$ -- 1292
-empty$ -- 3110
-format.name$ -- 2768
-if$ -- 13567
+cite$ -- 120
+duplicate$ -- 1325
+empty$ -- 3185
+format.name$ -- 2780
+if$ -- 13755
 int.to.chr$ -- 0
-int.to.str$ -- 116
-missing$ -- 117
-newline$ -- 583
-num.names$ -- 232
-pop$ -- 1516
+int.to.str$ -- 119
+missing$ -- 120
+newline$ -- 598
+num.names$ -- 238
+pop$ -- 1525
 preamble$ -- 1
-purify$ -- 1616
+purify$ -- 1628
 quote$ -- 0
-skip$ -- 845
+skip$ -- 867
 stack$ -- 0
-substring$ -- 3322
-swap$ -- 132
+substring$ -- 3390
+swap$ -- 135
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 462
+type$ -- 474
 warning$ -- 1
-while$ -- 441
-width$ -- 119
-write$ -- 1278
-(There were 2 warnings)
+while$ -- 452
+width$ -- 122
+write$ -- 1311
+(There was 1 warning)
