@@ -3,8 +3,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Maternal and Paternal GWAS results for Age of Menarche.}}{15}{figure.caption.11}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Maternal and Paternal GWAS results for LDL Cholesterol.}}{16}{figure.caption.12}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for Age of Menarche.}}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for BMI.}}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for Age of Menarche.}}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for BMI.}}{19}{figure.caption.15}
 \contentsline {figure}{\numberline {2.5a}{\ignorespaces Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes.}}{30}{figure.caption.18}
 \contentsline {figure}{\numberline {2.5b}{\ignorespaces Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes (Continued).}}{31}{figure.caption.19}
 \contentsline {figure}{\numberline {2.5c}{\ignorespaces Manhattan and QQ Plots from Standard GWAS of 21 Quantitative Phenotypes (Continued).}}{32}{figure.caption.20}
@@ -16,19 +16,19 @@
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes. }}{36}{figure.caption.26}
 \contentsline {figure}{\numberline {2.11a}{\ignorespaces Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes (Continued). }}{37}{figure.caption.27}
 \contentsline {figure}{\numberline {2.11b}{\ignorespaces Manhattan and QQ Plots from Differential Effect GWAS of 21 Quantitative Phenotypes (Continued). }}{38}{figure.caption.28}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for LDL.}}{39}{figure.caption.29}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for LVMI.}}{39}{figure.caption.30}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for Triglycerides.}}{40}{figure.caption.31}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for Total Cholesterol.}}{40}{figure.caption.32}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for Blood Eosinophil Count.}}{41}{figure.caption.33}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for FEV\textsubscript {1}.}}{41}{figure.caption.34}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Opposite Effect Parent of Origin GWAS Result for Neutrophil Count.}}{42}{figure.caption.35}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for LDL.}}{39}{figure.caption.29}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for LVMI.}}{39}{figure.caption.30}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for Triglycerides.}}{40}{figure.caption.31}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for Total Cholesterol.}}{40}{figure.caption.32}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for Blood Eosinophil Count.}}{41}{figure.caption.33}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for FEV\textsubscript {1}.}}{41}{figure.caption.34}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Opposite Effect Parent-of-Origin GWAS Result for Neutrophil Count.}}{42}{figure.caption.35}
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Opposite Effect eQTL for rs7033776.}}{42}{figure.caption.36}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Plot of maternal (x-axis) and paternal (y-axis) gene expression for four genes.}}{52}{figure.caption.47}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Validation in PBLs.}}{55}{figure.caption.48}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Methylation at ICRs.}}{57}{figure.caption.49}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Plots of maternal and paternal expression for remaining genes with parent of origin asymmetry.}}{62}{figure.caption.50}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Plots of maternal and paternal expression for remaining genes with parent-of-origin asymmetry.}}{62}{figure.caption.50}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Density plot for DMRs for all imprinted genes.}}{63}{figure.caption.51}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Opposite effect eQTLs driven by one individual's genotype.}}{71}{figure.caption.56}
