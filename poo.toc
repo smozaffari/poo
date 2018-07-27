@@ -29,43 +29,43 @@
 \contentsline {subsection}{\numberline {2.5.9}Differential Parent-of-Origin eQTL}{29}{subsection.2.5.9}
 \contentsline {section}{\numberline {2.6}Supplementary Information}{30}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Supplementary Figures}{30}{subsection.2.6.1}
-\contentsline {chapter}{\numberline {3}Parent-of-Origin Gene Expression in a Founder Population Identifies Two Novel Imprinted Genes at Known Imprinted Regions.}{48}{chapter.3}
-\contentsline {section}{\numberline {3.1}Abstract}{48}{section.3.1}
-\contentsline {section}{\numberline {3.2}Introduction}{48}{section.3.2}
-\contentsline {section}{\numberline {3.3}Results}{50}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Mapping Transcripts to Parental Haplotypes}{50}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Imprinted Genes in Lymphoblastoid Cell Lines (LCLs)}{51}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Validation of Imprinted Genes in PBLs}{54}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Methylation at Imprinting Control Regions}{55}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Discussion}{56}{section.3.4}
-\contentsline {section}{\numberline {3.5}Methods}{59}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Genotypes}{59}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}RNA-seq in Lymphoblastoid Cell Lines (LCLs).}{59}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}RNA-seq in Peripheral Blood Leukocytes (PBLs) }{60}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Identifying Imprinted Genes}{60}{subsection.3.5.4}
-\contentsline {subsection}{\numberline {3.5.5}DNA methylation profiling and processing in PBLs}{60}{subsection.3.5.5}
-\contentsline {chapter}{\numberline {4}Parent-of-Origin Effects on Gene Expression }{68}{chapter.4}
-\contentsline {section}{\numberline {4.1}Abstract}{68}{section.4.1}
-\contentsline {section}{\numberline {4.2}Introduction}{68}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{69}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Opposite Parent-of-Origin eQTL (oeQTL) }{70}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Single Parent eQTL (mat-eQTL, pat-eQTL)}{72}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Parent-of-Origin (PO) - ASE Test}{74}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Modified ASE Test on Symmetrically Expressed Genes}{78}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Discussion}{82}{section.4.4}
-\contentsline {section}{\numberline {4.5}Methods}{84}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Genotypes and Sample Information}{84}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}RNA-seq QC}{84}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Parent-of-Origin Expression QC}{84}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Informative Genes}{85}{subsection.4.5.4}
-\contentsline {subsection}{\numberline {4.5.5}Opposite Parent-of-Origin eQTL}{87}{subsection.4.5.5}
-\contentsline {subsection}{\numberline {4.5.6}Single Parent eQTL}{87}{subsection.4.5.6}
-\contentsline {subsection}{\numberline {4.5.7}PO ASE Test}{87}{subsection.4.5.7}
-\contentsline {subsection}{\numberline {4.5.8}Not Asymmetrically Expressed Genes}{88}{subsection.4.5.8}
-\contentsline {chapter}{\numberline {5}Conclusion}{89}{chapter.5}
-\contentsline {section}{\numberline {5.1}A novel method to detect opposite effects of parentally inherited variants on cardiovascular disease and asthma associated traits}{89}{section.5.1}
-\contentsline {section}{\numberline {5.2}Identifying two novel imprinted genes in known imprinted regions using parent-of-origin gene expression}{90}{section.5.2}
-\contentsline {section}{\numberline {5.3}Can genetic variation by parent of origin influence gene expression on the same haplotype?}{91}{section.5.3}
-\contentsline {section}{\numberline {5.4}Future Directions}{93}{section.5.4}
-\contentsline {section}{\numberline {5.5}Concluding remarks}{94}{section.5.5}
-\contentsline {chapter}{References}{96}{section.5.5}
+\contentsline {chapter}{\numberline {3}Parent-of-Origin Gene Expression in a Founder Population Identifies Two Novel Imprinted Genes at Known Imprinted Regions.}{57}{chapter.3}
+\contentsline {section}{\numberline {3.1}Abstract}{57}{section.3.1}
+\contentsline {section}{\numberline {3.2}Introduction}{57}{section.3.2}
+\contentsline {section}{\numberline {3.3}Results}{59}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Mapping Transcripts to Parental Haplotypes}{59}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Imprinted Genes in Lymphoblastoid Cell Lines (LCLs)}{60}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Validation of Imprinted Genes in PBLs}{63}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Methylation at Imprinting Control Regions}{64}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Discussion}{65}{section.3.4}
+\contentsline {section}{\numberline {3.5}Methods}{68}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Genotypes}{68}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}RNA-seq in Lymphoblastoid Cell Lines (LCLs).}{68}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}RNA-seq in Peripheral Blood Leukocytes (PBLs) }{69}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Identifying Imprinted Genes}{69}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}DNA methylation profiling and processing in PBLs}{69}{subsection.3.5.5}
+\contentsline {chapter}{\numberline {4}Parent-of-Origin Effects on Gene Expression }{77}{chapter.4}
+\contentsline {section}{\numberline {4.1}Abstract}{77}{section.4.1}
+\contentsline {section}{\numberline {4.2}Introduction}{77}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{78}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Opposite Parent-of-Origin eQTL (oeQTL) }{79}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Single Parent eQTL (mat-eQTL, pat-eQTL)}{81}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Parent-of-Origin (PO) - ASE Test}{83}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Modified ASE Test on Symmetrically Expressed Genes}{87}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Discussion}{91}{section.4.4}
+\contentsline {section}{\numberline {4.5}Methods}{93}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Genotypes and Sample Information}{93}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}RNA-seq QC}{93}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Parent-of-Origin Expression QC}{93}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Informative Genes}{94}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Opposite Parent-of-Origin eQTL}{96}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Single Parent eQTL}{96}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.7}PO ASE Test}{96}{subsection.4.5.7}
+\contentsline {subsection}{\numberline {4.5.8}Not Asymmetrically Expressed Genes}{97}{subsection.4.5.8}
+\contentsline {chapter}{\numberline {5}Conclusion}{98}{chapter.5}
+\contentsline {section}{\numberline {5.1}A novel method to detect opposite effects of parentally inherited variants on cardiovascular disease and asthma associated traits}{98}{section.5.1}
+\contentsline {section}{\numberline {5.2}Identifying two novel imprinted genes in known imprinted regions using parent-of-origin gene expression}{99}{section.5.2}
+\contentsline {section}{\numberline {5.3}Can genetic variation by parent of origin influence gene expression on the same haplotype?}{100}{section.5.3}
+\contentsline {section}{\numberline {5.4}Future Directions}{102}{section.5.4}
+\contentsline {section}{\numberline {5.5}Concluding remarks}{103}{section.5.5}
+\contentsline {chapter}{References}{105}{section.5.5}
