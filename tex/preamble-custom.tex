@@ -11,6 +11,7 @@
 \renewcommand{\etdChapterHeadFormat}[1]{\uppercase{#1}}
 % Ability to split long captions across pages
 \usepackage{ccaption}
+%\usepackage{caption}
 % Crop figures
 \usepackage{graphicx}
 % Add footnote to List of Tables about the supplementary files
@@ -35,6 +36,9 @@
 %  the reader to a table's caption.
 %}}
 }
+\DeclareCaptionLabelFormat{continued}{#1~#2 (Continued)}
+\captionsetup[ContinuedFloat]{labelformat=continued}
+
 % Nice tilde
 % http://tex.stackexchange.com/questions/9363/how-does-one-insert-a-backslash-or-a-tilde-into-latex/9372#comment47661_9372
 \newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{ââ\sim}$}}
