@@ -6,27 +6,16 @@
 \contentsline {table}{\numberline {2.3}{\ignorespaces Parent-of-Origin eQTLs in LCLs. }}{21}{table.caption.16}
 \contentsline {table}{\numberline {2.4}{\ignorespaces Opposite Parent-of-Origin eQTLs in LCLs. }}{22}{table.caption.17}
 \contentsline {table}{\numberline {2.5}{\ignorespaces Summary of the Hutterite Phenotypes and Sample Composition. }}{43}{table.caption.37}
-\contentsline {table}{\numberline {2.6}{\ignorespaces Summary of the Hutterite Phenotypes and Sample Composition (Continued). }}{44}{table.caption.38}
-\contentsline {table}{\numberline {2.7}{\ignorespaces GWAS Results. }}{45}{table.caption.39}
-\contentsline {table}{\numberline {2.8}{\ignorespaces Candidate Genes for Parent-of-Origin eQTL. }}{46}{table.caption.40}
-\contentsline {table}{\numberline {2.9}{\ignorespaces Candidate Genes for Parent-of-Origin Differential eQTL. }}{46}{table.caption.41}
-\contentsline {table}{\numberline {2.10}{\ignorespaces Maternal GWAS results with p-value \textless $5 \times 10^{-8} $. }}{47}{table.caption.42}
-\contentsline {table}{\numberline {2.11}{\ignorespaces Maternal GWAS results with p-value \textless $5 \times 10^{-8}$ (Continued). }}{48}{table.caption.43}
-\contentsline {table}{\numberline {2.12}{\ignorespaces Paternal GWAS results with p-value \textless $5 \times 10^{-8}$. }}{49}{table.caption.44}
-\contentsline {table}{\numberline {2.13}{\ignorespaces Differential Effect GWAS results with p-value \textless $5 \times 10^{-8}$. }}{50}{table.caption.45}
-\contentsline {table}{\numberline {2.14}{\ignorespaces Differential Effect GWAS results with p-value \textless $5 \times 10^{-8}$ (Continued). }}{51}{table.caption.46}
-\contentsline {table}{\numberline {2.15}{\ignorespaces Differential Effect GWAS results with p-value \textless $5 \times 10^{-8}$ (Continued). }}{52}{table.caption.47}
-\contentsline {table}{\numberline {2.16}{\ignorespaces Differential Effect GWAS results with p-value \textless $5 \times 10^{-8}$ (Continued). }}{53}{table.caption.48}
-\contentsline {table}{\numberline {2.17}{\ignorespaces Differential Effect GWAS results with p-value \textless $5 \times 10^{-8}$ (Continued). }}{54}{table.caption.49}
-\contentsline {table}{\numberline {2.18}{\ignorespaces Differential Effect GWAS results with p-value \textless $5 \times 10^{-8}$ (Continued). }}{55}{table.caption.50}
-\contentsline {table}{\numberline {2.19}{\ignorespaces Differential Effect GWAS results with p-value \textless $5 \times 10^{-8}$ (Continued). }}{56}{table.caption.51}
+\contentsline {table}{\numberline {2.6}{\ignorespaces GWAS Results. }}{45}{table.caption.39}
+\contentsline {table}{\numberline {2.7}{\ignorespaces Candidate Genes for Parent-of-Origin eQTL. }}{46}{table.caption.40}
+\contentsline {table}{\numberline {2.8}{\ignorespaces Candidate Genes for Parent-of-Origin Differential eQTL. }}{46}{table.caption.41}
+\contentsline {table}{\numberline {2.9}{\ignorespaces Maternal GWAS results with p-value \textless $5 \times 10^{-8} $. }}{47}{table.caption.42}
+\contentsline {table}{\numberline {2.10}{\ignorespaces Paternal GWAS results with p-value \textless $5 \times 10^{-8}$. }}{49}{table.caption.44}
+\contentsline {table}{\numberline {2.11}{\ignorespaces Differential Effect GWAS results with p-value \textless $5 \times 10^{-8}$. }}{50}{table.caption.45}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Summary Statistics for Parental Origin of Transcripts.}}{60}{table.caption.52}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Results for Genes with Parent-of-Origin Expression Asymmetry. }}{62}{table.caption.53}
 \contentsline {table}{\numberline {3.3}{\ignorespaces Genes with only Maternal/ only Paternal gene expression. }}{73}{table.caption.59}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Genes with only Maternal/ only Paternal gene expression (Continued). }}{74}{table.caption.60}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Genes with only Maternal/ only Paternal gene expression (Continued). }}{75}{table.caption.61}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Genes with only Maternal/ only Paternal gene expression (Continued). }}{76}{table.caption.62}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Top Ten Significant Genes from PO-ASE Test.}}{85}{table.caption.68}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Top Ten Significant Genes from PO-ASE Test after Filtering Asymmetrically Expressed Genes.}}{88}{table.caption.73}
